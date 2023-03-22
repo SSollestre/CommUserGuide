@@ -1,7 +1,7 @@
 site_name: MySQL Workbench User Guide
 
 nav:
-  - Home: "Overview.md"
+  - Home: "index.md"
   - SAM: "SAM_SQL_TASKS.md"
   - SEAN: "SEAN_SQL_TASKS.md"
   - EMILY: "EMILY_SQL_TASKS.md"
