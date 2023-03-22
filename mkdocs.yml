@@ -8,6 +8,13 @@ nav:
   - Troubleshooting: "Troubleshooting.md"
   - Glossary: "Glossary.md"
 
+# Repository
+repo_name: MySQL Workbench User Guide
+repo_url: https://github.com/SSollestre/MySQLWorkbenchUserGuide/blob/main/mkdocs.yml
+
+# Copyright
+copyright: Copyright &copy; 2023 Sam, Sean, Emily
+
 theme:
   name: material
 
