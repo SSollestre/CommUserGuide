@@ -15,9 +15,15 @@ This guide assumes that you have already installed MySQL and MySQL Workbench ins
 
 ## Typographical Conventions
 
+For full documentation visit [https://dev.mysql.com](https://dev.mysql.com/doc/workbench/en/).
+
+
+
 # Welcome to MkDocs
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+
+
 
 ## Commands
 
