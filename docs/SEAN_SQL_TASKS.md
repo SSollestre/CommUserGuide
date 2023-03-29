@@ -23,8 +23,6 @@ In the general features section, you have successfully created a Schema. Using t
 14. Select next and wait for the process to complete.
 15. Select finish and check your results
 
-Test
-
 ## Conclusion
 
 At the end of this section, you will have successfully imported a CSV into a Schema. You now know how to transform a spreadsheet into a CSV, and then import that CSV into your Schema. The data can either go into an existing table or into a new table that you can create.
