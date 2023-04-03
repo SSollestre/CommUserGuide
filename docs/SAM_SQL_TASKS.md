@@ -1,6 +1,6 @@
 # Common MySQL Workbench Tasks
 
-For full documentation visit [https://dev.mysql.com](https://dev.mysql.com/doc/workbench/en/).
+<!-- For full documentation visit [https://dev.mysql.com](https://dev.mysql.com/doc/workbench/en/). -->
 
 ## Schema Tasks
 
