@@ -1,6 +1,10 @@
 # Common MySQL Workbench Tasks
 
 <!-- For full documentation visit [https://dev.mysql.com](https://dev.mysql.com/doc/workbench/en/). -->
+## Overview
+
+This section will cover common tasks regarding schemas, sql and tables.
+It is assumed you have MySQL Workbench opened to the default screen.
 
 ## Schema Tasks
 
