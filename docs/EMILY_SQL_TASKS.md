@@ -11,6 +11,7 @@ MySQL Workbench "Data Export" is a feature that allows you to Export data into a
 ![PickSchema](./images/schema/ExportPickSchema.png)
 3. On the right side of the screen, **Select** the tables in the schema you want to export.
 ![PickTables](./images/schema/ExportPickTables.png)
+
 !!! Note
     If you want to export all the tables in the schema, **click** `Select Tables` under the table list.
     ![SelectTables](./images/schema/ExportSelectAllTables.png)
@@ -28,7 +29,7 @@ MySQL Workbench "Data Export" is a feature that allows you to Export data into a
 ## Import
 
 ### Using Data Import
-MySQL Workbench "Data Import" is a feature that allows you to import data from a variety of sources into a MySQL database.
+MySQL Workbench *Data Import* is a feature that allows you to import data from a variety of sources into a MySQL database.
 
 1. **Select** `Server` > `Data Import`.
 ![ImportStart](./images/schema/ImportStart.png)
@@ -36,7 +37,7 @@ MySQL Workbench "Data Import" is a feature that allows you to import data from a
 ![ImportOptions](./images/schema/ImportOptions.png)
 3. Under `Default Schema to be Imported To` section, **select** the schema you want to import the data into.
 ![DefaultSchema](./images/schema/ImportDestination.png)
-If you want to import the data into a new schema, **select** [New]
+If you want to import the data into a new schema, **select** `New`
 ![CreateNewSchema](./images/schema/ImportNewSchema.png)
 and **enter** the name of the new schema. <br>
 ![NewSchemaName](./images/schema/ImportNewName.png) <br>
@@ -59,11 +60,11 @@ A SQL script file is a text file that contains a sequence of SQL commands or sta
 
 1. **Create** a Schema
 2. **Make** it your Default Schema
-3. **Click** on the "Open Query Tab" icon in the top left of the screen to Open a Query Tab. <br>
+3. **Click** on the *Open Query Tab* icon in the top left of the screen to Open a Query Tab. <br>
 ![OpenQueryTab](./images/schema/OpenTab.png)
-4. **Click** on the "Open File" icon in the top left of the screen to Open the SQL script file and **select** the file containing the Schema.
+4. **Click** on the *Open File* icon in the top left of the middle screen to Open the SQL script file and **select** the file containing the Schema.
 ![OpenFile](./images/schema/OpenFile.png)
-5. **Click** on the "Run" icon in the top left of the screen to Run the script.
+5. **Click** on the *Run* icon in the top left of the screen to Run the script.
 ![Run](./images/schema/Run.png)
 
 !!! success
