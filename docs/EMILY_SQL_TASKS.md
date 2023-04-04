@@ -6,23 +6,24 @@ In this part of the guide, you will learn how to export a database schema which 
 
 1. Server
 Open MySQL Workbench, then select Server from the menu at the top.
-![ExportStart](./Images/ExportSchema1.png)
 2. Data Export
 Select Data Export from the Server drop down menu.
+![ExportStart](./Images/ExportSchema.png)
 3. Pick Schema
 Choose the schema to be exported(ex)
-![PickSchema](./Images/PickSchema2.png)
+![PickSchema](./Images/PickSchema.png)
 4. Pick Tables
 Choose the tables you wish to export(ex)
-![PickTables](./Images/PickTables3.png)
+![PickTables](./Images/PickTables.png)
 5. Export Options
 Choose the export options you wish to use(ex)
-    1. Export to Self-Contained File
-    2. Choose file Location / name
-    3. Choose weather to include schema
-![ExportOptions](./Images/ExportOptions4.png)
-6. Click start Export
-![ExportStart](./Images/StartExport5.png)
+Click Export to Self-Contained File
+Click if weather to include schema
+![ExportOptions](./Images/ClickExportOptions.png)
+6. Choose file Location / name
+![FileOptions](./Images/PickExportDestination.png)
+7. Click start Export
+![ExportStart](./Images/StartExport.png)
 
 ## Import
 
