@@ -6,50 +6,51 @@ This part of the guide will describe importing a comma-separated values (CSV) fi
 
 In the general features section, you have successfully created a Schema. Using that schema, we can begin importing data into it.
 
-1. **Open** a spreadsheet. <br>
+1. **Open** a spreadsheet application.  
 ![ExportStart](./images/CSVSpreadsheet.jpg)
-2. **Write** the names of your columns. <br>
+    This example uses Microsoft Excel. Another option is Google Sheets.
+2. **Input** the names of your columns.  
 ![ExportStart](./images/CSVColumnNames.jpg)
-3. **Add** data to your columns. <br>
+3. **Input** data to your columns.  
 ![ExportStart](./images/CSVColumnData.jpg)
-4. **Navigate** to [File]. <br>
+4. **Navigate** to [File].  
 ![ExportStart](./images/CSVNavFile.jpg)
-5. **Navigate** to [Export]. <br>
+5. **Navigate** to [Export].  
 ![ExportStart](./images/CSVNavToExport.jpg)
-6. **Select** [Change File Type] > [CSV] > [Save As]. <br>
+6. **Select** [Change File Type] > [CSV] > [Save As].  
 ![ExportStart](./images/CSVSaveFileType.jpg)
 7. **Save** your file to an easy-to-find location (e.g. Desktop).
-8. **Right-Click** on your file. <br>
+8. **Right-Click** on your file.  
 ![ExportStart](./images/CSVIcon.jpg)
-9. **Click** [Copy as path]. <br>
+9. **Select** [Copy as path].  
 ![ExportStart](./images/CSVCopyAsPath.jpg)
 10. **Open** MySQLWorkbench.
-11. **Right-Click** your schema. <br>
+11. **Right-Click** your schema.  
 ![ExportStart](./images/CSVRClickSchema.jpg)
-12. **Select** [Table Data Import Wizard]. <br>
+12. **Select** [Table Data Import Wizard].  
 ![ExportStart](./images/CSVImportWIzard.jpg)
-13. **Paste** your file path. **Click** [Next].<br>
+13. **Paste** your file path. **Click** [Next].
 ![ExportStart](./images/CSVPasteFilePath.jpg)
     If necessary, **Delete** quotation marks.  
-14. **Select** [Create new table]. <br>
+14. **Select** [Create new table].  
 ![ExportStart](./images/CSVCreateNewTable.jpg)
-15. **Select** your Schema from the dropdown menu. <br>
+15. **Select** your Schema from the dropdown menu.  
 ![ExportStart](./images/CSVSelectSchema.jpg)
-16. **Input** a name for your new table. <br>
+16. **Input** a name for your new table.  
 ![ExportStart](./images/CSVInputTableName.jpg)
-17. **Select** columns to include. <br>
+17. **Select** columns to include.  
 ![ExportStart](./images/CSVSelectColumns.jpg)
-18. **Select** column fields data types. **Select** [Next].<br>
+18. **Select** column fields data types. **Select** [Next].
 ![ExportStart](./images/CSVSelectColumnFields.jpg)
-19. **Select** [Next] and wait for the process to complete.<br>
+19. **Select** [Next] and wait for the process to complete.
 ![ExportStart](./images/CSVFinishNext.jpg)
-20. **Select** [Next]. <br>
+20. **Select** [Next].  
 ![ExportStart](./images/CSVFinishResults.jpg)
-21. **Select** [Finish]. <br>
+21. **Select** [Finish].  
 ![ExportStart](./images/CSVFinishFinal.jpg)
 
 !!! Success
-    When you refresh your schema, your new table will appear. Use a select statement to view the data and see the results of your import.<br>
+    When you refresh your schema, your new table will appear. Use a select statement to view the data and see the results of your import.  
     ![ExportStart](./images/CSVOutcome.jpg)
 
 ## Conclusion
