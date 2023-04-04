@@ -5,9 +5,9 @@ In this part of the guide, you will learn how to export a database schema which 
 ## Export
 MySQL Workbench "Data Export" is a feature that allows you to Export data into a file.
 
-1. **Select** `Server` > `Data Export`.
+1. <span class=action> **Select** </span> `Server` > `Data Export`.
 ![ExportStart](./images/schema/ExportStart.png)
-2. **Select** the schema you want to export, in the *Data Export* screen, under *Object Selection*, *Tables to Export*.
+2. **Select** the schema you want to export, in the <span class="title"> *Data Export* </span> screen, under *Object Selection*, *Tables to Export*.
 ![PickSchema](./images/schema/ExportPickSchema.png)
 3. **Select** the tables in the schema you want to export on the right side of the screen.
 ![PickTables](./images/schema/ExportPickTables.png)

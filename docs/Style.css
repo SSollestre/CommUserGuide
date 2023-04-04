@@ -2,3 +2,11 @@
     border: 1px solid black;
     padding: 5px;
 }
+
+.title {
+    color: rgb(175, 187, 241);
+}
+
+.action {
+    color: rgb(134, 104, 236);
+}
