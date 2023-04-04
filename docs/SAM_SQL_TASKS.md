@@ -8,10 +8,17 @@ It is assumed you have MySQL Workbench opened to the default screen.
 
 ## Schema Tasks
 
+## SQL Tasks
+
+## Table Tasks
+
+
+## Conclusion
+
+By the end of this section, you should be able to:
+
 * Create a new schema
 * Delete a schema
-
-## SQL Tasks
 
 * Create query
 * Running query
@@ -20,8 +27,6 @@ It is assumed you have MySQL Workbench opened to the default screen.
 * Open existing query
 * Close existing query
 * Refresh existing query
-
-## Table Tasks
 
 * Create table
 * View table
