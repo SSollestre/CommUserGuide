@@ -57,8 +57,8 @@ In the general features section, you have successfully created a Schema. Using t
 
 At the end of this section, you will know how to:
 
-- [X] Populate a spreadsheet with columns and rows,
-- [X] Export a spreadsheet into a CSV,
-- [X] and Import a CSV into a Schema
+- [X] **Populate** a spreadsheet with columns and rows,
+- [X] **Export** a spreadsheet into a CSV,
+- [X] and **Import** a CSV into a Schema.
 
 Congratulations. The next section will go over exporting a schema as a SQL file.
