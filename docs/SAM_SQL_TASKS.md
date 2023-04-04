@@ -12,9 +12,32 @@ It is assumed you have MySQL Workbench opened to the default screen.
 
 There are two options for creating a new schema.
 
-1. Click the new schema icon indicated by the red box.
+Option 1:
 
-![ExportStart](./USER_GUIDE_PROJECT/SCHEMA_screenshots/CREATE_SCHEMA_BY_ICON_Screenshot 2023-04-03 at 8.10.02 AM.png)
+Click the new schema icon indicated by the red box.
+
+![CreateSchemaIcon](./images/SCHEMA_screenshots/createSchemaIcon.png)
+
+Option 2:
+
+* click the Schemas tab indicated in red
+* move your mouse to the Schemas panel indicated in blue
+
+![SchemasPanel](./images/SCHEMA_screenshots/schemaTabPanel.png)
+
+Right click while your mouse is in the Schemas panel
+
+![CreateSchemaRightClick](./images/SCHEMA_screenshots/createSchemaRightClick.png)
+
+After clicking the option to create a new schema, a new schema will be created.
+Enter a name for the new schema and click the apply button indicated in red.
+
+![NameSchema](./images/SCHEMA_screenshots/nameSchema.png)
+
+After clicking the apply button, the new schema will be created and a success page will appear as well as logged in the log panel.
+
+Success page:
+![SuccessPage](./images/SCHEMA_screenshots/schemaSuccessPage.png)
 
 ## SQL Tasks
 
