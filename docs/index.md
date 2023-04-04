@@ -34,7 +34,7 @@ Throughout the documentation, we will use message blocks to alert you to relevan
 Each possible message block, from most important to least important:
 
 !!! Info
-    Used to provide extra information for and tips.
+    Used to provide extra information and tips.
 
 !!! Success
     Used to provide signs of success.
