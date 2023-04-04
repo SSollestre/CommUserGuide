@@ -13,9 +13,9 @@ In the general features section, you have successfully created a Schema. Using t
 ![ExportStart](./images/CSVColumnNames.jpg)
 3. **Input** your *data* to your columns.  
 ![ExportStart](./images/CSVColumnData.jpg)
-4. **Navigate** to [File].  
+4. **Navigate** to `File`.  
 ![ExportStart](./images/CSVNavFile.jpg)
-5. **Navigate** to [Export].  
+5. **Navigate** to `Export`.  
 ![ExportStart](./images/CSVNavToExport.jpg)
 6. **Select**  `Change File Type` > `CSV` > `Save As`.  
 ![ExportStart](./images/CSVSaveFileType.jpg)
