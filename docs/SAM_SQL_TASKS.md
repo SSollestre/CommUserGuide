@@ -8,10 +8,13 @@ It is assumed you have MySQL Workbench opened to the default screen.
 
 ## Schema Tasks
 
+    Create a schema
+
+    1.  
+
 ## SQL Tasks
 
 ## Table Tasks
-
 
 ## Conclusion
 
