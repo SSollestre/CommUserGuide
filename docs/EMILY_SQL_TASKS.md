@@ -24,7 +24,7 @@ MySQL Workbench "Data Export" is a feature that allows you to Export data into a
 
 !!! success
     Once the export is complete, you will see a message that says "Export completed". This means that you have successfully exported the data into the database.
-    ![ExportSuccess](./images/ExportSuccess.png)
+    ![ExportSuccess](./images/schema/ExportSuccess.png)
 
 ## Import
 
