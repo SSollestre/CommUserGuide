@@ -32,11 +32,21 @@ Click if weather to include schema
 
 ### Option 1
 
-1. Server
-2. Data Import
-3. Import Options
-4. Default schema to export to or create new
-5. Start Import
+1. Server Data Import
+![ImportStart](./images/StartImport.png)
+2. Import Options
+![ImportOptions](./images/ImportOptions.png)
+3. Default schema to export to
+![DefaultSchema](./images/DefaultTargetSchema.png)
+If none, Create new schema
+![CreateNewSchema](./images/CreateNewImportSchema.png)
+![NewSchemaName](./images/CreateNew.png)
+![Select](./images/PickNewImportSchema.png)
+4. Start Import
+![StartImport](./images/Import.png)
+
+!!! success
+    ![ImportSuccess](./images/ImportSuccess.png)
 – Refresh to see
 
 ### Option 2
