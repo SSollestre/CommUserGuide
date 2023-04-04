@@ -28,21 +28,3 @@ This guide assumes that you have already installed MySQL and MySQL Workbench ins
 |Menu & Button Sequence<br><br>Labels will be enclosed in square brackets ([]), and the next step will be preceded with “>”.|[File] > [Save Script]|
 |Text Field Entries<br><br>Types of entries into text fields will be italicized.|*Table Name, Attribute Name*|
 For full documentation visit [https://dev.mysql.com](https://dev.mysql.com/doc/workbench/en/).
-
-# Welcome to MkDocs
-
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
-## Commands
-
-- `mkdocs new [dir-name]` - Create a new project.
-- `mkdocs serve` - Start the live-reloading docs server.
-- `mkdocs build` - Build the documentation site.
-- `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
