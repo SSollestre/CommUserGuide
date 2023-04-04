@@ -8,9 +8,13 @@ It is assumed you have MySQL Workbench opened to the default screen.
 
 ## Schema Tasks
 
-    Create a schema
+### Create a schema
 
-    1.  
+There are two options for creating a new schema.
+
+1. Click the new schema icon indicated by the red box.
+
+![ExportStart](./USER_GUIDE_PROJECT/SCHEMA_screenshots/CREATE_SCHEMA_BY_ICON_Screenshot 2023-04-03 at 8.10.02 AM.png)
 
 ## SQL Tasks
 
