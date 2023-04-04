@@ -3,79 +3,93 @@
 In this part of the guide, you will learn how to export a database schema which includes the structure of the tables, views, procedures, functions and data. As well as the different ways you can import it. This can be useful for creating a backup or sharing the database schema with others.
 
 ## Export
+MySQL Workbench "Data Export" is a feature that allows you to Export data into a file.
 
-1. Server
-Open MySQL Workbench, then select Server from the menu at the top.
-2. Data Export
-Select Data Export from the Server drop down menu.
-![ExportStart](./images/ExportSchema.png)
-3. Pick Schema
-Choose the schema to be exported(ex)
-![PickSchema](./images/PickSchema.png)
-4. Pick Tables
-Choose the tables you wish to export(ex)
-![PickTables](./images/PickTables.png)
-5. Export Options
-Choose the export options you wish to use(ex)
-Click Export to Self-Contained File
-Click if weather to include schema
-![ExportOptions](./images/ClickExportOptions.png)
-6. Choose file Location / name
-![FileOptions](./images/PickExportDestination.png)
-7. Click start Export
-![ExportStart](./images/StartExport.png)
+1. **Select** `Server` > `Data Export`.
+![ExportStart](./images/schema/ExportStart.png)
+2. **Select** the schema you want to export, in the *Data Export* screen, under *Object Selection*, *Tables to Export*.
+![PickSchema](./images/schema/ExportPickSchema.png)
+3. **Select** the tables in the schema you want to export on the right side of the screen.
+![PickTables](./images/schema/ExportPickTables.png)
+
+    !!! Note
+        If you want to export all the tables in the schema, **click** `Select Tables` under the table list.
+        ![SelectTables](./images/schema/ExportSelectAllTables.png)
+
+4. **Click** `Export to Self-Contained File` and `Include CREATE SCHEMA statement` under *Export Options*, if you want to include the schema creation in the export.
+![ExportOptions](./images/schema/ExportOptions.png)
+5. **Select** the file name and location you want to export to.
+![FileOptions](./images/schema/ExportDestination.png)
+6. **Click** `start Export`, to start the Export.
+![ExportStart](./images/schema/ExportStartExport.png)
 
 !!! success
-    ![ExportSuccess](./images/ExportSuccess.png)
+    Once the export is complete, you will see a message that says "Export completed". This means that you have successfully exported the data into the database.
+    ![ExportSuccess](./images/schema/ExportSuccess.png)
 
 ## Import
 
-### Option 1
+### Using Data Import
+MySQL Workbench *Data Import* is a feature that allows you to import data from a variety of sources into a MySQL database.
 
-1. Server Data Import
-![ImportStart](./images/StartImport.png)
-2. Import Options
-![ImportOptions](./images/ImportOptions.png)
-3. Default schema to export to
-![DefaultSchema](./images/DefaultTargetSchema.png)
-If none, Create new schema
-![CreateNewSchema](./images/CreateNewImportSchema.png)
-![NewSchemaName](./images/CreateNew.png)
-![Select](./images/PickNewImportSchema.png)
-4. Start Import
-![StartImport](./images/Import.png)
-
-!!! success
-    ![ImportSuccess](./images/ImportSuccess.png)
-– Refresh to see
-
-### Option 2
-
-#### Part 1 If no schema creation included in data import
-
-1. Create Schema
-2. Make Default
-3. Open Query Tab <br>
-![OpenQueryTab](./images/OpenTab.png)
-4. Open file
-![OpenFile](./images/OpenFile.png)
-5. Run
-![Run](./images/Run.png)
+1. **Select** `Server` > `Data Import`.
+![ImportStart](./images/schema/ImportStart.png)
+2. **Click** `Import from Self-Contained File` and **Select** the file you want to import, in the *Data Import* screen, under *Import Options*.
+![ImportOptions](./images/schema/ImportOptions.png)
+3. **Select** the schema you want to import the data into, Under `Default Schema to be Imported To` section.
+![DefaultSchema](./images/schema/ImportDestination.png)
+        - **select** `New`, If you want to import the data into a new schema,
+        ![CreateNewSchema](./images/schema/ImportNewSchema.png)
+        - **Enter** the name of the new schema. <br>
+        ![NewSchemaName](./images/schema/ImportNewName.png) <br>
+        - **Select** the new schema from the drop down menu.
+        ![Select](./images/schema/ImportPickNew.png)
+4. **Click** `Start Import`, To start the Import.
+![StartImport](./images/schema/ImportStartImport.png)
 
 !!! success
-    ![ImportSuccess](./images/SuccessImport1.png)
-– Refresh to see
+    Once the import is complete, you will see a message that says "Import completed". This means that you have successfully imported the data into the database.
+    ![ImportSuccess](./images/schema/ImportSuccess.png)
 
-#### Part 2 If schema creation included in data import
+!!! Note
+    You may have to refresh the schema to see the new data.
 
-can skip steps
+### Using SQL Script
+A SQL script file is a text file that contains a sequence of SQL commands or statements that can be executed together as a batch or script.
 
-1. Open file
-2. Run
-– Refresh to see
+#### If no schema creation included in data import
+
+1. **Create** a Schema
+2. **Make** it your Default Schema
+3. **Click** on the *Open Query Tab* icon in the top left of the screen to Open a Query Tab. <br>
+![OpenQueryTab](./images/schema/OpenTab.png)
+4. **Click** on the *Open File* icon in the top left of the middle screen to Open the SQL script file and **select** the file containing the Schema.
+![OpenFile](./images/schema/OpenFile.png)
+5. **Click** on the *Run* icon in the top left of the screen to Run the script.
+![Run](./images/schema/Run.png)
+
+!!! success
+    Once the import is complete, you will see a messages on the bottom of the screen verifying that the schema was created. This means that you have successfully imported the data into the database.
+    ![ImportSuccess](./images/schema/SchemaCreationSuccess.png)
+
+!!! Note
+    You may have to refresh the schema to see the new data.
+
+#### If schema creation included in data import
+
+If the schema creation is included in the data import, you can simply run the script skipping the first two steps of the previous section.
+
+1. **Open file** containing the schema.
+2. **Run** the script.
+
+!!! success
+    Once the import is complete, you will see a messages on the bottom of the screen verifying that the schema was created similar to the previous section. This means that you have successfully imported the data into the database.
 
 !!! Info
-    it will automatically make new schema the default
+    it will automatically make the new schema your default schema.
+
+!!! Note
+    You may have to refresh the schema to see the new data.
 
 ## Conclusion
 
