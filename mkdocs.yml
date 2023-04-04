@@ -1,7 +1,7 @@
 site_name: MySQL Workbench User Guide
 
 nav:
-  - Home: "index.md"
+  - Introduction: "index.md"
   - MySQL Workbench Instructions: "SAM_SQL_TASKS.md"
   - Importing A CSV: "SEAN_SQL_TASKS.md"
   - Export/Import Schema: "EMILY_SQL_TASKS.md"
