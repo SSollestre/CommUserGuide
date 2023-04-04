@@ -18,18 +18,39 @@ In the general features section, you have successfully created a Schema. Using t
 ![ExportStart](./images/CSVNavToExport.jpg)
 6. Click Change File Type > CSV > Save As<br>
 ![ExportStart](./images/CSVSaveFileType.jpg)
-6. Save your file to an easy-to-find location (Desktop)
-7. Copy your file path
-8. Right-click your schema
-8. Select “Table Data Import Wizard”
-9. Paste your file path  
+7. Save your file to an easy-to-find location (Desktop)
+8. Right Click on your file<br>
+![ExportStart](./images/CSVIcon.jpg)
+9. Click Copy as Path<br>
+![ExportStart](./images/CSVCopyAsPath.jpg)
+10. Open MySQLWorkbench
+11. Right-click your schema<br>
+![ExportStart](./images/CSVRClickSchema.jpg)
+12. Select “Table Data Import Wizard”<br>
+![ExportStart](./images/CSVImportWIzard.jpg)
+13. Paste your file path. Click Next.<br>
+![ExportStart](./images/CSVPasteFilePath.jpg)
     If necessary, delete quotation marks  
-10. Select/Create a destination table  
-11. Select your Schema from the dropdown menu
-12. Input a name for your new table
-13. Select columns and column fields
-14. Select next and wait for the process to complete.
-15. Select finish and check your results
+14. Select Create new table<br>
+![ExportStart](./images/CSVCreateNewTable.jpg)
+15. Select your Schema from the dropdown menu<br>
+![ExportStart](./images/CSVSelectSchema.jpg)
+16. Input a name for your new table<br>
+![ExportStart](./images/CSVInputTableName.jpg)
+17. Select columns<br>
+![ExportStart](./images/CSVSelectColumns.jpg)
+18. Select column fields. Select Next.<br>
+![ExportStart](./images/CSVSelectColumnFields.jpg)
+19. Select next and wait for the process to complete.<br>
+![ExportStart](./images/CSVFinishNext.jpg)
+20. Select next<br>
+![ExportStart](./images/CSVFinishResults.jpg)
+21. Select Finish<br>
+![ExportStart](./images/CSVFinishFinal.jpg)
+
+!!! Success
+    When you refresh your schema, your new table will appear. Use a select statement to view the data and see the results of your import.<br>
+    ![ExportStart](./images/CSVOutcome.jpg)
 
 ## Conclusion
 

@@ -13,7 +13,7 @@ This guide is for:
 Assumed Knowledge:
 
 - Know how to with navigating your file system
-- know how to open the Graphical User Interface (GUI)
+- know how to open MySQLWorkbench
 - Know how to use spreadsheets
 
 ## Software Requirements
@@ -36,5 +36,5 @@ Each possible message block, from most important to least important:
 !!! Info
     Used to provide extra information for and tips.
 
-!!! success
+!!! Success
     Used to provide signs of success.
