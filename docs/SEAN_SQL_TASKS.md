@@ -6,14 +6,21 @@ This part of the guide will describe importing a comma-separated values (CSV) fi
 
 In the general features section, you have successfully created a Schema. Using that schema, we can begin importing data into it.
 
-1. Open/Make a spreadsheet
+1. Open/Make a spreadsheet<br>
 ![ExportStart](./images/CSVSpreadsheet.jpg)
-2. Write the names of your columns
-3. Add data to your columns
-4. Navigate to File > Export > Change File Type > CSV > Save As
-5. Save your file to an easy-to-find location (Desktop)
-6. Copy your file path
-7. Right-click your schema
+2. Write the names of your columns<br>
+![ExportStart](./images/CSVColumnNames.jpg)
+3. Add data to your columns<br>
+![ExportStart](./images/CSVColumnData.jpg)
+4. Navigate to File<br>
+![ExportStart](./images/CSVNavFile.jpg)
+5. Navigate to Export<br>
+![ExportStart](./images/CSVNavToExport.jpg)
+6. Click Change File Type > CSV > Save As<br>
+![ExportStart](./images/CSVSaveFileType.jpg)
+6. Save your file to an easy-to-find location (Desktop)
+7. Copy your file path
+8. Right-click your schema
 8. Select “Table Data Import Wizard”
 9. Paste your file path  
     If necessary, delete quotation marks  
