@@ -6,46 +6,46 @@ This part of the guide will describe importing a comma-separated values (CSV) fi
 
 In the general features section, you have successfully created a Schema. Using that schema, we can begin importing data into it.
 
-1. Open/Make a spreadsheet<br>
+1. **Open** a spreadsheet<br>
 ![ExportStart](./images/CSVSpreadsheet.jpg)
-2. Write the names of your columns<br>
+2. **Write** the names of your columns<br>
 ![ExportStart](./images/CSVColumnNames.jpg)
-3. Add data to your columns<br>
+3. **Add** data to your columns<br>
 ![ExportStart](./images/CSVColumnData.jpg)
-4. Navigate to File<br>
+4. **Navigate** to File<br>
 ![ExportStart](./images/CSVNavFile.jpg)
-5. Navigate to Export<br>
+5. **Navigate** to Export<br>
 ![ExportStart](./images/CSVNavToExport.jpg)
-6. Click Change File Type > CSV > Save As<br>
+6. **Click** Change File Type > CSV > Save As<br>
 ![ExportStart](./images/CSVSaveFileType.jpg)
-7. Save your file to an easy-to-find location (Desktop)
-8. Right Click on your file<br>
+7. **Save** your file to an easy-to-find location (Desktop)
+8. **Right-Click** on your file<br>
 ![ExportStart](./images/CSVIcon.jpg)
-9. Click Copy as Path<br>
+9. **Click** Copy as Path<br>
 ![ExportStart](./images/CSVCopyAsPath.jpg)
-10. Open MySQLWorkbench
-11. Right-click your schema<br>
+10. **Open** MySQLWorkbench
+11. **Right-Click** your schema<br>
 ![ExportStart](./images/CSVRClickSchema.jpg)
-12. Select “Table Data Import Wizard”<br>
+12. **Select** “Table Data Import Wizard”<br>
 ![ExportStart](./images/CSVImportWIzard.jpg)
-13. Paste your file path. Click Next.<br>
+13. **Paste** your file path. Click Next.<br>
 ![ExportStart](./images/CSVPasteFilePath.jpg)
     If necessary, delete quotation marks  
-14. Select Create new table<br>
+14. **Select** Create new table<br>
 ![ExportStart](./images/CSVCreateNewTable.jpg)
-15. Select your Schema from the dropdown menu<br>
+15. **Select** your Schema from the dropdown menu<br>
 ![ExportStart](./images/CSVSelectSchema.jpg)
-16. Input a name for your new table<br>
+16. **Input** a name for your new table<br>
 ![ExportStart](./images/CSVInputTableName.jpg)
-17. Select columns<br>
+17. **Select** columns<br>
 ![ExportStart](./images/CSVSelectColumns.jpg)
-18. Select column fields. Select Next.<br>
+18. **Select** column fields. Select Next.<br>
 ![ExportStart](./images/CSVSelectColumnFields.jpg)
-19. Select next and wait for the process to complete.<br>
+19. **Select** next and wait for the process to complete.<br>
 ![ExportStart](./images/CSVFinishNext.jpg)
-20. Select next<br>
+20. **Select** next<br>
 ![ExportStart](./images/CSVFinishResults.jpg)
-21. Select Finish<br>
+21. **Select** Finish<br>
 ![ExportStart](./images/CSVFinishFinal.jpg)
 
 !!! Success
