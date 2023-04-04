@@ -22,34 +22,23 @@ This guide assumes that you have already installed MySQL and MySQL Workbench ins
 
 ## Typographical Conventions
 
-<<<<<<< HEAD
 |Convention Explanation|Examples|
 |-|-|
 |Commands & Actions <br><br> Words that are a command or actions that you must perform. |**Click, Copy, paste**|
 |Menu & Button Sequence<br><br>Labels will be enclosed in square brackets ([]), and the next step will be preceded with “>”.|[File] > [Save Script]|
 |Text Field Entries<br><br>Types of entries into text fields will be italicized.|*Table Name, Attribute Name*|
-=======
-For full documentation visit [https://dev.mysql.com](https://dev.mysql.com/doc/workbench/en/).
 
+## Notes and Warning Messages
 
+Throughout the documentation, we will use message blocks to alert you to relevant information. 
+Each possible message block, from most important to least important:
 
-# Welcome to MkDocs
+[comment]: <> (!!! bug)
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+[comment]: <> (    Specifies actions that may cause an error.)
 
+!!! Info
+    Indicates additional information or tips.
 
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
->>>>>>> 9745a64048dfe641b4d37c5390c4857347d5b5ef
+!!! success
+    Indicates what success looks like.
