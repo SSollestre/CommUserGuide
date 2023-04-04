@@ -55,9 +55,16 @@ If none, Create new schema
 
 1. Create Schema
 2. Make Default
-3. Open Query Tab
+3. Open Query Tab <br>
+![OpenQueryTab](./images/OpenTab.png)
 4. Open file
+![OpenFile](./images/OpenFile.png)
 5. Run
+![Run](./images/Run.png)
+
+!!! success
+    ![ImportSuccess](./images/SuccessImport1.png)
+– Refresh to see
 
 #### Part 2 If schema creation included in data import
 
@@ -66,6 +73,10 @@ can skip steps
 1. Open file
 2. Run
 – Refresh to see
-– it will automatically make new schema the default
+
+!!! Info
+    it will automatically make new schema the default
 
 ## Conclusion
+
+At the end of this section, you will have successfully exported and imported a schema. You now know how to export a schema and import it into a new schema. You can also import it into an existing schema. The data can either go into an existing table or into a new table that you can create.
