@@ -27,7 +27,6 @@ This guide assumes that you have already installed MySQL and MySQL Workbench ins
 |Commands & Actions <br><br> Words that are a command or actions that you must perform. |**Click, Copy, paste**|
 |Menu & Button Sequence<br><br>Labels will be enclosed in square brackets ([]), and the next step will be preceded with “>”.|[File] > [Save Script]|
 |Text Field Entries<br><br>Types of entries into text fields will be italicized.|*Table Name, Attribute Name*|
-<<<<<<< HEAD
 
 ## Notes and Warning Messages
 
@@ -35,32 +34,11 @@ Throughout the documentation, we will use message blocks to alert you to relevan
 Each possible message block, from most important to least important:
 
 [comment]: <> (!!! bug)
-=======
-For full documentation visit [https://dev.mysql.com](https://dev.mysql.com/doc/workbench/en/).
-
-# Welcome to MkDocs
->>>>>>> 0592a6c26f9a87a7978a8305fa3470cc4c2008d9
 
 [comment]: <> (    Specifies actions that may cause an error.)
 
-<<<<<<< HEAD
 !!! Info
     Indicates additional information or tips.
 
 !!! success
     Indicates what success looks like.
-=======
-## Commands
-
-- `mkdocs new [dir-name]` - Create a new project.
-- `mkdocs serve` - Start the live-reloading docs server.
-- `mkdocs build` - Build the documentation site.
-- `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
->>>>>>> 0592a6c26f9a87a7978a8305fa3470cc4c2008d9
