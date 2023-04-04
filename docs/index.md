@@ -28,17 +28,13 @@ This guide assumes that you have already installed MySQL and MySQL Workbench ins
 |Menu & Button Sequence<br><br>Labels will be enclosed in square brackets ([]), and the next step will be preceded with “>”.|[File] > [Save Script]|
 |Text Field Entries<br><br>Types of entries into text fields will be italicized.|*Table Name, Attribute Name*|
 
-## Notes and Warning Messages
+## Message blocks
 
-Throughout the documentation, we will use message blocks to alert you to relevant information. 
+Throughout the documentation, we will use message blocks to alert you to relevant information.
 Each possible message block, from most important to least important:
 
-[comment]: <> (!!! bug)
-
-[comment]: <> (    Specifies actions that may cause an error.)
-
 !!! Info
-    Indicates additional information or tips.
+    Used to provide extra information for and tips.
 
 !!! success
-    Indicates what success looks like.
+    Used to provide signs of success.

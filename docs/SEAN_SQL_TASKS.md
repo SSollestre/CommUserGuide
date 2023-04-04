@@ -7,6 +7,7 @@ This part of the guide will describe importing a comma-separated values (CSV) fi
 In the general features section, you have successfully created a Schema. Using that schema, we can begin importing data into it.
 
 1. Open/Make a spreadsheet
+![ExportStart](./images/CSVSpreadsheet.jpg)
 2. Write the names of your columns
 3. Add data to your columns
 4. Navigate to File > Export > Change File Type > CSV > Save As
