@@ -9,9 +9,9 @@ In the general features section, you have successfully created a Schema. Using t
 1. **Open** a spreadsheet application.  
 ![ExportStart](./images/CSVSpreadsheet.jpg)
     This example uses Microsoft Excel. Another option is Google Sheets.
-2. **Input** the names of your columns.  
+2. **Input** your *Column Names*.  
 ![ExportStart](./images/CSVColumnNames.jpg)
-3. **Input** data to your columns.  
+3. **Input** your *data* to your columns.  
 ![ExportStart](./images/CSVColumnData.jpg)
 4. **Navigate** to [File].  
 ![ExportStart](./images/CSVNavFile.jpg)
@@ -29,14 +29,14 @@ In the general features section, you have successfully created a Schema. Using t
 ![ExportStart](./images/CSVRClickSchema.jpg)
 12. **Select** [Table Data Import Wizard].  
 ![ExportStart](./images/CSVImportWIzard.jpg)
-13. **Paste** your file path. **Click** [Next].
+13. **Paste** your file path. **Remove** the quotation marks if present then **Click** [Next].
 ![ExportStart](./images/CSVPasteFilePath.jpg)
-    If necessary, **Delete** quotation marks.  
+
 14. **Select** [Create new table].  
 ![ExportStart](./images/CSVCreateNewTable.jpg)
 15. **Select** your Schema from the dropdown menu.  
 ![ExportStart](./images/CSVSelectSchema.jpg)
-16. **Input** a name for your new table.  
+16. **Input** your new *Table Name*.  
 ![ExportStart](./images/CSVInputTableName.jpg)
 17. **Select** columns to include.  
 ![ExportStart](./images/CSVSelectColumns.jpg)
@@ -55,4 +55,10 @@ In the general features section, you have successfully created a Schema. Using t
 
 ## Conclusion
 
-At the end of this section, you will have successfully imported a CSV into a Schema. You now know how to transform a spreadsheet into a CSV, and then import that CSV into your Schema. The data can either go into an existing table or into a new table that you can create.
+At the end of this section, you will know how to:
+
+- [X] Populate a spreadsheet with columns and rows,
+- [X] Export a spreadsheet into a CSV,
+- [X] and Import a CSV into a Schema
+
+Congratulations. The next section will go over exporting a schema as a SQL file.
