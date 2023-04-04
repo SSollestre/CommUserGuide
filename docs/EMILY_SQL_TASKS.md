@@ -7,19 +7,20 @@ MySQL Workbench "Data Export" is a feature that allows you to Export data into a
 
 1. **Select** `Server` > `Data Export`.
 ![ExportStart](./images/schema/ExportStart.png)
-2. In the *Data Export* screen, under *Object Selection*, *Tables to Export*, **Select** the schema you want to export.
+2. **Select** the schema you want to export, in the *Data Export* screen, under *Object Selection*, *Tables to Export*.
 ![PickSchema](./images/schema/ExportPickSchema.png)
-3. On the right side of the screen, **Select** the tables in the schema you want to export.
+3. **Select** the tables in the schema you want to export on the right side of the screen.
 ![PickTables](./images/schema/ExportPickTables.png)
 
-!!! Note
-    If you want to export all the tables in the schema, **click** `Select Tables` under the table list.
-    ![SelectTables](./images/schema/ExportSelectAllTables.png)
-4. Under *Export Options*, **click** `Export to Self-Contained File` and `Include CREATE SCHEMA statement` if you want to include the schema creation in the export.
+    !!! Note
+        If you want to export all the tables in the schema, **click** `Select Tables` under the table list.
+        ![SelectTables](./images/schema/ExportSelectAllTables.png)
+
+4. **Click** `Export to Self-Contained File` and `Include CREATE SCHEMA statement` under *Export Options*, if you want to include the schema creation in the export.
 ![ExportOptions](./images/schema/ExportOptions.png)
 5. **Select** the file name and location you want to export to.
 ![FileOptions](./images/schema/ExportDestination.png)
-6. **Click** `start Export`.
+6. **Click** `start Export`, to start the Export.
 ![ExportStart](./images/schema/ExportStartExport.png)
 
 !!! success
@@ -33,17 +34,17 @@ MySQL Workbench *Data Import* is a feature that allows you to import data from a
 
 1. **Select** `Server` > `Data Import`.
 ![ImportStart](./images/schema/ImportStart.png)
-2. In the *Data Import* screen, under *Import Options*, **click** `Import from Self-Contained File` and **select** the file you want to import.
+2. **Click** `Import from Self-Contained File` and **Select** the file you want to import, in the *Data Import* screen, under *Import Options*.
 ![ImportOptions](./images/schema/ImportOptions.png)
-3. Under `Default Schema to be Imported To` section, **select** the schema you want to import the data into.
+3. **Select** the schema you want to import the data into, Under `Default Schema to be Imported To` section.
 ![DefaultSchema](./images/schema/ImportDestination.png)
-If you want to import the data into a new schema, **select** `New`
-![CreateNewSchema](./images/schema/ImportNewSchema.png)
-and **enter** the name of the new schema. <br>
-![NewSchemaName](./images/schema/ImportNewName.png) <br>
-Then **Select** the new schema from the drop down menu.
-![Select](./images/schema/ImportPickNew.png)
-4. To start the Import, **click** `Start Import`.
+        - **select** `New`, If you want to import the data into a new schema,
+        ![CreateNewSchema](./images/schema/ImportNewSchema.png)
+        - **Enter** the name of the new schema. <br>
+        ![NewSchemaName](./images/schema/ImportNewName.png) <br>
+        - **Select** the new schema from the drop down menu.
+        ![Select](./images/schema/ImportPickNew.png)
+4. **Click** `Start Import`, To start the Import.
 ![StartImport](./images/schema/ImportStartImport.png)
 
 !!! success
