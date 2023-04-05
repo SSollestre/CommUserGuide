@@ -48,9 +48,13 @@ In the general features section, you have successfully created a schema. Using t
 21. <span class=action>**Select**</span> `Finish`.  
 ![ExportStart](./images/CSV/CSVFinishFinal.jpg)
 
->!!! Success
-    When you <span class=action>Refresh</span> your schema, your new table will appear. Use a select statement to view the data and see the results of your import.  
-    ![ExportStart](./images/CSV/CSVOutcome.jpg)
+>
+    !!! Note
+        <span class=action> **Refresh** </span> might be needed to see the new table.
+>
+    !!! Success
+        When you <span class=action> Use a select statement to view the data and see the results of your import.  
+        ![ExportStart](./images/CSV/CSVOutcome.jpg)
 
 ## Conclusion
 
