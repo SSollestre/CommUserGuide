@@ -78,10 +78,12 @@ Go to the top left corner of screen and click on the "new sql query" icon indica
 ![CreateTable](./images/TABLE_screenshots/newQuery.png)
 A new tab indicated in blue will appear.
 Below the tab is a new panel with a query editor.
-Enter the following query in the query editor:
+Enter the following query indicated with an orange box into the query editor:
 ```sql
 SELECT * FROM new_table;
 ```
+Then click on the lightning bolt icon indicated in the red box to run the query.
+
 ![CreateTable](./images/TABLE_screenshots/runViewQuery.png)
 to view the table you just created.
 
