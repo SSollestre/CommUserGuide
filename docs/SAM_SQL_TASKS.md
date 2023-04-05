@@ -104,15 +104,31 @@ Click the "Drop Now" button to delete the table.
 
 
 ## SQL Tasks
+
+### Create a query
+
 Create a new query by clicking the new query icon indicated in the red box.
 ![CreateTable](./images/SQL_screenshots/createNewTabQuery.png)
 
 A new tab will appear indicated in the blue box.
 Below the tab is a new panel with a query editor with a query indicated in the orange box.
 To run the query click the lightning bolt icon indicated in the red box.
-![CreateTable](./images/SQL_screenshots/runViewQuery.png)
+![CreateTable](./images/TABLE_screenshots/runViewQuery.png)
 
+### Open an existing query
 
+Open an existing query by clicking either of the open query icons indicated in the red boxes.
+![CreateTable](./images/SQL_screenshots/openSQL.png)
+
+### Save a query
+
+Save a query by clicking of File > Save Script or by clicking the save icon indicated in the red box.
+![CreateTable](./images/SQL_screenshots/saveSQL.png)
+
+### Refresh all
+
+To invoke all changes made with queries, right click on the the table you want to update and select "Refresh All".
+![CreateTable](./images/SQL_screenshots/refreshAll.png)
 
 ## Conclusion
 
@@ -128,7 +144,6 @@ By the end of this section, you should be able to:
 * Create query
 * Running query
 * Saving query
-* Delete query
 * Open existing query
 * Close existing query
 * Refresh existing query
