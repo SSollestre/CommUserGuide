@@ -61,3 +61,5 @@ At the end of this section, you will know how to:
 - [X] and <span class=action>**Import**</span> a CSV into a schema
 
 Congratulations. The next section will go over exporting a schema as a SQL file.
+
+**[Export/Import Schema](Emily_SQL_TASKS.md)**
