@@ -84,8 +84,11 @@ SELECT * FROM new_table;
 ```
 Then click on the lightning bolt icon indicated in the red box to run the query.
 
-![CreateTable](./images/TABLE_screenshots/runViewQuery.png)
-to view the table you just created.
+![CreateTable](./images/TABLE_screenshots/lightningBoltIcon.png)
+
+
+Then you can see the contents of the table in the results panel indicated in the red box.
+![CreateTable](./images/TABLE_screenshots/viewResultGrid.png)
 
 
 
@@ -101,6 +104,9 @@ Click the "Drop Now" button to delete the table.
 
 
 ## SQL Tasks
+Create a new query by clicking the new query icon indicated in the red box.
+![CreateTable](./images/TABLE_screenshots/createNewTabQuery.png)
+
 
 ## Conclusion
 
