@@ -105,7 +105,13 @@ Click the "Drop Now" button to delete the table.
 
 ## SQL Tasks
 Create a new query by clicking the new query icon indicated in the red box.
-![CreateTable](./images/TABLE_screenshots/createNewTabQuery.png)
+![CreateTable](./images/SQL_screenshots/createNewTabQuery.png)
+
+A new tab will appear indicated in the blue box.
+Below the tab is a new panel with a query editor with a query indicated in the orange box.
+To run the query click the lightning bolt icon indicated in the red box.
+![CreateTable](./images/SQL_screenshots/runViewQuery.png)
+
 
 
 ## Conclusion
