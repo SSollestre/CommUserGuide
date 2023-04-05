@@ -20,8 +20,8 @@ Option 1:
 
 Option 2:
 
-* click the Schemas tab indicated in red
-* move your mouse to the Schemas panel indicated in blue
+* <span class=action> **Click** </span> the Schemas tab indicated in red
+* <span class=action> **Move** </span> your mouse to the Schemas panel indicated in blue
 
 ![SchemasPanel](./images/SCHEMA_screenshots/schemaTabPanel.png)
 
