@@ -3,7 +3,7 @@
 In this part of the guide, you will learn how to export a database schema which includes the structure of the tables, views, procedures, functions and data. As well as the different ways you can import it. This can be useful for creating a backup or sharing the database schema with others.
 
 ## Export
-MySQL Workbench "Data Export" is a feature that allows you to Export data into a file.
+MySQL Workbench <span class="title"> *Data Export* </span> is a feature that allows you to export data into a file.
 >
 1. <span class=action> **Select** </span> `Server` > `Data Export`.
 ![ExportStart](./images/schema/ExportStart.png) <br><br>
@@ -13,14 +13,14 @@ MySQL Workbench "Data Export" is a feature that allows you to Export data into a
 ![PickTables](./images/schema/ExportPickTables.png)
 >
     !!! Note "Note: if you want to export all the tables in the schema."
-        <span class=action> **Click** </span> `Select Tables` under <span class="title"> *table list* </span>.
+        <span class=action> **Select** </span> `Select Tables` under <span class="title"> *table list* </span>.
         ![SelectTables](./images/schema/ExportSelectAllTables.png)
     <br>
-4. <span class=action> **Click** </span> `Export to Self-Contained File` and `Include CREATE SCHEMA statement` under <span class="title"> *Export Options* </span>, if you want to include the schema creation in the export.
+4. <span class=action> **Select** </span> `Export to Self-Contained File` and `Include CREATE SCHEMA statement` under <span class="title"> *Export Options* </span>, if you want to include schema creation in the export.
 ![ExportOptions](./images/schema/ExportOptions.png) <br><br>
 5. <span class=action> **Select** </span> the file name and location you want to export to.
 ![FileOptions](./images/schema/ExportDestination.png) <br><br>
-6. <span class=action> **Click** </span> `start Export`, to start the Export.
+6. <span class=action> **Select** </span> `Start Export`, to start the export.
 ![ExportStart](./images/schema/ExportStartExport.png) <br><br>
 >
     !!! success
@@ -34,9 +34,9 @@ MySQL Workbench <span class="title"> *Data Import* </span> is a feature that all
 >
 1. <span class=action> **Select** </span> `Server` > `Data Import`.
 ![ImportStart](./images/schema/ImportStart.png) <br><br>
-2. <span class=action> **Click** </span> `Import from Self-Contained File` and <span class=action> **Select** </span> the file you want to import, in <span class="title"> *Data Import* </span>, under <span class="title"> *Import Options* </span>.
+2. <span class=action> **Select** </span> `Import from Self-Contained File` and <span class=action> **Select** </span> the file you want to import, in <span class="title"> *Data Import* </span>, under <span class="title"> *Import Options* </span>.
 ![ImportOptions](./images/schema/ImportOptions.png)
-3. <span class=action> **Select** </span> the schema you want to import the data into, Under `Default Schema to be Imported To` section.
+3. <span class=action> **Select** </span> the schema you want to import the data into, under <span class="title"> *Default Schema to be Imported To* </span> section.
 ![DefaultSchema](./images/schema/ImportDestination.png) <br><br>
 >
     !!! Note "Note: If the schema you want to import the data into does not exist, or you want to import into a new schema."
@@ -47,7 +47,7 @@ MySQL Workbench <span class="title"> *Data Import* </span> is a feature that all
          - <span class=action> **Select** </span> the new schema from the drop down menu.
         ![Select](./images/schema/ImportPickNew.png) <br><br>
 <br><br>
-4. <span class=action> **Click** </span> `Start Import`, to start the Import.
+4. <span class=action> **Select** </span> `Start Import`, to start the import.
 ![StartImport](./images/schema/ImportStartImport.png) <br><br>
 >
     !!! success
@@ -64,15 +64,15 @@ A SQL script file is a text file that contains a sequence of SQL commands or sta
 >
 1. <span class=action> **Create** </span> a schema
 2. <span class=action> **Make** </span> it your default schema
-3. <span class=action> **Click** </span> on the <span class="icons"> *Open Query Tab* </span> icon in the top left of the screen to open a query tab. <br>
+3. <span class=action> **Select** </span> on the <span class="icons"> *Open Query Tab* </span> icon in the top left of the screen to open a query tab. <br>
 ![OpenQueryTab](./images/schema/OpenTab.png) <br><br>
-4. <span class=action> **Click** </span> on the <span class="icons"> *Open File* </span> icon in the top left of the middle screen to open the SQL script file and <span class=action> **Select** </span> the file containing the Schema.
+4. <span class=action> **Select** </span> on the <span class="icons"> *Open File* </span> icon in the top left of the middle screen to open the SQL script file and <span class=action> **Select** </span> the file containing the Schema.
 ![OpenFile](./images/schema/OpenFile.png) <br><br>
-5. <span class=action> **Click** </span> on the <span class="icons"> *Run* </span> icon in the top left of the screen to Run the script.
+5. <span class=action> **Select** </span> on the <span class="icons"> *Run* </span> icon in the top left of the screen to run the script.
 ![Run](./images/schema/Run.png) <br><br>
 >
     !!! success
-        Once the import is complete, you will see a messages on the bottom of the screen verifying that the schema was created. This means that you have successfully imported the data into the database.
+        Once the import is complete, you will see messages at the bottom of the screen verifying that the schema was created. This means that you have successfully imported the data into the database.
         ![ImportSuccess](./images/schema/SchemaCreationSuccess.png)
 >
     !!! Note
@@ -86,7 +86,7 @@ If the schema creation is included in the data import, you can simply run the sc
 2. <span class=action> **Run** </span> the script.
 >
     !!! success
-        Once the import is complete, you will see a messages on the bottom of the screen verifying that the schema was created similar to the previous section. This means that you have successfully imported the data into the database.
+        Once the import is complete, you will see messages at the bottom of the screen verifying that the schema was created similar to the previous section. This means that you have successfully imported the data into the database.
 >
     !!! Info
         It will automatically make the new schema your default schema.
