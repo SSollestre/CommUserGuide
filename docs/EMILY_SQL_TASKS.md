@@ -64,11 +64,11 @@ A SQL script file is a text file that contains a sequence of SQL commands or sta
 >
 1. <span class=action> **Create** </span> a schema
 2. <span class=action> **Make** </span> it your default schema
-3. <span class=action> **Select** </span> on the <span class="icons"> *Open Query Tab* </span> icon in the top left of the screen to open a query tab. <br>
+3. <span class=action> **Select** </span> the <span class="icons"> *Open Query Tab* </span> icon in the top left of the screen to open a query tab. <br>
 ![OpenQueryTab](./images/schema/OpenTab.png) <br><br>
-4. <span class=action> **Select** </span> on the <span class="icons"> *Open File* </span> icon in the top left of the middle screen to open the SQL script file and <span class=action> **Select** </span> the file containing the Schema.
+4. <span class=action> **Select** </span> the <span class="icons"> *Open File* </span> icon in the top left of the middle screen to open the SQL script file and <span class=action> **Select** </span> the file containing the Schema.
 ![OpenFile](./images/schema/OpenFile.png) <br><br>
-5. <span class=action> **Select** </span> on the <span class="icons"> *Run* </span> icon in the top left of the screen to run the script.
+5. <span class=action> **Select** </span> the <span class="icons"> *Run* </span> icon in the top left of the screen to run the script.
 ![Run](./images/schema/Run.png) <br><br>
 >
     !!! success
