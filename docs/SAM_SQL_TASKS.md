@@ -14,7 +14,7 @@ There are two options for creating a new schema.
 
 Option 1:
 
-Click the new schema icon indicated by the red box.
+<span class=action> **Click** </span> the new schema icon indicated by the red box.
 
 ![CreateSchemaIcon](./images/SCHEMA_screenshots/createSchemaIcon.png)
 
