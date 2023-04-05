@@ -20,29 +20,29 @@ Option 1:
 
 Option 2:
 
-* click the Schemas tab indicated in red
-* move your mouse to the Schemas panel indicated in blue
+* <span class=action> **Click** </span> the Schemas tab indicated in red
+* <span class=action> **Move** </span> your mouse to the Schemas panel indicated in blue
 
 ![SchemasPanel](./images/SCHEMA_screenshots/schemaTabPanel.png)
 
-Right click while your mouse is in the Schemas panel
+<span class=action> **Right Click** </span> while your mouse is in the Schemas panel
 
 ![CreateSchemaRightClick](./images/SCHEMA_screenshots/createSchemaRightClick.png)
 
 After clicking the option to create a new schema, a new schema will be created.
-Enter a name for the new schema and click the apply button indicated in red.
+<span class=action> **Enter** </span> a name for the new schema and <span class=action> **Click** </span> the <span class=action> **Apply** </span> button indicated in red.
 
 ![NameSchema](./images/SCHEMA_screenshots/nameSchema.png)
 
-After clicking the apply button, the new schema will be created and a success page will appear as well as logged in the log panel.
+After clicking the <span class=action> **Apply** </span> button, the new schema will be created and a success page will appear as well as logged in the log panel.
 
 Success page:
 ![SuccessPage](./images/SCHEMA_screenshots/schemaSuccess.png)
 
 ### Delete a schema
-Move mouse to the Schemas panel and right click on the schema you want to delete.
+<span class=action> **Move** </span> mouse to the Schemas panel and <span class=action> **Right Click** </span> on the schema you want to delete.
 A confirmation window will appear asking if you want to drop the schema.
-Click the "Drop Now" button to delete the schema.
+Click the <span class=action> **Drop Now** </span> button to delete the schema.
 ![SuccessPage](./images/TABLE_screenshots/confirmDeleteSchema.png)
 
 
@@ -53,7 +53,7 @@ Click the "Drop Now" button to delete the schema.
 
 1.  Move your mouse to the Schemas panel and make sure the table you want is selected.
 2.  You can check this by looking if the schema is in bold font indicated in the blue box.
-3.  Then while your mouse is on "Tables" right click and select the option to create a new table, indicated in the red box.
+3. Then while your mouse is on "Tables" <span class=action> **Right Click** </span> and select the option to create a new table, indicated in the red box.
 ![CreateTable](./images/TABLE_screenshots/createTableBold.png)
 
 After selecting the option to create a new table you will be taken to a new view.
@@ -64,8 +64,9 @@ After selecting the option to create a new table you will be taken to a new view
 4. Enter a name for the first column in the box indicated in green.
 5. Click the "Apply" button indicated in red.
 
->
-    Note: a name for the first column is required to create a table!
+    !!! Note
+        A name for the first column is required to create a table! 
+
 
 ![CreateTable](./images/TABLE_screenshots/newTablePanel.png)
 
