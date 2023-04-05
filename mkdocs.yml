@@ -21,7 +21,7 @@ theme:
   features:
     # - navigation.tabs
     - navigation.sections
-    - navigation.footer
+    - navigation.footers
     - toc.integrate
     - navigation.top
     - search.suggest
@@ -33,13 +33,13 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
-      primary:
+      primary: blue
       accent: deep purple
     - scheme: slate
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
-      primary:
+      primary: blue grey
       accent:
 
 markdown_extensions:

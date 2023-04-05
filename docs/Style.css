@@ -4,9 +4,13 @@
 }
 
 .title {
-    color: rgb(175, 187, 241);
+    color: #CC7424;
 }
 
 .action {
-    color: rgb(134, 104, 236);
+    color: #1488B1;
+}
+
+.icons {
+    color: #E6AE39;
 }
