@@ -33,13 +33,13 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
-      primary:
-      accent: deep purple
+      primary: blue
+      accent: blue
     - scheme: slate
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
-      primary:
+      primary: blue grey
       accent:
 
 markdown_extensions:

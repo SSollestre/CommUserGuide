@@ -24,9 +24,11 @@ This guide assumes that you have already installed MySQL and MySQL Workbench ins
 
 |Convention Explanation|Examples|
 |-|-|
-|Commands & Actions <br><br> Words that are a command or actions that you must perform. |<span class=action>**Click, Copy, Paste**</span>|
+|Commands & Actions <br><br> Bold words are a command or actions that you must perform. |<span class=action>**Click, Copy, Paste**</span>|
 |Menu & Button Sequence<br><br>Labels will be written differently from normal text, and the next step will be preceded with “>”.|`File` > `Save Script`|
-|Text Field Entries<br><br>Types of entries into text fields will be italicized.|<span class=title>*Table Name, Attribute Name*</span>|
+|Text Field Entries<br><br>Types of entries into text fields will be italicized.|*Table Name, Attribute Name*|
+|Section Names<br><br>Section names will be written in italicized colour.|<span class=title>*Section Name*</span>|
+|Icons<br><br>Icons will be written in italicized colour.|<span class=icons>*Icon Name*</span>|
 
 ## Message blocks
 
