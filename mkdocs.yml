@@ -21,11 +21,12 @@ theme:
   features:
     # - navigation.tabs
     - navigation.sections
+    - navigation.footer
     - toc.integrate
     - navigation.top
     - search.suggest
     - search.highlight
-  # - content.tabs.link
+    # - content.tabs.link
   language: en
   palette:
     - Scheme: default
