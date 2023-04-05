@@ -64,7 +64,8 @@ After selecting the option to create a new table you will be taken to a new view
 4. Enter a name for the first column in the box indicated in green.
 5. Click the "Apply" button indicated in red.
 
-note: a name for the first column is required to create a table!
+>
+    Note: a name for the first column is required to create a table!
 
 ![CreateTable](./images/TABLE_screenshots/newTablePanel.png)
 
