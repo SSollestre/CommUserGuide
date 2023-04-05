@@ -147,7 +147,7 @@ By the end of this section, you should be able to:
 * Open existing query
 * Close existing query
 * Refresh existing query
-
+<!-- 
 ## Commands
 
 * `mkdocs new [dir-name]` - Create a new project.
@@ -160,4 +160,4 @@ By the end of this section, you should be able to:
     mkdocs.yml    # The configuration file.
     docs/
         index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+        ...       # Other markdown pages, images and other files. -->
