@@ -21,9 +21,9 @@ For our Database course in Term 2, we were expected to create a database system 
 
 At the time that we made this document, we had some familiarity with using markdown, but this is the first project to truly force us to utilize all of its best features.
 
-### MKDocs
+### MkDocs
 
-We were introduced to Material for MKDocs for the theming of our user guide. MKDocs provides a static site generator that we used to create our website. Using the Material for MKDocs' selection of preset themes, we were quickly able to style our website in a way that we all found appealing.
+We were introduced to Material for MkDocs for the theming of our user guide. MkDocs provides a static site generator that we used to create our website. Using the Material for MkDocs' selection of preset themes, we were quickly able to style our website in a way that we all found appealing.
 
 ### VSCode
 
@@ -36,4 +36,10 @@ This guide was written for beginner users of MySQL Workbench and for those with 
 ## Conclusion
 
 ---
-This guide captures what we have learned throughout the course of the term while using MySQL Workbench. It is our hope that this guide could be of use to people who were like us at the start of the term, first learning how to use the applcation.
+This guide captures what we have learned throughout the course of the term while using MySQL Workbench. It is our hope that this guide could be of use to people who were like us at the start of the term, first learning how to use the application.
+
+At this stage of our student life, we are used to regularly collaborating with others on projects, as almost every other course has had us working in groups to complete challenging tasks.
+
+Thank you for taking the time to read our guide. We hope that this has helped you get comfortable with MySQL Workbench.
+
+This project was made using Material for MkDocs.
