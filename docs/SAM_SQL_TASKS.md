@@ -72,6 +72,9 @@ Once you have clicked "Apply", a new table will appear under "Tables" in the Sch
 In our case we have a table named "new_table" indicated in the red box.
 ![CreateTable](./images/TABLE_screenshots/newTableAppears.png)
 
+### View a table
+
+
 ### Delete a table
 
 Right click on the table you want to delete shown in the orange box and select the option to delete the table indicated in the red box.
