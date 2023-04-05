@@ -12,8 +12,8 @@ MySQL Workbench "Data Export" is a feature that allows you to Export data into a
 3. <span class=action> **Select** </span> the tables in the schema you want to export on the right side of the screen.
 ![PickTables](./images/schema/ExportPickTables.png)
 >
-    !!! Note
-        <span class=action> **Click** </span> `Select Tables` under the table list, if you want to export all the tables in the schema.
+    !!! Note "Note: if you want to export all the tables in the schema."
+        <span class=action> **Click** </span> `Select Tables` under <span class="title"> *table list* </span>.
         ![SelectTables](./images/schema/ExportSelectAllTables.png)
     <br>
 4. <span class=action> **Click** </span> `Export to Self-Contained File` and `Include CREATE SCHEMA statement` under <span class="title"> *Export Options* </span>, if you want to include the schema creation in the export.
@@ -24,13 +24,13 @@ MySQL Workbench "Data Export" is a feature that allows you to Export data into a
 ![ExportStart](./images/schema/ExportStartExport.png) <br><br>
 >
     !!! success
-        Once the export is complete, you will see a message that says "Export completed". This means that you have successfully exported the data into the database.
+        Once the export is complete, you will see a message that says "Export Completed". This means that you have successfully exported the data into the database.
         ![ExportSuccess](./images/schema/ExportSuccess.png)
 
 ## Import
 
 ### Using Data Import
-MySQL Workbench *Data Import* is a feature that allows you to import data from a variety of sources into a MySQL database.
+MySQL Workbench <span class="title"> *Data Import* </span> is a feature that allows you to import data from a variety of sources into a MySQL database.
 >
 1. <span class=action> **Select** </span> `Server` > `Data Import`.
 ![ImportStart](./images/schema/ImportStart.png) <br><br>
@@ -38,12 +38,15 @@ MySQL Workbench *Data Import* is a feature that allows you to import data from a
 ![ImportOptions](./images/schema/ImportOptions.png)
 3. <span class=action> **Select** </span> the schema you want to import the data into, Under `Default Schema to be Imported To` section.
 ![DefaultSchema](./images/schema/ImportDestination.png) <br><br>
-            - <span class=action> **select** </span> `New`, If you want to import the data into a new schema,
-            ![CreateNewSchema](./images/schema/ImportNewSchema.png) <br><br>
-            - <span class=action> **Enter** </span> the *name* of the new schema. <br>
-            ![NewSchemaName](./images/schema/ImportNewName.png) <br><br>
-            - <span class=action> **Select** </span> the new schema from the drop down menu.
-            ![Select](./images/schema/ImportPickNew.png) <br><br>
+>
+    !!! Note "Note: If the schema you want to import the data into does not exist, or you want to import into a new schema."
+         - <span class=action> **Select** </span> `New`.
+        ![CreateNewSchema](./images/schema/ImportNewSchema.png) <br><br>
+         - <span class=action> **Enter** </span> the *name* of the new schema. <br>
+        ![NewSchemaName](./images/schema/ImportNewName.png) <br><br>
+         - <span class=action> **Select** </span> the new schema from the drop down menu.
+        ![Select](./images/schema/ImportPickNew.png) <br><br>
+<br><br>
 4. <span class=action> **Click** </span> `Start Import`, to start the Import.
 ![StartImport](./images/schema/ImportStartImport.png) <br><br>
 >
@@ -59,13 +62,13 @@ A SQL script file is a text file that contains a sequence of SQL commands or sta
 
 #### <u> If schema creation is not included in data import </u>
 >
-1. <span class=action> **Create** </span> a Schema
-2. <span class=action> **Make** </span> it your Default Schema
-3. <span class=action> **Click** </span> on the <span class="title"> *Open Query Tab* </span> icon in the top left of the screen to open a query tab. <br>
+1. <span class=action> **Create** </span> a schema
+2. <span class=action> **Make** </span> it your default schema
+3. <span class=action> **Click** </span> on the <span class="icons"> *Open Query Tab* </span> icon in the top left of the screen to open a query tab. <br>
 ![OpenQueryTab](./images/schema/OpenTab.png) <br><br>
-4. <span class=action> **Click** </span> on the <span class="title"> *Open File* </span> icon in the top left of the middle screen to open the SQL script file and <span class=action> **Select** </span> the file containing the Schema.
+4. <span class=action> **Click** </span> on the <span class="icons"> *Open File* </span> icon in the top left of the middle screen to open the SQL script file and <span class=action> **Select** </span> the file containing the Schema.
 ![OpenFile](./images/schema/OpenFile.png) <br><br>
-5. <span class=action> **Click** </span> on the <span class="title"> *Run* </span> icon in the top left of the screen to Run the script.
+5. <span class=action> **Click** </span> on the <span class="icons"> *Run* </span> icon in the top left of the screen to Run the script.
 ![Run](./images/schema/Run.png) <br><br>
 >
     !!! success
