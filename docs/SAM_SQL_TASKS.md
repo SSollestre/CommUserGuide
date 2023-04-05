@@ -43,13 +43,13 @@ Success page:
 Move mouse to the Schemas panel and right click on the schema you want to delete.
 A confirmation window will appear asking if you want to drop the schema.
 Click the "Drop Now" button to delete the schema.
-![SuccessPage](./images/TABLE_screenshots/confirmDeleteSchemaDropNow.png)
+![SuccessPage](./images/TABLE_screenshots/confirmDeleteSchema.png)
 
 
 
 ## Table Tasks
 
-How to create a table:
+### Create a table
 
 1.  Move your mouse to the Schemas panel and make sure the table you want is selected.
 2.  You can check this by looking if the schema is in bold font indicated in the blue box.
@@ -66,12 +66,14 @@ After selecting the option to create a new table you will be taken to a new view
 
 note: a name for the first column is required to create a table!
 
-
 ![CreateTable](./images/TABLE_screenshots/newTablePanel.png)
 
 Once you have clicked "Apply", a new table will appear under "Tables" in the Schemas panel.
 In our case we have a table named "new_table" indicated in the red box.
 ![CreateTable](./images/TABLE_screenshots/newTableAppears.png)
+
+### Delete a table
+![SuccessPage](./images/TABLE_screenshots/confirmDeleteTableDropNow.png)
 
 ## SQL Tasks
 
