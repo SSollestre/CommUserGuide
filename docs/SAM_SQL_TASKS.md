@@ -74,6 +74,18 @@ In our case we have a table named "new_table" indicated in the red box.
 
 ### View a table
 
+Go to the top left corner of screen and click on the "new sql query" icon indicated in the red box.
+![CreateTable](./images/TABLE_screenshots/newQuery.png)
+A new tab indicated in blue will appear.
+Below the tab is a new panel with a query editor.
+Enter the following query in the query editor:
+```sql
+SELECT * FROM new_table;
+```
+![CreateTable](./images/TABLE_screenshots/runViewQuery.png)
+to view the table you just created.
+
+
 
 ### Delete a table
 
