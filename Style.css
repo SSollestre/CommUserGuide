@@ -1,0 +1,16 @@
+.md-content img {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.title {
+    color: #CC7424;
+}
+
+.action {
+    color: #1488B1;
+}
+
+.icons {
+    color: #E6AE39;
+}
