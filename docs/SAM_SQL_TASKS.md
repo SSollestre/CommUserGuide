@@ -73,7 +73,15 @@ In our case we have a table named "new_table" indicated in the red box.
 ![CreateTable](./images/TABLE_screenshots/newTableAppears.png)
 
 ### Delete a table
-![SuccessPage](./images/TABLE_screenshots/confirmDeleteTableDropNow.png)
+
+Right click on the table you want to delete shown in the orange box and select the option to delete the table indicated in the red box.
+![ConfirmDeleteTable](./images/TABLE_screenshots/dropTable.png)
+
+
+The confirmation window will appear asking if you want to drop the table.
+Click the "Drop Now" button to delete the table.
+![ConfirmDeleteTable](./images/TABLE_screenshots/confirmDeleteTableDropNow.png)
+
 
 ## SQL Tasks
 
