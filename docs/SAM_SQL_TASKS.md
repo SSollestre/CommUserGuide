@@ -37,11 +37,32 @@ Enter a name for the new schema and click the apply button indicated in red.
 After clicking the apply button, the new schema will be created and a success page will appear as well as logged in the log panel.
 
 Success page:
-![SuccessPage](./images/SCHEMA_screenshots/schemaSuccessPage.png)
-
-## SQL Tasks
+![SuccessPage](./images/SCHEMA_screenshots/schemaSuccess.png)
 
 ## Table Tasks
+
+How to create a table:
+
+1.  Move your mouse to the Schemas panel and make sure the table you want is selected.
+2.  You can check this by looking if the schema is in bold font indicated in the blue box.
+3.  Then while your mouse is on "Tables" right click and select the option to create a new table, indicated in the red box.
+![CreateTable](./images/TABLE_screenshots/createTableBold.png)
+
+After selecting the option to create a new table you will be taken to a new view.
+1. A new tab will appear indicated in the purple box.
+2. Below the tab you will see a new panel with a table creation form.
+3. Enter a name for the table in the box indicated in blue.
+4. Click the "Apply" button indicated in red.
+
+
+
+![CreateTable](./images/TABLE_screenshots/createTable.png)
+
+Once you have clicked "Apply", a new table will appear under "Tables" in the Schemas panel.
+In our case we have a table named "new_table" indicated in the red box.
+![CreateTable](./images/TABLE_screenshots/newTableAppears.png)
+
+## SQL Tasks
 
 ## Conclusion
 
@@ -50,6 +71,10 @@ By the end of this section, you should be able to:
 * Create a new schema
 * Delete a schema
 
+* Create table
+* View table
+* Delete table
+
 * Create query
 * Running query
 * Saving query
@@ -57,10 +82,6 @@ By the end of this section, you should be able to:
 * Open existing query
 * Close existing query
 * Refresh existing query
-
-* Create table
-* View table
-* Delete table
 
 ## Commands
 
