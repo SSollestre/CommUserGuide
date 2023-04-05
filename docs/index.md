@@ -35,6 +35,9 @@ This guide assumes that you have already installed MySQL and MySQL Workbench ins
 Throughout the documentation, we will use message blocks to alert you to relevant information.
 Each possible message block, from most important to least important:
 
+!!! Note
+    Used to provide draw attention to specific details.
+
 !!! Info
     Used to provide extra information and tips.
 
