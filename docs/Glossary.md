@@ -1,3 +1,16 @@
 | **Term** |  **Definition**              |
 |-|-|
-|Something| Something|
+|Column|In a database table, a column represents a single attribute or field of the data being stored. Each column has a name and a data type, and can hold a specific value for each row in the table.|
+|CSV|CSV stands for "Comma-Separated Values". It is a file format that is used to store tabular data, such as a spreadsheet or a database table. In a CSV file, each row represents a record, and each column represents a field. The values in each field are separated by a delimiter, such as a comma or a semicolon.|
+|Data|Data refers to any information that is stored in a database. This can include text, numbers, dates, images, or any other type of information that can be represented in a digital format.|
+|Database|A database is an organized collection of data.|
+|Export|Export is the process of extracting data from a database and saving it to an external file or application. In the context of databases, data export involves copying data from a database to a file, another database, or an external application.|
+|Import| Import is the process of bringing data from an external source into a database. In the context of databases, data import involves copying data from a file, another database, or an external application into a target database.|
+|MySQL Workbench|MySQL Workbench is a graphical user interface tool for managing and developing MySQL databases. It provides features such as database design, SQL development, server administration, data export and import, and visual tools for database management.|
+|Row|In a database table, a row represents a single record or instance of the data being stored. Each row has a unique identifier, and contains a set of values for each column in the table.|
+|Schema| A schema is a logical structure that defines the organization of data. A schema includes tables, views, procedures, indexes, and other database objects. A schema provides a blueprint for organizing and storing data in a database.|
+|Script| A script is a set of instructions or commands written in a programming language or scripting language that can be executed by a computer or other device. In the context of databases, an SQL script is a file containing a sequence of SQL statements that can be executed as a batch to perform database operations.|
+|Select Statement| A SELECT statement is an SQL command that is used to retrieve data from a database table. A SELECT statement specifies the columns to be retrieved, the table or tables to be queried, and any optional conditions or sorting instructions. The result of a SELECT statement is a set of rows that match the specified criteria.|
+|Spreadsheets (Excel, Google Sheets)|Spreadsheets are software applications that allow users to organize and analyze data in a tabular format. Spreadsheets are commonly used for tasks such as budgeting, financial analysis, and data management. Examples of popular spreadsheet applications include Microsoft Excel and Google Sheets.|
+|SQL|SQL stands for Structured Query Language. It is a programming language used to communicate with a database. SQL statements are used to perform operations such as update data on a database, or retrieve data from a database.|
+|Table|A table is a collection of related data items. A table is a set of columns and rows. Each column contains a specific type of data, and each row contains a record.|
