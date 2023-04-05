@@ -34,7 +34,7 @@ theme:
         icon: material/weather-night
         name: Switch to dark mode
       primary: blue
-      accent: deep purple
+      accent: blue
     - scheme: slate
       toggle:
         icon: material/weather-sunny
