@@ -31,4 +31,9 @@ We have used VSCode extensively in our previous term, so are familiar with the s
 
 ### Intended Audience
 
-This guide was written for beginner users of MySQL Workbench and for those with a slight familiarity with SQL syntax. This guide also assumes that you have correctly set up MySQL Workbench on your device and have established a connection to a server, and have set up a password. Therefore, we
+This guide was written for beginner users of MySQL Workbench and for those with a slight familiarity with SQL syntax. This guide also assumes that you have correctly set up MySQL Workbench on your device and have established a connection to a server, and have set up a password.
+
+## Conclusion
+
+---
+This guide captures what we have learned throughout the course of the term while using MySQL Workbench. It is our hope that this guide could be of use to people who were like us at the start of the term, first learning how to use the applcation.
