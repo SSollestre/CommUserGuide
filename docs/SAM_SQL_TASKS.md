@@ -52,6 +52,14 @@ Afterwards, a new window will pop up.
 !!! Note
     <span class=action> **Refresh** </span> If *PK* or *Primary Key* is selected, you must have *NN* or *Not Null* selected as well.
 8. <span class=action> **Add** </span> additional columns repeating steps 5, 6, and 7.
+9. <span class=action> **Select** </span> `Apply`.
+10. <span class=action> **Select** </span> `Apply`.
+11. <span class=action> **Select** </span> `Finish.
+!!! Note
+    <span class=action> **Refresh** </span> might be needed to see the new table.
+>
+!!! Success
+    Your new table will appear under <span class=title>*Schemas*</span> on the left under your selected schema.</span>
 
 2. You can check this by looking if the schema is in bold font indicated in the blue box.
 3. Then while your mouse is on "Tables" <span class=action> **Right Click** </span> and select the option to create a new table, indicated in the red box.
