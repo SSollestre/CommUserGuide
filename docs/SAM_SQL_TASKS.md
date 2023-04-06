@@ -160,13 +160,15 @@ The tasks under this section outline the steps needed to manipulate schemas in M
 
 ### Run a SQL Query
 >
-1. <span class=action> **Select** </span> <span class=icons>*Execute*</span>.  
+1. <span class=action> **Select** </span> <span class=icons>*Execute*</span> icon in the editor.  
+![RunSQL](./images/General/Run.png)
 >
     !!! Note
         We are assuming you have a query in the editor already.
 >
     !!! Success
-        Your query has successfully been executed. You can view the result in the <span class=title>*Result Grid*</span>, as well as a system description under <span class=title>*Output*</span>.
+        Your query has successfully been executed. You can see the outcome of the query as a system description under <span class=title>*Output*</span>.   
+        ![RunSQL](./images/General/RunSuccess.png)
 
 ## Conclusion
 
@@ -175,7 +177,7 @@ At the end of this section you will know how to:
 - For Schemas:
       - [X] <span class=action>**Create**</span> a schema
       - [X] <span class=action>**Make**</span> a schema default
-      - [X] and <span class=action>**Delete**</span> a schema
+      - [X] <span class=action>**Delete**</span> a schema
 - For Tables:
       - [X] <span class=action>**Create**</span> a table
       - [X] <span class=action>**View**</span> a table
