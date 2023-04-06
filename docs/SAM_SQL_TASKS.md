@@ -115,46 +115,53 @@ The tasks under this section outline the steps needed to manipulate schemas in M
 ## SQL Tasks
 
 ### Open a New SQL Tab
-
-1. <span class=action> **Select** </span> <span class=icons>*Create a new SQL tab*</span>.
 >
-!!! Success
-    Your new SQL tab will be displayed on the middle of the screen.
+1. <span class=action> **Select** </span> <span class=icons>*Create a new SQL tab*</span>.  
+![NewSQLTab](./images/General/SQLtab.png)
+>
+    !!! Success
+        Your new SQL tab will be displayed on the middle of the screen.  
+        ![NewSQLTab](./images/General/SQLtabSuccess.png)
 
 ### Save a New SQL File
-
-1. <span class=action> **Select** </span> `File` > `Save Script As`.
+>
+1. <span class=action> **Select** </span> `File` > `Save Script As`.  
+![SaveSQL](./images/General/SaveScriptAs.png)  <br>
 2. <span class=action>**Save**</span> your SQL file to your desired location.
 >
-!!! Note
-    You can also use the <span class=icons>*Save*</span> in the editor
+    !!! Note
+        You can also use the <span class=icons>*Save*</span> in the editor.  
+        ![SaveSQL](./images/General/SaveScriptAs.png)
 >
-!!! Success
-    You can find your file in the location you saved it in.
+    !!! Success
+        You can find your file in the location you saved it in.
 
 ### Open a SQL File
-
-1. <span class=action> **Select** </span> <span class=icons>*Open a SQL script file*</span>.
+>
+1. <span class=action> **Select** </span> `File` > `Open SQL Script`.  
+![OpenSQL](./images/General/OpenSQLScript.png)  <br>
 2. <span class=action> **Select** your SQL file.
 >
-!!! Note
-    You can also use the <span class=icons>*Open*</span> in the editor
+    !!! Note
+        You can also use the <span class=icons>*Open*</span> icon in the editor or <span class=icons>*Open a SQL script file*</span> icon at the top left of the screen.  
+        ![OpenSQL](./images/General/SQLOpenScriptAlt.png)
 >
-!!! Success
-    Your SQL file is opened in the editor.
+    !!! Success
+        Your SQL file is opened in the editor.  
+        ![OpenSQL](./images/General/OpenSQLScriptSuccess.png)
 
 ### Refresh all
-
-1. <span class=action> **Right-Click** </span> anywhere under <span class=title>*Schemas*</span>.
-2. <span class=action> **Select** </span> `Refresh All`.
 >
-!!! Success
-    Your schemas are now all up to date.
+1. <span class=action> **Right-Click** </span> anywhere under <span class=title>*Schemas*</span> and <span class=action> **Select** </span> `Refresh All`.  
+![RefreshAll](./images/General/Refresh.png)
+>
+    !!! Success
+        Your schemas are now all up to date.
 
 ## Conclusion
 
 At the end of this section you will know how to:
-
+>
 - For Schemas:
       - [X] <span class=action>**Create**</span> a schema,
       - [X] <span class=action>**Make**</span> a schema default,
