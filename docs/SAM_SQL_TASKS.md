@@ -67,24 +67,15 @@ Afterwards, a new window will pop up.
 !!! Success
     Your new table will appear under <span class=title>*Schemas*</span> on the left under your selected schema.</span>
 
-### View a table
+### View a Table
 
-Go to the top left corner of screen and click on the "new sql query" icon indicated in the red box.
-![CreateTable](./images/TABLE_screenshots/newQuery.png)
-A new tab indicated in blue will appear.
-Below the tab is a new panel with a query editor.
-Enter the following query indicated with an orange box into the query editor:
-
-```sql
-SELECT * FROM new_table;
-```
-
-Then click on the lightning bolt icon indicated in the red box to run the query.
-
-![CreateTable](./images/TABLE_screenshots/lightningBoltIcon.png)
-
-Then you can see the contents of the table in the results panel indicated in the red box.
-![CreateTable](./images/TABLE_screenshots/viewResultGrid.png)
+1. <span class=action> **Double-Click** </span> your schema to view your <span class=title>*Tables*</span>.
+2. <span class=action> **Right-Click** </span> your table.
+3. <span class=action> **Hover** </span> `Send to SQL Editor`.
+4. <span class=action> **Select** </span> `Select All Statement`.
+5. <span class=action> **Select** </span> <span class=icons>*Execute*</span>.
+!!! Success
+    Your selected data will appear under the <span class=title>*Result Grid*</span>.
 
 ### Delete a table
 
@@ -139,17 +130,3 @@ By the end of this section, you should be able to:
 * Open existing query
 * Close existing query
 * Refresh existing query
-<!-- 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files. -->
