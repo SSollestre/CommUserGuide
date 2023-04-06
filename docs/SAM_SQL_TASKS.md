@@ -140,7 +140,7 @@ The tasks under this section outline the steps needed to manipulate schemas in M
 >
 1. <span class=action> **Select** </span> `File` > `Open SQL Script`.  
 ![OpenSQL](./images/General/OpenSQLScript.png)  <br>
-2. <span class=action> **Select** your SQL file.
+2. <span class=action> **Select** </span> your SQL file.
 >
     !!! Note
         You can also use the <span class=icons>*Open*</span> icon in the editor or <span class=icons>*Open a SQL script file*</span> icon at the top left of the screen.  
@@ -160,11 +160,11 @@ The tasks under this section outline the steps needed to manipulate schemas in M
 
 ### Run a SQL Query
 >
+1. <span class=action> **Select** </span> <span class=icons>*Execute*</span>.  
+>
     !!! Note
         We are assuming you have a query in the editor already.
-
-1. <span class=action> **Select** </span> <span class=icons>*Execute*</span>.  
-    >
+>
     !!! Success
         Your query has successfully been executed. You can view the result in the <span class=title>*Result Grid*</span>, as well as a system description under <span class=title>*Output*</span>.
 
