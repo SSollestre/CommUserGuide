@@ -3,13 +3,9 @@
 <!-- For full documentation visit [https://dev.mysql.com](https://dev.mysql.com/doc/workbench/en/). -->
 ## Overview
 
----
-
 This section will cover common tasks in MySQL Workbench. it will go over the creation and deletion of schemas, tables, columns, and row. This guide will also describe how to view your data, as well how to refresh your database to view any pending changes.
 
 ## Schema Tasks
-
----
 
 The tasks under this section outline the steps needed to manipulate schemas in MySQL Workbench.
 
@@ -41,21 +37,19 @@ The tasks under this section outline the steps needed to manipulate schemas in M
 >
     !!! Success
         Your default schema will be bolded in <span class=title>*Schemas*</span> on the left.    
-        ![MakeDefaultSuccess](./images/General/MakeDefaultSuccess.png)
+        <span class=smaller> ![MakeDefaultSuccess](./images/General/MakeDefaultSuccess.png) </span>
 
 ### Delete a Schema
 >
 1. <span class=action> **Right Click** </span> your schema and <span class=action> **Select** </span> `Drop Schema`.  
 ![DeleteSchema](./images/General/DropSchema.png)  <br>
 2. <span class=action> **Select** </span> `Drop Now`.  
-![DeleteSchemaNow](./images/General/DropSchemaDropNow.png)
+<span class=smaller> ![DeleteSchemaNow](./images/General/DropSchemaDropNow.png) </span>
 >
 !!! Success
     Your schema will be removed from <span class=title>*Schemas*</span> on the left.</span>
 
 ## Table Tasks
-
----
 
 ### Create a Table
 >
@@ -107,7 +101,7 @@ The tasks under this section outline the steps needed to manipulate schemas in M
 3. <span class=action> **Right-Click** </span> the table you want to delete and <span class=action> **Select** </span> `Drop Table`.  
 ![DeleteTable](./images/General/DropTable.png)  <br>
 5. <span class=action> **Select** </span> `Drop Now`.  
-![DeleteTable](./images/General/DropTableDrop.png)
+<span class=smaller> ![DeleteTable](./images/General/DropTableDrop.png) </span>
 >
     !!! Success
         Your table will be removed from <span class=title>*Schemas*</span> on the left from your selected schema.</span>

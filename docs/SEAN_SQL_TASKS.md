@@ -10,25 +10,25 @@ In the general features section, you have successfully created a schema. Using t
 ![CSV](./images/CSV/CSVSpreadsheet.jpg)  
     This example uses Microsoft Excel. Another option is Google Sheets.  
 2. <span class=action>**Enter**</span> your *Column Names*.  
-![Columns](./images/CSV/CSVColumnNames.jpg)
+<span class=smaller> ![Columns](./images/CSV/CSVColumnNames.jpg) </span>
 3. <span class=action>**Enter**</span> your *data* to your columns.  
-![Data](./images/CSV/CSVColumnData.jpg)
+<span class=smaller> ![Data](./images/CSV/CSVColumnData.jpg) </span>
 4. <span class=action>**Navigate**</span> to `File`.  
-![File](./images/CSV/CSVNavFile.jpg)
+<span class=smaller> ![File](./images/CSV/CSVNavFile.jpg) </span>
 5. <span class=action>**Navigate**</span> to `Export`.  
 ![ExportNav](./images/CSV/CSVNavToExport.jpg)
 6. <span class=action>**Select**</span> `Change File Type` > `CSV` > `Save As`.  
 ![SaveAsNav](./images/CSV/CSVSaveFileType.jpg)
 7. <span class=action>**Save**</span> your file to an easy-to-find location (e.g. Desktop).
 8. <span class=action>**Right-Click** on your file.  
-![RClick](./images/CSV/CSVIcon.jpg)
+<span class=extra-small> ![RClick](./images/CSV/CSVIcon.jpg) </span>
 9. <span class=action>**Select**</span> `Copy as path`.  
-![CopyPath](./images/CSV/CSVCopyAsPath.jpg)
+<span class=smaller> ![CopyPath](./images/CSV/CSVCopyAsPath.jpg) </span>
 10. <span class=action>**Open**</span> MySQLWorkbench.
 11. <span class=action>**Right-Click**</span> your schema.  
-![SchemaRClick](./images/CSV/CSVRClickSchema.jpg)
+<span class=small> ![SchemaRClick](./images/CSV/CSVRClickSchema.jpg) </span>
 12. <span class=action>**Select**</span> `Table Data Import Wizard`.  
-![ImportWizard](./images/CSV/CSVImportWIzard.jpg)
+<span class=smaller> ![ImportWizard](./images/CSV/CSVImportWIzard.jpg) </span>
 13. <span class=action>**Paste**</span> your file path and <span class=action>**Remove**</span> the quotation marks if present then <span class=action>**Select**</span> `Next`.
 ![PastePath](./images/CSV/CSVPasteFilePath.jpg)
 14. <span class=action>**Select**</span> `Create new table`.  
@@ -53,7 +53,7 @@ In the general features section, you have successfully created a schema. Using t
 >
     !!! Success
         When you <span class=action> Use a select statement to view the data and see the results of your import.  
-        ![ExportStart](./images/CSV/CSVOutcome.jpg)
+        <span class=small> ![ExportStart](./images/CSV/CSVOutcome.jpg) </span>
 
 ## Conclusion
 

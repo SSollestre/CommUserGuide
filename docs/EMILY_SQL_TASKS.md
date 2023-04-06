@@ -43,7 +43,7 @@ MySQL Workbench <span class="title"> *Data Import* </span> is a feature that all
          - <span class=action> **Select** </span> `New`.  
         ![CreateNewSchema](./images/schema/ImportNewSchema.png)  <br>
          - <span class=action> **Enter** </span> the *name* of the new schema. <br>
-        ![NewSchemaName](./images/schema/ImportNewName.png)  <br>
+        <span class=smaller> ![NewSchemaName](./images/schema/ImportNewName.png)</span>  <br>
          - <span class=action> **Select** </span> the new schema from the drop down menu.<br>
         ![Select](./images/schema/ImportPickNew.png)  <br>
 >

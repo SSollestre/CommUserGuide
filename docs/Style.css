@@ -7,8 +7,13 @@
     color: #CC7424;
 }
 
-.action {
+/* .action {
     color: #1488B1;
+} */
+.action {
+  font-weight: bold;
+  text-decoration: none;
+  color: #1488B1;
 }
 
 .icons {
@@ -18,4 +23,19 @@
 img {
     width: 50%;
     height: 50%;
+  }
+
+.smaller img {
+    width: 30%;
+    height: auto;
+  }
+
+.small img {
+    width: 40%;
+    height: auto;
+  }
+
+.extra-small img {
+    width: 10%;
+    height: auto;
   }
