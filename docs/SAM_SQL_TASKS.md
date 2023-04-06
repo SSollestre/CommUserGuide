@@ -89,11 +89,10 @@ The tasks under this section outline the steps needed to manipulate schemas in M
 
 ### View a Table
 
-1. <span class=action> **Double-Click** </span> your schema to view your <span class=title>*Tables*</span>.
-2. <span class=action> **Right-Click** </span> your table.
-3. <span class=action> **Hover** </span> `Send to SQL Editor`.
-4. <span class=action> **Select** </span> `Select All Statement`.
-5. <span class=action> **Select** </span> <span class=icons>*Execute*</span>.
+1. <span class=action> **Double-Click** </span> your schema.
+2. <span class=action> **Double-Click** </span> `Tables`.
+3. <span class=action> **Right-Click** </span> your table.
+4. <span class=action> **Select** </span> `Select Rows - Limit 2000`.
 >
 !!! Success
     Your selected data will appear under the <span class=title>*Result Grid*</span>.
@@ -131,10 +130,11 @@ The tasks under this section outline the steps needed to manipulate schemas in M
 !!! Success
     You can find your file in the location you saved it in.
 
-### Open an existing query
+### Open a SQL File
 
 1. <span class=action> **Select** </span> <span class=icons>*Open a SQL script file*</span>.
 2. <span class=action> **Select** your SQL file.
+>
 !!! Note
     You can also use the <span class=icons>*Open*</span> in the editor
 >
@@ -143,23 +143,29 @@ The tasks under this section outline the steps needed to manipulate schemas in M
 
 ### Refresh all
 
-To invoke all changes made with queries, right click on the the table you want to update and select "Refresh All".
-![CreateTable](./images/SQL_screenshots/refreshAll.png)
+1. <span class=action> **Right-Click** </span> anywhere under <span class=title>*Schemas*</span>.
+2. <span class=action> **Select** </span> `Refresh All`.
+>
+!!! Success
+    Your schemas are now all up to date.
 
 ## Conclusion
 
-By the end of this section, you should be able to:
+At the end of this section you will know how to:
 
-* Create a new schema
-* Delete a schema
+- For Schemas:
+      - [X] <span class=action>**Create**</span> a schema,
+      - [X] <span class=action>**Make**</span> a schema default,
+      - [X] and <span class=action>**Delete**</span> a schema.
+- For Tables:
+      - [X] <span class=action>**Create**</span> a table,
+      - [X] <span class=action>**View**</span> a table,
+      - [X] and <span class=action>**Delete**</span> a table.
+- For SQL tabs:
+      - [X] <span class=action>**Open**</span> a new SQL tab,
+      - [X] <span class=action>**Save**</span> a new SQL file,
+      - [X] and <span class=action>**Open**</span> a SQL file.
 
-* Create table
-* View table
-* Delete table
+Congratulations. The next section will go over exporting a schema as a SQL file.
 
-* Create query
-* Running query
-* Saving query
-* Open existing query
-* Close existing query
-* Refresh existing query
+**[Importing a CSV](SEAN_SQL_TASKS.md)**
