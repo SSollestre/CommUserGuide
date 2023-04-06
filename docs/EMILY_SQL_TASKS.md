@@ -40,22 +40,22 @@ MySQL Workbench <span class="title"> *Data Import* </span> is a feature that all
 ![DefaultSchema](./images/schema/ImportDestination.png)  <br>
 >
     !!! Note "Note: If the schema you want to import the data into does not exist, or you want to import into a new schema."
-         - <span class=action> **Select** </span> `New`.<br>
-        ![CreateNewSchema](./images/schema/ImportNewSchema.png) <br><br>
+         - <span class=action> **Select** </span> `New`.  
+        ![CreateNewSchema](./images/schema/ImportNewSchema.png)  <br>
          - <span class=action> **Enter** </span> the *name* of the new schema. <br>
-        ![NewSchemaName](./images/schema/ImportNewName.png) <br><br>
+        ![NewSchemaName](./images/schema/ImportNewName.png)  <br>
          - <span class=action> **Select** </span> the new schema from the drop down menu.<br>
-        ![Select](./images/schema/ImportPickNew.png) <br><br>
-<br><br>
+        ![Select](./images/schema/ImportPickNew.png)  <br>
+>
 4. <span class=action> **Select** </span> `Start Import`, to start the import.  
 ![StartImport](./images/schema/ImportStartImport.png)  <br>
+>
+    !!! Note
+        <span class=action> **Refresh** </span> might be needed to see the new schema.
 >
     !!! success
         Once the import is complete, you will see a message that says "Import Completed". This means that you have successfully imported the data into the database.  
         ![ImportSuccess](./images/schema/ImportSuccess.png)
->
-    !!! Note
-        <span class=action> **Refresh** </span> might be needed to see the new schema.
 
 ### Using SQL Script
 A SQL script file is a text file that contains a sequence of SQL commands or statements that can be executed together as a batch or script.
@@ -70,7 +70,7 @@ A SQL script file is a text file that contains a sequence of SQL commands or sta
 >
     !!! Note
         <span class=action> **Refresh** </span> might be needed to see the new schema.  
-        Please refer to MySQL Workbench Instructions section for more information if any of the steps are unclear.
+        Please refer to [MySQL Workbench Instructions](SAM_SQL_TASKS.md) section for more information if any of the steps are unclear.
 >
     !!! success
         Once the import is complete, you can see the outcome of the query as a system description under <span class=title>*Output*</span>, verifying that the schema was created. This means that you have successfully imported the data into the database.<br>
@@ -82,14 +82,14 @@ If the schema creation is included in the data import, you can simply run the sc
 1. <span class=action> **Open** </span> file containing the schema.
 2. <span class=action> **Run** </span> the script.
 >
+    !!! Note
+        <span class=action> **Refresh** </span> might be needed to see the new schema.
+>
     !!! success
         Once the import is complete, you can see the outcome of the query as a system description under <span class=title>*Output*</span>, verifying that the schema was created similar to the previous section. This means that you have successfully imported the data into the database.
 >
     !!! Info
         It will automatically make the new schema your default schema.
->
-    !!! Note
-        <span class=action> **Refresh** </span> might be needed to see the new schema.
 
 ## Conclusion
 
