@@ -158,6 +158,16 @@ The tasks under this section outline the steps needed to manipulate schemas in M
     !!! Success
         Your schemas are now all up to date.
 
+### Run a SQL Query
+>
+    !!! Note
+        We are assuming you have a query in the editor already.
+
+1. <span class=action> **Select** </span> <span class=icons>*Execute*</span>.  
+    >
+    !!! Success
+        Your query has successfully been executed. You can view the result in the <span class=title>*Result Grid*</span>, as well as a system description under <span class=title>*Output*</span>.
+
 ## Conclusion
 
 At the end of this section you will know how to:
