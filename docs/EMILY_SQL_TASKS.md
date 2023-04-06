@@ -15,7 +15,7 @@ MySQL Workbench <span class="title"> *Data Export* </span> is a feature that all
     !!! Note "Note: if you want to export all the tables in the schema."
         <span class=action> **Select** </span> `Select Tables` under <span class="title"> *table list* </span>.<br>
         ![SelectTables](./images/schema/ExportSelectAllTables.png)
-
+>
 4. <span class=action> **Select** </span> `Export to Self-Contained File` and `Include CREATE SCHEMA statement` under <span class="title"> *Export Options* </span>, if you want to include schema creation in the export.  
 ![ExportOptions](./images/schema/ExportOptions.png)  <br>
 5. <span class=action> **Select** </span> the file name and location you want to export to.  
@@ -32,12 +32,12 @@ MySQL Workbench <span class="title"> *Data Export* </span> is a feature that all
 ### Using Data Import
 MySQL Workbench <span class="title"> *Data Import* </span> is a feature that allows you to import data from a variety of sources into a MySQL database.
 >
-1. <span class=action> **Select** </span> `Server` > `Data Import`.<br>
-![ImportStart](./images/schema/ImportStart.png) <br><br>
-2. <span class=action> **Select** </span> `Import from Self-Contained File` and <span class=action> **Select** </span> the file you want to import, in <span class="title"> *Data Import* </span>, under <span class="title"> *Import Options* </span>.<br>
+1. <span class=action> **Select** </span> `Server` > `Data Import`.  
+![ImportStart](./images/schema/ImportStart.png)  <br>
+2. <span class=action> **Select** </span> `Import from Self-Contained File` and <span class=action> **Select** </span> the file you want to import, in <span class="title"> *Data Import* </span>, under <span class="title"> *Import Options* </span>.  
 ![ImportOptions](./images/schema/ImportOptions.png)
-3. <span class=action> **Select** </span> the schema you want to import the data into, under <span class="title"> *Default Schema to be Imported To* </span> section.<br>
-![DefaultSchema](./images/schema/ImportDestination.png) <br><br>
+3. <span class=action> **Select** </span> the schema you want to import the data into, under <span class="title"> *Default Schema to be Imported To* </span> section.  
+![DefaultSchema](./images/schema/ImportDestination.png)  <br>
 >
     !!! Note "Note: If the schema you want to import the data into does not exist, or you want to import into a new schema."
          - <span class=action> **Select** </span> `New`.<br>
@@ -47,11 +47,11 @@ MySQL Workbench <span class="title"> *Data Import* </span> is a feature that all
          - <span class=action> **Select** </span> the new schema from the drop down menu.<br>
         ![Select](./images/schema/ImportPickNew.png) <br><br>
 <br><br>
-4. <span class=action> **Select** </span> `Start Import`, to start the import.<br>
-![StartImport](./images/schema/ImportStartImport.png) <br><br>
+4. <span class=action> **Select** </span> `Start Import`, to start the import.  
+![StartImport](./images/schema/ImportStartImport.png)  <br>
 >
     !!! success
-        Once the import is complete, you will see a message that says "Import Completed". This means that you have successfully imported the data into the database.<br>
+        Once the import is complete, you will see a message that says "Import Completed". This means that you have successfully imported the data into the database.  
         ![ImportSuccess](./images/schema/ImportSuccess.png)
 >
     !!! Note
@@ -64,19 +64,17 @@ A SQL script file is a text file that contains a sequence of SQL commands or sta
 >
 1. <span class=action> **Create** </span> a schema
 2. <span class=action> **Make** </span> it your default schema
-3. <span class=action> **Select** </span> the <span class="icons"> *Open Query Tab* </span> icon in the top left of the screen to open a query tab. <br>
-![OpenQueryTab](./images/schema/OpenTab.png) <br><br>
-4. <span class=action> **Select** </span> the <span class="icons"> *Open File* </span> icon in the top left of the middle screen to open the SQL script file and <span class=action> **Select** </span> the file containing the Schema.<br>
-![OpenFile](./images/schema/OpenFile.png) <br><br>
-5. <span class=action> **Select** </span> the <span class="icons"> *Run* </span> icon in the top left of the screen to run the script.<br>
-![Run](./images/schema/Run.png)
+3. <span class=action> **Select** </span> the <span class="icons"> *Open Query Tab* </span> icon in the top left of the screen to open a query tab.
+4. <span class=action> **Select** </span> the <span class="icons"> *Open File* </span> icon in the top left of the middle screen to open the SQL script file and <span class=action> **Select** </span> the file containing the Schema.
+5. <span class=action> **Select** </span> the <span class="icons"> *Run* </span> icon in the top left of the screen to run the script.  
+>
+    !!! Note
+        <span class=action> **Refresh** </span> might be needed to see the new schema.  
+        Please refer to MySQL Workbench Instructions section for more information if any of the steps are unclear.
 >
     !!! success
         Once the import is complete, you will see messages at the bottom of the screen verifying that the schema was created. This means that you have successfully imported the data into the database.<br>
         ![ImportSuccess](./images/schema/SchemaCreationSuccess.png)
->
-    !!! Note
-        <span class=action> **Refresh** </span> might be needed to see the new schema.
 
 #### <u> If schema creation is included in data import </u>
 
