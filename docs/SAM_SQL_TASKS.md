@@ -12,16 +12,16 @@ The tasks under this section outline the steps needed to manipulate schemas in M
 ### Create a Schema
 >
 1. **Select**{.action} the *Create a new schema*{.icons} icon.  
-![CreateSchemaIcon](./images/General/CreateNewSchemaButton.png)  <br>
+![CreateSchemaIcon](./images/General/CreateNewSchemaButton.png)</br></br>
 2. **Enter**{.action} a *Schema Name* and **Click**{.action} `Apply`.  
-![NameSchema](./images/General/NewSchemaName.png)  <br>
+![NameSchema](./images/General/NewSchemaName.png)</br></br>
 3. **Select**{.action} `Apply`.  
-![ApplySchema](./images/General/NewSchemaApply.png)  <br>
+![ApplySchema](./images/General/NewSchemaApply.png)</br></br>
 4. **Select**{.action} `Finish`.  
 ![FinishSchema](./images/General/NewSchemaFinish.png)
 >
     !!! Note
-        **Refresh**{.action} might be needed to see the new schema.
+        [**Refresh**{.action}](SAM_SQL_TASKS.md#refresh-all) might be needed to see the new schema.
 >
     !!! Success
         Your new schema will appear under *Schemas*{.title} on the left.  
@@ -37,12 +37,12 @@ The tasks under this section outline the steps needed to manipulate schemas in M
 >
     !!! Success
         Your default schema will be bolded in *Schemas*{.title} on the left.    
-        ![MakeDefaultSuccess](./images/General/MakeDefaultSuccess.png){.smaller}
+        ![MakeDefaultSuccess](./images/General/MakeDefaultSuccess.png){.smallest}
 
 ### Delete a Schema
 >
 1. **Right Click**{.action} your schema and  **Select**{.action} `Drop Schema`.  
-![DeleteSchema](./images/General/DropSchema.png)  <br>
+![DeleteSchema](./images/General/DropSchema.png)</br></br>
 2. **Select**{.action} `Drop Now`.  
 ![DeleteSchemaNow](./images/General/DropSchemaDropNow.png){.smaller}
 >
@@ -54,15 +54,15 @@ The tasks under this section outline the steps needed to manipulate schemas in M
 ### Create a Table
 >
 1. **Click**{.action} the *arrow*{.icons} beside your schema.  
-![CreateTable](./images/General/SchemaArrow.png)  <br>
+![CreateTable](./images/General/SchemaArrow.png)</br></br>
 2. **Right-Click**{.action} `Tables` and  **Select**{.action} `Create Table`.  
-![CreateTable](./images/General/RightClickTables.png)  <br>
+![CreateTable](./images/General/RightClickTables.png)</br></br>
 3. **Enter**{.action} your *Table Name*.  
-![CreateTable](./images/General/EnterTableName.png)  <br>
+![CreateTable](./images/General/EnterTableName.png)</br></br>
 4. **Double-Click**{.action} the row under *Column Name*{.title}.  
-![CreateTable](./images/General/NewTableColumn.png)  <br>
+![CreateTable](./images/General/NewTableColumn.png)</br></br>
 5. **Enter**{.action} your *Column name*.  
-![CreateTable](./images/General/ColumnName.png)  <br>
+![CreateTable](./images/General/ColumnName.png)</br></br>
 6. **Select**{.action} your *Datatype*.  
 ![CreateTable](./images/General/TableDataType.png)
 >
@@ -71,24 +71,24 @@ The tasks under this section outline the steps needed to manipulate schemas in M
 >
 7. **Add**{.action} additional columns by repeating steps 5, 6, and 7.
 8. **Select**{.action} `Apply`.  
-![CreateTable](./images/General/NewTableApply.png)  <br>
+![CreateTable](./images/General/NewTableApply.png)</br></br>
 9. **Select**{.action} `Apply`.  
-![CreateTable](./images/General/NewTableApplyApply.png)  <br>
+![CreateTable](./images/General/NewTableApplyApply.png)</br></br>
 10. **Select**{.action} `Finish.  
-![CreateTable](./images/General/NewTableFinish.png)  <br>
+![CreateTable](./images/General/NewTableFinish.png)</br></br>
 >
     !!! Success
-        It will show that the table was successfully created in  the <span class =title> *Output*{.title} section at the bottom of the screen and the new table will appear under *Schemas*{.title} on the left, under your selected schema.  
+        It will show that the table was successfully created in  the *Output*{.title} section at the bottom of the screen and the new table will appear under *Schemas*{.title} on the left, under your selected schema.  
         ![CreateTable](./images/General/NewTableSuccess.png)
 
 ### View a Table
 >
 1. **Double-Click**{.action} your schema.  
-![ViewTable](./images/General/DoubleClickSchema.png)  <br>
+![ViewTable](./images/General/DoubleClickSchema.png)</br></br>
 2. **Double-Click**{.action} `Tables`.  
-![ViewTable](./images/General/DoubleClickTables.png)  <br>
+![ViewTable](./images/General/DoubleClickTables.png)</br></br>
 3. **Right-Click**{.action} the table you want to view and  **Select**{.action} `Select Rows - Limit 1000`.  
-![ViewTable](./images/General/SelectRows.png)  <br>
+![ViewTable](./images/General/SelectRows.png)
 >
     !!! Success
         It will generate a select all statement and show the selected table data under the *Result Grid*{.title}.  
@@ -99,7 +99,7 @@ The tasks under this section outline the steps needed to manipulate schemas in M
 1. **Double-Click**{.action} your schema.
 2. **Double-Click**{.action} `Tables`.
 3. **Right-Click**{.action} the table you want to delete and  **Select**{.action} `Drop Table`.  
-![DeleteTable](./images/General/DropTable.png)  <br>
+![DeleteTable](./images/General/DropTable.png)</br></br>
 4. **Select**{.action} `Drop Now`.  
 ![DeleteTable](./images/General/DropTableDrop.png){.smaller}
 >
@@ -120,7 +120,7 @@ The tasks under this section outline the steps needed to manipulate schemas in M
 ### Save a New SQL File
 >
 1. **Select**{.action} `File` > `Save Script As`.  
-![SaveSQL](./images/General/SaveScriptAs.png)  <br>
+![SaveSQL](./images/General/SaveScriptAs.png)</br></br>
 2. **Save**{.action} your SQL file to your desired location.
 >
     !!! Note
@@ -133,7 +133,7 @@ The tasks under this section outline the steps needed to manipulate schemas in M
 ### Open a SQL File
 >
 1. **Select**{.action} `File` > `Open SQL Script`.  
-![OpenSQL](./images/General/OpenSQLScript.png)  <br>
+![OpenSQL](./images/General/OpenSQLScript.png)</br></br>
 2. **Select**{.action} your SQL file.
 >
     !!! Note

@@ -34,3 +34,12 @@ img {
     width: 10%;
     height: auto;
   }
+
+  .smallest {
+    width: 20%;
+    height: auto;
+  }
+
+table td:first-child {
+    width: 36%;
+}

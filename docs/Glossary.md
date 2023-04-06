@@ -1,4 +1,6 @@
-| **Term** |  **Definition**              |
+# Glossary
+
+| **Term** |**Definition**|
 |-|-|
 |Column|In a database table, a column represents a single attribute or field of the data being stored. Each column has a name and a data type, and can hold a specific value for each row in the table.|
 |CSV|CSV stands for "Comma-Separated Values". It is a file format that is used to store tabular data, such as a spreadsheet or a database table. In a CSV file, each row represents a record, and each column represents a field. The values in each field are separated by a delimiter, such as a comma or a semicolon.|
