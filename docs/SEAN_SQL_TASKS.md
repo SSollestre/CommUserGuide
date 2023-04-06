@@ -47,7 +47,6 @@ In the general features section, you have successfully created a schema. Using t
 ![ExportStart](./images/CSV/CSVFinishResults.jpg)
 21. <span class=action>**Select**</span> `Finish`.  
 ![ExportStart](./images/CSV/CSVFinishFinal.jpg)
-
 >
     !!! Note
         <span class=action> **Refresh** </span> might be needed to see the new table.
