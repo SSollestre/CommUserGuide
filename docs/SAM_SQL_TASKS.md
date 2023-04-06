@@ -14,21 +14,22 @@ This section will cover common tasks in MySQL Workbench. it will go over the cre
 The tasks under this section outline the steps needed to manipulate schemas in MySQL Workbench.
 
 ### Create a Schema
-
+>
 1. <span class=action> **Select** </span> the <span class=icons>*Create a new schema*</span> icon.  
 ![CreateSchemaIcon](./images/General/CreateNewSchemaButton.png)
-2. <span class=action> **Enter** </span> a *Schema Name*. <span class=action> **Click** </span><span class=action> `Apply` </span>.<br>
+2. <span class=action> **Enter** </span> a *Schema Name*. <span class=action> **Click** </span><span class=action> `Apply` </span>.  
 ![NameSchema](./images/General/NewSchemaName.png)
-3. <span class=action> **Select** </span><span class=action> `Apply` </span>. <br>
+3. <span class=action> **Select** </span><span class=action> `Apply` </span>.  
 ![ApplySchema](./images/General/NewSchemaApply.png)
-4. <span class=action> **Select** </span><span class=action> `Finish` </span>.<br>
+4. <span class=action> **Select** </span><span class=action> `Finish` </span>.  
 ![FinishSchema](./images/General/NewSchemaFinish.png)
 >
-!!! Note
-    <span class=action> **Refresh** </span> might be needed to see the new schema.
+    !!! Note
+        <span class=action> **Refresh** </span> might be needed to see the new schema.
 >
-!!! Success
-    Your new schema will appear under <span class=title>*Schemas*</span> on the left.</span>
+    !!! Success
+        Your new schema will appear under <span class=title>*Schemas*</span> on the left</span>.  
+        !!![NewSchemaSuccess](./images/General/NewSchemaSuccess.png)
 
 ### Delete a Schema
 
