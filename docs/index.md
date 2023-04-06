@@ -18,6 +18,8 @@ The specific tasks outlined in this guide are as follows:
 
 MySQL Workbench is a graphical user interface (GUI) application used to work with MySQL databases. It allows the users to Create, Read, Update, and Delete data from a database. Schemas and tables can be created using the GUI, and then queries can be run on them to get a specific result.
 
+For full documentation visit [The Official Website](https://dev.mysql.com/doc/workbench/en/).
+
 ## Intended Users
 
 This guide is for the users listed below:
@@ -35,7 +37,7 @@ The user should have this prior knowledge:
 
 This guide was made for users with Windows 11 Operating System. This guide also assumes that you have already:
 
-- installed MySQL Workbench,
+- installed MySQL Workbench 8.0.32,
 - established a connection,
 - and if desired, set a password.
 
@@ -43,11 +45,11 @@ This guide was made for users with Windows 11 Operating System. This guide also 
 
 |Convention Explanation|Examples|
 |-|-|
-|Commands & Actions <br><br> Bold words are a command or actions that you must perform. |<span class=action>**Click, Copy, Paste**</span>|
-|Menu & Button Sequence<br><br>Button labels will be written differently from normal text. In a sequence of selections, the next selection will be preceded with “>”.|`File` > `Save Script`|
-|Text Field Entries<br><br>Types of entries into text fields will be italicized.|*Table Name, Attribute Name*, *Datatype*|
-|Section Names<br><br>Section names will be written in italicized colour.|<span class=title>*Section Name*</span>|
-|Icons<br><br>Icons will be written in italicized colour.|<span class=icons>*Icon Name*</span>|
+|Commands & Actions </br></br> Bold words are a command or actions that you must perform. |**Click, Copy, Paste**{.action}|
+|Menu & Button Sequence</br></br>Button labels will be written differently from normal text. In a sequence of selections, the next selection will be preceded with “>”.|`File` > `Save Script`|
+|Text Field Entries</br></br>Types of entries into text fields will be italicized.|*Table Name, Attribute Name*, *Datatype*|
+|Section Names</br></br>Section names will be written in italicized color.|*Section Name*{.title}|
+|Icons</br></br>Icons will be written in italicized color.|*Icon Name*{.icons}|
 
 ## Message blocks
 

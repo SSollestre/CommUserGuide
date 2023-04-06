@@ -1,6 +1,5 @@
 # Common MySQL Workbench Tasks
 
-<!-- For full documentation visit [https://dev.mysql.com](https://dev.mysql.com/doc/workbench/en/). -->
 ## Overview
 
 This section will cover common tasks in MySQL Workbench. it will go over the creation and deletion of schemas, tables, columns, and row. This guide will also describe how to view your data, as well how to refresh your database to view any pending changes.
@@ -74,7 +73,7 @@ The tasks under this section outline the steps needed to manipulate schemas in M
 ![CreateTable](./images/General/NewTableApply.png)</br></br>
 9. **Select**{.action} `Apply`.  
 ![CreateTable](./images/General/NewTableApplyApply.png)</br></br>
-10. **Select**{.action} `Finish.  
+10. **Select**{.action} `Finish`.  
 ![CreateTable](./images/General/NewTableFinish.png)</br></br>
 >
     !!! Success
@@ -158,7 +157,7 @@ The tasks under this section outline the steps needed to manipulate schemas in M
 ![RunSQL](./images/General/Run.png)
 >
     !!! Note
-        We are assuming you have a query in the editor already.
+        This is with the assumption that you have a query in the editor already.
 >
     !!! Success
         Your query has successfully been executed. You can see the outcome of the query as a system description under *Output*{.title} .   
