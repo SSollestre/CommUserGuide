@@ -83,6 +83,7 @@ The tasks under this section outline the steps needed to manipulate schemas in M
 3. <span class=action> **Hover** </span> `Send to SQL Editor`.
 4. <span class=action> **Select** </span> `Select All Statement`.
 5. <span class=action> **Select** </span> <span class=icons>*Execute*</span>.
+>
 !!! Success
     Your selected data will appear under the <span class=title>*Result Grid*</span>.
 
@@ -92,6 +93,7 @@ The tasks under this section outline the steps needed to manipulate schemas in M
 2. <span class=action> **Right-Click** </span> your table.
 3. <span class=action> **Select** </span> `Drop Table`.
 4. <span class=action> **Select** </span> `Drop Now`.
+>
 !!! Note
     <span class=action> **Refresh** </span> might be needed to see the deletion
 >
@@ -100,25 +102,27 @@ The tasks under this section outline the steps needed to manipulate schemas in M
 
 ## SQL Tasks
 
-### Create a query
+### Open a New SQL Tab
 
-Create a new query by clicking the new query icon indicated in the red box.
-![CreateTable](./images/SQL_screenshots/createNewTabQuery.png)
+1. <span class=action> **Select** </span> <span class=icons>*Create a new SQL tab*</span>.
+>
+!!! Success
+    Your new SQL tab will be displayed on the middle of the screen.
 
-A new tab will appear indicated in the blue box.
-Below the tab is a new panel with a query editor with a query indicated in the orange box.
-To run the query click the lightning bolt icon indicated in the red box.
-![CreateTable](./images/TABLE_screenshots/runViewQuery.png)
+### Save a New SQL File
+
+1. <span class=action> **Select** </span> `File` > `Save Script As`.
+2. <span class=action>**Save**</span> your SQL file to your desired location.
+>
+!!! Note
+    You can also use the
+>
+!!! Success
+    You can find your file in the location you saved it in.
 
 ### Open an existing query
 
-Open an existing query by clicking either of the open query icons indicated in the red boxes.
-![CreateTable](./images/SQL_screenshots/openSQL.png)
-
-### Save a query
-
-Save a query by clicking of File > Save Script or by clicking the save icon indicated in the red box.
-![CreateTable](./images/SQL_screenshots/saveSQL.png)
+1. <span class=action> **Select** </span> <span class=icons>*Open a SQL script file*</span>.
 
 ### Refresh all
 
