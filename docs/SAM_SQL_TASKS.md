@@ -3,13 +3,17 @@
 <!-- For full documentation visit [https://dev.mysql.com](https://dev.mysql.com/doc/workbench/en/). -->
 ## Overview
 
+---
+
 This section will cover common tasks in MySQL Workbench. it will go over the creation and deletion of schemas, tables, columns, and row. This guide will also describe how to view your data, as well how to refresh your database to view any pending changes.
 
 ## Schema Tasks
 
+---
+
 The tasks under this section outline the steps needed to manipulate schemas in MySQL Workbench.
 
-### Create a schema
+### Create a Schema
 
 1. <span class=action> **Select** </span> the <span class=icons>*Create a new schema*</span> icon.  
 ![CreateSchemaIcon](./images/General/CreateNewSchemaButton.png)
@@ -26,7 +30,7 @@ The tasks under this section outline the steps needed to manipulate schemas in M
 !!! Success
     Your new schema will appear under <span class=title>*Schemas*</span> on the left.</span>
 
-### Delete a schema
+### Delete a Schema
 
 1. <span class=action> **Right Click** </span> your schema.
 2. <span class=action> **Select** </span> `Drop Schema`.
@@ -40,7 +44,9 @@ The tasks under this section outline the steps needed to manipulate schemas in M
 
 ## Table Tasks
 
-### Create a table
+---
+
+### Create a Table
 
 1. <span class=action> **Click** </span> the <span class=icons>*arrow*</span> beside your schema.
 2. <span class=action> **Right-Click** </span> `Tables`.
@@ -53,27 +59,14 @@ The tasks under this section outline the steps needed to manipulate schemas in M
 !!! Note
     <span class=action> **Refresh** </span> If *PK* or *Primary Key* is selected, you must have *NN* or *Not Null* selected as well.
 8. <span class=action> **Add** </span> additional columns repeating steps 5, 6, and 7.
-
-2. You can check this by looking if the schema is in bold font indicated in the blue box.
-3. Then while your mouse is on "Tables" <span class=action> **Right Click** </span> and select the option to create a new table, indicated in the red box.
-![CreateTable](./images/TABLE_screenshots/createTableBold.png)
-
-After selecting the option to create a new table you will be taken to a new view.
-
-1. A new tab will appear indicated in the purple box.
-2. Below the tab you will see a new panel with a table creation form.
-3. Enter a name for the table in the box indicated in blue.
-4. Enter a name for the first column in the box indicated in green.
-5. Click the "Apply" button indicated in red.
-
-    !!! Note
-        A name for the first column is required to create a table!
-
-![CreateTable](./images/TABLE_screenshots/newTablePanel.png)
-
-Once you have clicked "Apply", a new table will appear under "Tables" in the Schemas panel.
-In our case we have a table named "new_table" indicated in the red box.
-![CreateTable](./images/TABLE_screenshots/newTableAppears.png)
+9. <span class=action> **Select** </span> `Apply`.
+10. <span class=action> **Select** </span> `Apply`.
+11. <span class=action> **Select** </span> `Finish.
+!!! Note
+    <span class=action> **Refresh** </span> might be needed to see the new table.
+>
+!!! Success
+    Your new table will appear under <span class=title>*Schemas*</span> on the left under your selected schema.</span>
 
 ### View a table
 
