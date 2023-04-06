@@ -29,7 +29,7 @@ The tasks under this section outline the steps needed to manipulate schemas in M
 >
     !!! Success
         Your new schema will appear under <span class=title>*Schemas*</span> on the left.  
-        !!![NewSchemaSuccess](./images/General/NewSchemaSuccess.png)
+        ![NewSchemaSuccess](./images/General/NewSchemaSuccess.png)
 
 ### Make a Schema Default
 >
@@ -173,17 +173,17 @@ The tasks under this section outline the steps needed to manipulate schemas in M
 At the end of this section you will know how to:
 >
 - For Schemas:
-      - [X] <span class=action>**Create**</span> a schema,
-      - [X] <span class=action>**Make**</span> a schema default,
-      - [X] and <span class=action>**Delete**</span> a schema.
+      - [X] <span class=action>**Create**</span> a schema
+      - [X] <span class=action>**Make**</span> a schema default
+      - [X] and <span class=action>**Delete**</span> a schema
 - For Tables:
-      - [X] <span class=action>**Create**</span> a table,
-      - [X] <span class=action>**View**</span> a table,
-      - [X] and <span class=action>**Delete**</span> a table.
+      - [X] <span class=action>**Create**</span> a table
+      - [X] <span class=action>**View**</span> a table
+      - [X] and <span class=action>**Delete**</span> a table
 - For SQL tabs:
-      - [X] <span class=action>**Open**</span> a new SQL tab,
-      - [X] <span class=action>**Save**</span> a new SQL file,
-      - [X] and <span class=action>**Open**</span> a SQL file.
+      - [X] <span class=action>**Open**</span> a new SQL tab
+      - [X] <span class=action>**Save**</span> a new SQL file
+      - [X] <span class=action>**Open**</span> a SQL file
 
 Congratulations. The next section will go over importing a CSV.
 

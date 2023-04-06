@@ -5,23 +5,23 @@ In this part of the guide, you will learn how to export a database schema which 
 ## Export
 MySQL Workbench <span class="title"> *Data Export* </span> is a feature that allows you to export data into a file.
 >
-1. <span class=action> **Select** </span> `Server` > `Data Export`.<br>
-![ExportStart](./images/schema/ExportStart.png) <br><br>
-2. <span class=action> **Select** </span> the schema you want to export, in the <span class="title"> *Data Export* </span> screen, under <span class="title"> *Object Selection* </span>, <span class=title> *Tables to Export* </span>.<br>
-![PickSchema](./images/schema/ExportPickSchema.png) <br><br>
-3. <span class=action> **Select** </span> the tables in the schema you want to export on the right side of the screen.<br>
+1. <span class=action> **Select** </span> `Server` > `Data Export`.  
+![ExportStart](./images/schema/ExportStart.png)  <br>
+2. <span class=action> **Select** </span> the schema you want to export, in the <span class="title"> *Data Export* </span> screen, under <span class="title"> *Object Selection* </span>, <span class=title> *Tables to Export* </span>.  
+![PickSchema](./images/schema/ExportPickSchema.png)  <br>
+3. <span class=action> **Select** </span> the tables in the schema you want to export on the right side of the screen.  
 ![PickTables](./images/schema/ExportPickTables.png)
 >
     !!! Note "Note: if you want to export all the tables in the schema."
         <span class=action> **Select** </span> `Select Tables` under <span class="title"> *table list* </span>.<br>
         ![SelectTables](./images/schema/ExportSelectAllTables.png)
-    <br>
-4. <span class=action> **Select** </span> `Export to Self-Contained File` and `Include CREATE SCHEMA statement` under <span class="title"> *Export Options* </span>, if you want to include schema creation in the export.<br>
-![ExportOptions](./images/schema/ExportOptions.png) <br><br>
-5. <span class=action> **Select** </span> the file name and location you want to export to.<br>
-![FileOptions](./images/schema/ExportDestination.png) <br><br>
-6. <span class=action> **Select** </span> `Start Export`, to start the export.<br>
-![ExportStart](./images/schema/ExportStartExport.png) <br><br>
+
+4. <span class=action> **Select** </span> `Export to Self-Contained File` and `Include CREATE SCHEMA statement` under <span class="title"> *Export Options* </span>, if you want to include schema creation in the export.  
+![ExportOptions](./images/schema/ExportOptions.png)  <br>
+5. <span class=action> **Select** </span> the file name and location you want to export to.  
+![FileOptions](./images/schema/ExportDestination.png)  <br>
+6. <span class=action> **Select** </span> `Start Export`, to start the export.  
+![ExportStart](./images/schema/ExportStartExport.png)  <br>
 >
     !!! success
         Once the export is complete, you will see a message that says "Export Completed". This means that you have successfully exported the data into the database.<br>
@@ -69,7 +69,7 @@ A SQL script file is a text file that contains a sequence of SQL commands or sta
 4. <span class=action> **Select** </span> the <span class="icons"> *Open File* </span> icon in the top left of the middle screen to open the SQL script file and <span class=action> **Select** </span> the file containing the Schema.<br>
 ![OpenFile](./images/schema/OpenFile.png) <br><br>
 5. <span class=action> **Select** </span> the <span class="icons"> *Run* </span> icon in the top left of the screen to run the script.<br>
-![Run](./images/schema/Run.png) <br><br>
+![Run](./images/schema/Run.png)
 >
     !!! success
         Once the import is complete, you will see messages at the bottom of the screen verifying that the schema was created. This means that you have successfully imported the data into the database.<br>
