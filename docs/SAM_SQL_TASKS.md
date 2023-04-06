@@ -101,17 +101,16 @@ The tasks under this section outline the steps needed to manipulate schemas in M
         ![ViewTable](./images/General/ViewTableSuccess.png)
 
 ### Delete a table
-
-1. <span class=action> **Double-Click** </span> your schema to view your <span class=title>*Tables*</span>.
-2. <span class=action> **Right-Click** </span> your table.
-3. <span class=action> **Select** </span> `Drop Table`.
-4. <span class=action> **Select** </span> `Drop Now`.
 >
-!!! Note
-    <span class=action> **Refresh** </span> might be needed to see the deletion
+1. <span class=action> **Double-Click** </span> your schema.
+2. <span class=action> **Double-Click** </span> `Tables`.
+3. <span class=action> **Right-Click** </span> the table you want to delete and <span class=action> **Select** </span> `Drop Table`.  
+![DeleteTable](./images/General/DropTable.png)  <br>
+5. <span class=action> **Select** </span> `Drop Now`.  
+![DeleteTable](./images/General/DropTableDrop.png)
 >
-!!! Success
-    Your table will be removed from <span class=title>*Schemas*</span> on the left from your selected schema.</span>
+    !!! Success
+        Your table will be removed from <span class=title>*Schemas*</span> on the left from your selected schema.</span>
 
 ## SQL Tasks
 
