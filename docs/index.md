@@ -2,6 +2,22 @@
 
 This guide will walk you through the basic features of MySQL Workbench, as well as some key quality-of-life techniques such as importing CSV and exporting schemas. MySQL Workbench uses Specified Query Language (SQL) for database creation and manipulation. By the end of this guide, you should have a baseline knowledge of how to use and navigate the application with ease.
 
+The specific tasks outlined in this guide are as follows:
+
+- General SQL Tasks
+  - Creating and deleting schemas and tables
+  - Viewing the data inside the tables
+  - Creating queries on the built-in text editor
+  - Saving the queries as a SQL file to be opened later
+  - Opening a saved SQL file in MySQL Workbench
+  - Refreshing the tables to view any changes made to the schema
+- Importing a Comma Separated Values (CSV) file
+- Exporting a schema as a SQL file that on execution, creates a new schema with all of the exported tables and data
+
+## MySQL Workbench
+
+MySQL Workbench is a graphical user interface (GUI) application used to work with MySQL databases. It allows the users to Create, Read, Update, and Delete data from a database. Schemas and tables can be created using the GUI, and then queries can be run on them to get a specific result.
+
 ## Intended Users
 
 This guide is for the users listed below:
@@ -10,15 +26,18 @@ This guide is for the users listed below:
 - Users familiar with Excel or other spreadsheet applications.
 - Users looking for a guide to quickly import and export data.
 
-These user should have this prior knowledge:
+The user should have this prior knowledge:
 
 - They should be able to navigate their own file system.
-- They should already have MySQL Workbench installed with a connection and password set up.
 - They should be familiar with spreadsheets.
 
 ## Software Requirements
 
-This guide assumes that you have already installed MySQL and MySQL Workbench installed.
+This guide was made for users with Windows 11 Operating System. This guide also assumes that you have already:
+
+- installed MySQL Workbench,
+- established a connection,
+- and if desired, set a password.
 
 ## Typographical Conventions
 
