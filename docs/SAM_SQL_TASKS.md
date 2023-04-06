@@ -28,17 +28,24 @@ The tasks under this section outline the steps needed to manipulate schemas in M
         <span class=action> **Refresh** </span> might be needed to see the new schema.
 >
     !!! Success
-        Your new schema will appear under <span class=title>*Schemas*</span> on the left</span>.  
+        Your new schema will appear under <span class=title>*Schemas*</span> on the left.  
         !!![NewSchemaSuccess](./images/General/NewSchemaSuccess.png)
 
-### Delete a Schema
-
-1. <span class=action> **Right Click** </span> your schema.
-2. <span class=action> **Select** </span> `Drop Schema`.
-3. <span class=action> **Select** </span> `Drop Now`.
+### Make a Schema Default
 >
-!!! Note
-    <span class=action> **Refresh** </span> might be needed to see the deletion.
+1. <span class=action> **Double Click** </span> your schema.  
+![MakeDefault](./images/General/MakeDefault.png)
+>
+    !!! Success
+        Your default schema will be bolded in <span class=title>*Schemas*</span> on the left.    
+        ![MakeDefaultSuccess](./images/General/MakeDefaultSuccess.png)
+
+### Delete a Schema
+>
+1. <span class=action> **Right Click** </span> your schema and <span class=action> **Select** </span> `Drop Schema`.  
+![DeleteSchema](./images/General/DropSchema.png)
+3. <span class=action> **Select** </span> `Drop Now`.  
+![DeleteSchemaNow](./images/General/DropSchemaDropNow.png)
 >
 !!! Success
     Your schema will be removed from <span class=title>*Schemas*</span> on the left.</span>
