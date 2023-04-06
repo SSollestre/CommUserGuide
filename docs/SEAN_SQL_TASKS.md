@@ -59,9 +59,9 @@ In the general features section, you have successfully created a schema. Using t
 
 At the end of this section, you will know how to:
 >
-- [X] <span class=action>**Populate**</span> a spreadsheet with columns and rows,
-- [X] <span class=action>**Export**</span> a spreadsheet into a CSV,
-- [X] and <span class=action>**Import**</span> a CSV into a schema.
+- [X] <span class=action>**Populate**</span> a spreadsheet with columns and rows
+- [X] <span class=action>**Export**</span> a spreadsheet into a CSV
+- [X] <span class=action>**Import**</span> a CSV into a schema
 
 Congratulations. The next section will go over exporting a schema as a SQL file.
 
