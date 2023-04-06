@@ -4,13 +4,13 @@ This guide will walk you through the basic features of MySQL Workbench, as well 
 
 The specific tasks outlined in this guide are as follows:
 
-- General SQL Tasks
-  - Creating and deleting schemas and tables
-  - Viewing the data inside the tables
-  - Creating queries on the built-in text editor
-  - Saving the queries as a SQL file to be opened later
-  - Opening a saved SQL file in MySQL Workbench
-  - Refreshing the tables to view any changes made to the schema
+- General SQL tasks such as:
+      - Creating and deleting schemas and tables
+      - Viewing the data inside the tables
+      - Creating queries on the built-in text editor
+      - Saving the queries as a SQL file to be opened later
+      - Opening a saved SQL file in MySQL Workbench
+      - Refreshing the tables to view any changes made to the schema
 - Importing a Comma Separated Values (CSV) file
 - Exporting a schema as a SQL file that on execution, creates a new schema with all of the exported tables and data
 
@@ -44,8 +44,8 @@ This guide was made for users with Windows 11 Operating System. This guide also 
 |Convention Explanation|Examples|
 |-|-|
 |Commands & Actions <br><br> Bold words are a command or actions that you must perform. |<span class=action>**Click, Copy, Paste**</span>|
-|Menu & Button Sequence<br><br>Labels will be written differently from normal text, and the next step will be preceded with “>”.|`File` > `Save Script`|
-|Text Field Entries<br><br>Types of entries into text fields will be italicized.|*Table Name, Attribute Name*|
+|Menu & Button Sequence<br><br>Button labels will be written differently from normal text. In a sequence of selections, the next selection will be preceded with “>”.|`File` > `Save Script`|
+|Text Field Entries<br><br>Types of entries into text fields will be italicized.|*Table Name, Attribute Name*, *Datatype*|
 |Section Names<br><br>Section names will be written in italicized colour.|<span class=title>*Section Name*</span>|
 |Icons<br><br>Icons will be written in italicized colour.|<span class=icons>*Icon Name*</span>|
 

@@ -3,56 +3,57 @@
 <!-- For full documentation visit [https://dev.mysql.com](https://dev.mysql.com/doc/workbench/en/). -->
 ## Overview
 
-This section will cover common tasks regarding schemas, sql and tables.
-It is assumed you have MySQL Workbench opened to the default screen.
+This section will cover common tasks in MySQL Workbench. it will go over the creation and deletion of schemas, tables, columns, and row. This guide will also describe how to view your data, as well how to refresh your database to view any pending changes.
 
 ## Schema Tasks
 
+The tasks under this section outline the steps needed to manipulate schemas in MySQL Workbench.
+
 ### Create a schema
 
-There are two options for creating a new schema.
-
-Option 1:
-
-<span class=action> **Click** </span> the new schema icon indicated by the red box.
-
+1. <span class=action> **Select** </span> the <span class=icons>*Create a new schema*</span> icon.
 ![CreateSchemaIcon](./images/SCHEMA_screenshots/createSchemaIcon.png)
-
-Option 2:
-
-* <span class=action> **Click** </span> the Schemas tab indicated in red
-* <span class=action> **Move** </span> your mouse to the Schemas panel indicated in blue
-
-![SchemasPanel](./images/SCHEMA_screenshots/schemaTabPanel.png)
-
-<span class=action> **Right Click** </span> while your mouse is in the Schemas panel
-
-![CreateSchemaRightClick](./images/SCHEMA_screenshots/createSchemaRightClick.png)
-
-After clicking the option to create a new schema, a new schema will be created.
-<span class=action> **Enter** </span> a name for the new schema and <span class=action> **Click** </span> the <span class=action> **Apply** </span> button indicated in red.
-
+2. <span class=action> **Enter** </span> a *Schema Name*. <span class=action> **Click** </span><span class=action> `Apply` </span>.
 ![NameSchema](./images/SCHEMA_screenshots/nameSchema.png)
-
-After clicking the <span class=action> **Apply** </span> button, the new schema will be created and a success page will appear as well as logged in the log panel.
-
-Success page:
-![SuccessPage](./images/SCHEMA_screenshots/schemaSuccess.png)
+Afterwards, a new window will pop up.
+3. <span class=action> **Select** </span><span class=action> `Apply` </span>
+4. <span class=action> **Select** </span><span class=action> `Finish` </span>
+>
+!!! Note
+    <span class=action> **Refresh** </span> might be needed to see the new schema.
+>
+!!! Success
+    Your new schema will appear under <span class=title>*Schemas*</span> on the left.</span>
 
 ### Delete a schema
-<span class=action> **Move** </span> mouse to the Schemas panel and <span class=action> **Right Click** </span> on the schema you want to delete.
-A confirmation window will appear asking if you want to drop the schema.
-Click the <span class=action> **Drop Now** </span> button to delete the schema.
-![SuccessPage](./images/TABLE_screenshots/confirmDeleteSchema.png)
 
-
+1. <span class=action> **Right Click** </span> your schema.
+2. <span class=action> **Select** </span> `Drop Schema`.
+3. <span class=action> **Select** </span> `Drop Now`.
+>
+!!! Note
+    <span class=action> **Refresh** </span> might be needed to see the deletion.
+>
+!!! Success
+    Your schema will be removed from <span class=title>*Schemas*</span> on the left.</span>
 
 ## Table Tasks
 
 ### Create a table
 
-1.  Move your mouse to the Schemas panel and make sure the table you want is selected.
-2.  You can check this by looking if the schema is in bold font indicated in the blue box.
+1. <span class=action> **Click** </span> the <span class=icons>*arrow*</span> beside your schema.
+2. <span class=action> **Right-Click** </span> `Tables`.
+3. <span class=action> **Select** </span> `Create Table`.
+4. <span class=action> **Enter** </span> your *Table Name*.
+5. <span class=action> **Double-Click** </span> the row under <span class=title>*Column Name*</span>
+6. <span class=action> **Enter** </span> your *Column name*.
+7. <span class=action> **Select** </span> your *Datatype*.
+>
+!!! Note
+    <span class=action> **Refresh** </span> If *PK* or *Primary Key* is selected, you must have *NN* or *Not Null* selected as well.
+8. <span class=action> **Add** </span> additional columns repeating steps 5, 6, and 7.
+
+2. You can check this by looking if the schema is in bold font indicated in the blue box.
 3. Then while your mouse is on "Tables" <span class=action> **Right Click** </span> and select the option to create a new table, indicated in the red box.
 ![CreateTable](./images/TABLE_screenshots/createTableBold.png)
 
@@ -65,8 +66,7 @@ After selecting the option to create a new table you will be taken to a new view
 5. Click the "Apply" button indicated in red.
 
     !!! Note
-        A name for the first column is required to create a table! 
-
+        A name for the first column is required to create a table!
 
 ![CreateTable](./images/TABLE_screenshots/newTablePanel.png)
 
@@ -81,29 +81,26 @@ Go to the top left corner of screen and click on the "new sql query" icon indica
 A new tab indicated in blue will appear.
 Below the tab is a new panel with a query editor.
 Enter the following query indicated with an orange box into the query editor:
+
 ```sql
 SELECT * FROM new_table;
 ```
+
 Then click on the lightning bolt icon indicated in the red box to run the query.
 
 ![CreateTable](./images/TABLE_screenshots/lightningBoltIcon.png)
 
-
 Then you can see the contents of the table in the results panel indicated in the red box.
 ![CreateTable](./images/TABLE_screenshots/viewResultGrid.png)
-
-
 
 ### Delete a table
 
 Right click on the table you want to delete shown in the orange box and select the option to delete the table indicated in the red box.
 ![ConfirmDeleteTable](./images/TABLE_screenshots/dropTable.png)
 
-
 The confirmation window will appear asking if you want to drop the table.
 Click the "Drop Now" button to delete the table.
 ![ConfirmDeleteTable](./images/TABLE_screenshots/confirmDeleteTableDropNow.png)
-
 
 ## SQL Tasks
 
