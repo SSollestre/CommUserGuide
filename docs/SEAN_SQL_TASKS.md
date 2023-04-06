@@ -7,46 +7,46 @@ This part of the guide will describe importing a comma-separated values (CSV) fi
 In the general features section, you have successfully created a schema. Using that schema, we can begin importing data into it.
 >
 1. <span class=action>**Open**</span> a spreadsheet application.  
-![ExportStart](./images/CSV/CSVSpreadsheet.jpg)  
+![CSV](./images/CSV/CSVSpreadsheet.jpg)  
     This example uses Microsoft Excel. Another option is Google Sheets.  
 2. <span class=action>**Enter**</span> your *Column Names*.  
-![ExportStart](./images/CSV/CSVColumnNames.jpg)
+![Columns](./images/CSV/CSVColumnNames.jpg)
 3. <span class=action>**Enter**</span> your *data* to your columns.  
-![ExportStart](./images/CSV/CSVColumnData.jpg)
+![Data](./images/CSV/CSVColumnData.jpg)
 4. <span class=action>**Navigate**</span> to `File`.  
-![ExportStart](./images/CSV/CSVNavFile.jpg)
+![File](./images/CSV/CSVNavFile.jpg)
 5. <span class=action>**Navigate**</span> to `Export`.  
-![ExportStart](./images/CSV/CSVNavToExport.jpg)
+![ExportNav](./images/CSV/CSVNavToExport.jpg)
 6. <span class=action>**Select**</span> `Change File Type` > `CSV` > `Save As`.  
-![ExportStart](./images/CSV/CSVSaveFileType.jpg)
+![SaveAsNav](./images/CSV/CSVSaveFileType.jpg)
 7. <span class=action>**Save**</span> your file to an easy-to-find location (e.g. Desktop).
 8. <span class=action>**Right-Click** on your file.  
-![ExportStart](./images/CSV/CSVIcon.jpg)
+![RClick](./images/CSV/CSVIcon.jpg)
 9. <span class=action>**Select**</span> `Copy as path`.  
-![ExportStart](./images/CSV/CSVCopyAsPath.jpg)
+![CopyPath](./images/CSV/CSVCopyAsPath.jpg)
 10. <span class=action>**Open**</span> MySQLWorkbench.
 11. <span class=action>**Right-Click**</span> your schema.  
-![ExportStart](./images/CSV/CSVRClickSchema.jpg)
+![SchemaRClick](./images/CSV/CSVRClickSchema.jpg)
 12. <span class=action>**Select**</span> `Table Data Import Wizard`.  
-![ExportStart](./images/CSV/CSVImportWIzard.jpg)
+![ImportWizard](./images/CSV/CSVImportWIzard.jpg)
 13. <span class=action>**Paste**</span> your file path and <span class=action>**Remove**</span> the quotation marks if present then <span class=action>**Select**</span> `Next`.
-![ExportStart](./images/CSV/CSVPasteFilePath.jpg)
+![PastePath](./images/CSV/CSVPasteFilePath.jpg)
 14. <span class=action>**Select**</span> `Create new table`.  
-![ExportStart](./images/CSV/CSVCreateNewTable.jpg)
+![CreateTable](./images/CSV/CSVCreateNewTable.jpg)
 15. <span class=action>**Select**</span> your *Schema* from the dropdown menu.  
-![ExportStart](./images/CSV/CSVSelectSchema.jpg)
+![SchemaSelect](./images/CSV/CSVSelectSchema.jpg)
 16. <span class=action>**Enter**</span> your new *Table Name*.  
-![ExportStart](./images/CSV/CSVInputTableName.jpg)
+![EnterTableName](./images/CSV/CSVInputTableName.jpg)
 17. <span class=action>**Select**</span> columns to include.  
-![ExportStart](./images/CSV/CSVSelectColumns.jpg)
+![SelectColumns](./images/CSV/CSVSelectColumns.jpg)
 18. <span class=action>**Select**</span> *Columns* and *Field Type*, then <span class=action>**Select**</span> `Next`.  
-![ExportStart](./images/CSV/CSVSelectColumnFields.jpg)
+![ColField](./images/CSV/CSVSelectColumnFields.jpg)
 19. <span class=action>**Select**</span> `Next` and <span class=action>**Wait**</span> for the process to complete.  
-![ExportStart](./images/CSV/CSVFinishNext.jpg)
+![Wait](./images/CSV/CSVFinishNext.jpg)
 20. <span class=action>**Select**</span> `Next`.  
-![ExportStart](./images/CSV/CSVFinishResults.jpg)
+![SNext](./images/CSV/CSVFinishResults.jpg)
 21. <span class=action>**Select**</span> `Finish`.  
-![ExportStart](./images/CSV/CSVFinishFinal.jpg)
+![SFinish](./images/CSV/CSVFinishFinal.jpg)
 >
     !!! Note
         <span class=action> **Refresh** </span> might be needed to see the new table.
