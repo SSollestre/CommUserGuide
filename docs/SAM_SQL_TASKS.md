@@ -16,11 +16,11 @@ The tasks under this section outline the steps needed to manipulate schemas in M
 ### Create a Schema
 >
 1. <span class=action> **Select** </span> the <span class=icons>*Create a new schema*</span> icon.  
-![CreateSchemaIcon](./images/General/CreateNewSchemaButton.png)
+![CreateSchemaIcon](./images/General/CreateNewSchemaButton.png)  <br>
 2. <span class=action> **Enter** </span> a *Schema Name*. <span class=action> **Click** </span><span class=action> `Apply` </span>.  
-![NameSchema](./images/General/NewSchemaName.png)
+![NameSchema](./images/General/NewSchemaName.png)  <br>
 3. <span class=action> **Select** </span><span class=action> `Apply` </span>.  
-![ApplySchema](./images/General/NewSchemaApply.png)
+![ApplySchema](./images/General/NewSchemaApply.png)  <br>
 4. <span class=action> **Select** </span><span class=action> `Finish` </span>.  
 ![FinishSchema](./images/General/NewSchemaFinish.png)
 >
@@ -33,8 +33,11 @@ The tasks under this section outline the steps needed to manipulate schemas in M
 
 ### Make a Schema Default
 >
-1. <span class=action> **Double Click** </span> your schema.  
+1. <span class=action> **Double Click** </span> your schema name.  
 ![MakeDefault](./images/General/MakeDefault.png)
+>
+    !!! Note
+        Make sure you are double clicking the schema name and not the area to the right of the name.
 >
     !!! Success
         Your default schema will be bolded in <span class=title>*Schemas*</span> on the left.    
@@ -43,8 +46,8 @@ The tasks under this section outline the steps needed to manipulate schemas in M
 ### Delete a Schema
 >
 1. <span class=action> **Right Click** </span> your schema and <span class=action> **Select** </span> `Drop Schema`.  
-![DeleteSchema](./images/General/DropSchema.png)
-3. <span class=action> **Select** </span> `Drop Now`.  
+![DeleteSchema](./images/General/DropSchema.png)  <br>
+2. <span class=action> **Select** </span> `Drop Now`.  
 ![DeleteSchemaNow](./images/General/DropSchemaDropNow.png)
 >
 !!! Success
@@ -55,26 +58,34 @@ The tasks under this section outline the steps needed to manipulate schemas in M
 ---
 
 ### Create a Table
-
-1. <span class=action> **Click** </span> the <span class=icons>*arrow*</span> beside your schema.
-2. <span class=action> **Right-Click** </span> `Tables`.
-3. <span class=action> **Select** </span> `Create Table`.
-4. <span class=action> **Enter** </span> your *Table Name*.
-5. <span class=action> **Double-Click** </span> the row under <span class=title>*Column Name*</span>
-6. <span class=action> **Enter** </span> your *Column name*.
-7. <span class=action> **Select** </span> your *Datatype*.
 >
-!!! Note
-    <span class=action> **Refresh** </span> If *PK* or *Primary Key* is selected, you must have *NN* or *Not Null* selected as well.
-8. <span class=action> **Add** </span> additional columns repeating steps 5, 6, and 7.
-9. <span class=action> **Select** </span> `Apply`.
-10. <span class=action> **Select** </span> `Apply`.
-11. <span class=action> **Select** </span> `Finish.
-!!! Note
-    <span class=action> **Refresh** </span> might be needed to see the new table.
+1. <span class=action> **Click** </span> the <span class=icons>*arrow*</span> beside your schema.  
+![CreateTable](./images/General/SchemaArrow.png)  <br>
+2. <span class=action> **Right-Click** </span> `Tables` and <span class=action> **Select** </span> `Create Table`.  
+![CreateTable](./images/General/RightClickTables.png)  <br>
+3. <span class=action> **Enter** </span> your *Table Name*.  
+![CreateTable](./images/General/EnterTableName.png)  <br>
+4. <span class=action> **Double-Click** </span> the row under <span class=title>*Column Name*</span>.  
+![CreateTable](./images/General/NewTableColumn.png)  <br>
+5. <span class=action> **Enter** </span> your *Column name*.  
+![CreateTable](./images/General/ColumnName.png)  <br>
+6. <span class=action> **Select** </span> your *Datatype*.  
+![CreateTable](./images/General/TableDataType.png)
+>
+    !!! Note
+        If *PK* or *Primary Key* is selected, you must have *NN* or *Not Null* selected as well.
+>
+7. <span class=action> **Add** </span> additional columns by repeating steps 5, 6, and 7.
+8. <span class=action> **Select** </span> `Apply`.  
+![CreateTable](./images/General/NewTableApply.png)  <br>
+9. <span class=action> **Select** </span> `Apply`.  
+![CreateTable](./images/General/NewTableApplyApply.png)  <br>
+10. <span class=action> **Select** </span> `Finish.  
+![CreateTable](./images/General/NewTableFinish.png)  <br>
 >
 !!! Success
-    Your new table will appear under <span class=title>*Schemas*</span> on the left under your selected schema.</span>
+    It will show that the table was successfully created in  the <span class =title> *Output* </span> section at the bottom of the screen and the new table will appear under <span class=title>*Schemas*</span> on the left, under your selected schema.  
+    ![CreateTable](./images/General/NewTableSuccess.png)
 
 ### View a table
 
