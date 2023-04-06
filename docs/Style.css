@@ -20,17 +20,17 @@ img {
     height: 50%;
   }
 
-.smaller img {
+.smaller {
     width: 30%;
     height: auto;
   }
 
-.small img {
+.small {
     width: 40%;
     height: auto;
   }
 
-.extra-small img {
+.extra-small {
     width: 10%;
     height: auto;
   }
