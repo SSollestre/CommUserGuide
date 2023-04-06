@@ -11,13 +11,14 @@ The tasks under this section outline the steps needed to manipulate schemas in M
 
 ### Create a schema
 
-1. <span class=action> **Select** </span> the <span class=icons>*Create a new schema*</span> icon.
-![CreateSchemaIcon](./images/SCHEMA_screenshots/createSchemaIcon.png)
-2. <span class=action> **Enter** </span> a *Schema Name*. <span class=action> **Click** </span><span class=action> `Apply` </span>.
-![NameSchema](./images/SCHEMA_screenshots/nameSchema.png)
-Afterwards, a new window will pop up.
-3. <span class=action> **Select** </span><span class=action> `Apply` </span>
-4. <span class=action> **Select** </span><span class=action> `Finish` </span>
+1. <span class=action> **Select** </span> the <span class=icons>*Create a new schema*</span> icon.  
+![CreateSchemaIcon](./images/General/CreateNewSchemaButton.png)
+2. <span class=action> **Enter** </span> a *Schema Name*. <span class=action> **Click** </span><span class=action> `Apply` </span>.<br>
+![NameSchema](./images/General/NewSchemaName.png)
+3. <span class=action> **Select** </span><span class=action> `Apply` </span>. <br>
+![ApplySchema](./images/General/NewSchemaApply.png)
+4. <span class=action> **Select** </span><span class=action> `Finish` </span>.<br>
+![FinishSchema](./images/General/NewSchemaFinish.png)
 >
 !!! Note
     <span class=action> **Refresh** </span> might be needed to see the new schema.
