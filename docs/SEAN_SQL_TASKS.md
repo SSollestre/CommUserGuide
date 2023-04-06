@@ -7,8 +7,8 @@ This part of the guide will describe importing a comma-separated values (CSV) fi
 In the general features section, you have successfully created a schema. Using that schema, we can begin importing data into it.
 >
 1. <span class=action>**Open**</span> a spreadsheet application.  
-![ExportStart](./images/CSV/CSVSpreadsheet.jpg)
-    This example uses Microsoft Excel. Another option is Google Sheets.
+![ExportStart](./images/CSV/CSVSpreadsheet.jpg)  
+    This example uses Microsoft Excel. Another option is Google Sheets.  
 2. <span class=action>**Enter**</span> your *Column Names*.  
 ![ExportStart](./images/CSV/CSVColumnNames.jpg)
 3. <span class=action>**Enter**</span> your *data* to your columns.  
@@ -36,12 +36,12 @@ In the general features section, you have successfully created a schema. Using t
 15. <span class=action>**Select**</span> your *Schema* from the dropdown menu.  
 ![ExportStart](./images/CSV/CSVSelectSchema.jpg)
 16. <span class=action>**Enter**</span> your new *Table Name*.  
-![ExportStart](./images/CSV/CSVEnterTableName.jpg)
+![ExportStart](./images/CSV/CSVInputTableName.jpg)
 17. <span class=action>**Select**</span> columns to include.  
 ![ExportStart](./images/CSV/CSVSelectColumns.jpg)
-18. <span class=action>**Select**</span> *Columns* and *Field Type*. <span class=action>**Select**</span> `Next`.
+18. <span class=action>**Select**</span> *Columns* and *Field Type*. <span class=action>**Select**</span> `Next`.  
 ![ExportStart](./images/CSV/CSVSelectColumnFields.jpg)
-19. <span class=action>**Select**</span> `Next` and wait for the process to complete.
+19. <span class=action>**Select**</span> `Next` and wait for the process to complete.  
 ![ExportStart](./images/CSV/CSVFinishNext.jpg)
 20. <span class=action>**Select**</span> `Next`.  
 ![ExportStart](./images/CSV/CSVFinishResults.jpg)
