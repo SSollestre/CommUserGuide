@@ -87,55 +87,59 @@ The tasks under this section outline the steps needed to manipulate schemas in M
     It will show that the table was successfully created in  the <span class =title> *Output* </span> section at the bottom of the screen and the new table will appear under <span class=title>*Schemas*</span> on the left, under your selected schema.  
     ![CreateTable](./images/General/NewTableSuccess.png)
 
-### View a table
+### View a Table
 
-Go to the top left corner of screen and click on the "new sql query" icon indicated in the red box.
-![CreateTable](./images/TABLE_screenshots/newQuery.png)
-A new tab indicated in blue will appear.
-Below the tab is a new panel with a query editor.
-Enter the following query indicated with an orange box into the query editor:
-
-```sql
-SELECT * FROM new_table;
-```
-
-Then click on the lightning bolt icon indicated in the red box to run the query.
-
-![CreateTable](./images/TABLE_screenshots/lightningBoltIcon.png)
-
-Then you can see the contents of the table in the results panel indicated in the red box.
-![CreateTable](./images/TABLE_screenshots/viewResultGrid.png)
+1. <span class=action> **Double-Click** </span> your schema to view your <span class=title>*Tables*</span>.
+2. <span class=action> **Right-Click** </span> your table.
+3. <span class=action> **Hover** </span> `Send to SQL Editor`.
+4. <span class=action> **Select** </span> `Select All Statement`.
+5. <span class=action> **Select** </span> <span class=icons>*Execute*</span>.
+>
+!!! Success
+    Your selected data will appear under the <span class=title>*Result Grid*</span>.
 
 ### Delete a table
 
-Right click on the table you want to delete shown in the orange box and select the option to delete the table indicated in the red box.
-![ConfirmDeleteTable](./images/TABLE_screenshots/dropTable.png)
-
-The confirmation window will appear asking if you want to drop the table.
-Click the "Drop Now" button to delete the table.
-![ConfirmDeleteTable](./images/TABLE_screenshots/confirmDeleteTableDropNow.png)
+1. <span class=action> **Double-Click** </span> your schema to view your <span class=title>*Tables*</span>.
+2. <span class=action> **Right-Click** </span> your table.
+3. <span class=action> **Select** </span> `Drop Table`.
+4. <span class=action> **Select** </span> `Drop Now`.
+>
+!!! Note
+    <span class=action> **Refresh** </span> might be needed to see the deletion
+>
+!!! Success
+    Your table will be removed from <span class=title>*Schemas*</span> on the left from your selected schema.</span>
 
 ## SQL Tasks
 
-### Create a query
+### Open a New SQL Tab
 
-Create a new query by clicking the new query icon indicated in the red box.
-![CreateTable](./images/SQL_screenshots/createNewTabQuery.png)
+1. <span class=action> **Select** </span> <span class=icons>*Create a new SQL tab*</span>.
+>
+!!! Success
+    Your new SQL tab will be displayed on the middle of the screen.
 
-A new tab will appear indicated in the blue box.
-Below the tab is a new panel with a query editor with a query indicated in the orange box.
-To run the query click the lightning bolt icon indicated in the red box.
-![CreateTable](./images/TABLE_screenshots/runViewQuery.png)
+### Save a New SQL File
+
+1. <span class=action> **Select** </span> `File` > `Save Script As`.
+2. <span class=action>**Save**</span> your SQL file to your desired location.
+>
+!!! Note
+    You can also use the <span class=icons>*Save*</span> in the editor
+>
+!!! Success
+    You can find your file in the location you saved it in.
 
 ### Open an existing query
 
-Open an existing query by clicking either of the open query icons indicated in the red boxes.
-![CreateTable](./images/SQL_screenshots/openSQL.png)
-
-### Save a query
-
-Save a query by clicking of File > Save Script or by clicking the save icon indicated in the red box.
-![CreateTable](./images/SQL_screenshots/saveSQL.png)
+1. <span class=action> **Select** </span> <span class=icons>*Open a SQL script file*</span>.
+2. <span class=action> **Select** your SQL file.
+!!! Note
+    You can also use the <span class=icons>*Open*</span> in the editor
+>
+!!! Success
+    Your SQL file is opened in the editor.
 
 ### Refresh all
 
@@ -159,17 +163,3 @@ By the end of this section, you should be able to:
 * Open existing query
 * Close existing query
 * Refresh existing query
-<!-- 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files. -->
