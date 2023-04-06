@@ -72,6 +72,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#troubleshooting" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -268,7 +273,7 @@
   
     <li class="md-nav__item">
       <a href="../SEAN_SQL_TASKS/" class="md-nav__link">
-        Importing A CSV
+        Importing a CSV
       </a>
     </li>
   
@@ -302,6 +307,8 @@
       
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
+      
+        
       
       
       <a href="./" class="md-nav__link md-nav__link--active">
@@ -345,9 +352,53 @@
   
 
 
-  <h1>Troubleshooting</h1>
-
-
+<h1 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permanent link">&para;</a></h1>
+<table>
+<thead>
+<tr>
+<th>Problem</th>
+<th>Solution</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cannot see changes in the table after running a query</td>
+<td>Make sure you have clicked the lightning bolt icon to run the query.  If you have not clicked the lightning bolt icon, the query will not be run.</td>
+</tr>
+<tr>
+<td>Cannot create table</td>
+<td>- Check to see that there is a column attribute selected (e.g. "NOT NULL" or "PRIMARY KEY") in the column editor panel. If you do not select any attributes, you cannot enter a name for the column. </br> - Make sure you have checked a column attribute among the choices presented in the column editor panel and made a name for the column. If you have not done both of these in that order, the table cannot be created.</td>
+</tr>
+<tr>
+<td>Cannot see created table</td>
+<td>right click in the Schema panel and select "Refresh All"</td>
+</tr>
+<tr>
+<td>Cannot see table changes after SQL execution</td>
+<td>right click in the Schema panel and select "Refresh All"</td>
+</tr>
+<tr>
+<td>Incorrect syntax</td>
+<td>When running queries, ensure that the syntax is correct, and there are no spelling errors. Check that the tables and columns you are referencing exist and that the case of the table and column names match.</td>
+</tr>
+<tr>
+<td>Import order</td>
+<td>If the imported data contains foreign key constraints that reference other tables, you must ensure that the tables are imported in the correct order. The referenced table must be imported before the table with the foreign key constraint.</td>
+</tr>
+<tr>
+<td>Incorrect data types</td>
+<td>When inserting data into a table, ensure that the data types of the values you are inserting match the data types of the columns.</td>
+</tr>
+<tr>
+<td>Missing referenced data</td>
+<td>If the imported data contains foreign key constraints that reference data that does not exist in the referenced table, you may encounter missing data errors. To fix this, ensure that the referenced data exists before importing the data that contains the foreign key constraints.</td>
+</tr>
+<tr>
+<td>Problem entering path</td>
+<td>Make sure you have entered the path in the format without quotation marks as shown in the example.  If you have entered the path in the format with quotation marks, the path will not be recognized.</td>
+</tr>
+</tbody>
+</table>
 
 
 

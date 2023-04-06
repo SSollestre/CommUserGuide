@@ -274,6 +274,13 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#mysql-workbench" class="md-nav__link">
+    MySQL Workbench
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#intended-users" class="md-nav__link">
     Intended Users
   </a>
@@ -333,7 +340,7 @@
   
     <li class="md-nav__item">
       <a href="SEAN_SQL_TASKS/" class="md-nav__link">
-        Importing A CSV
+        Importing a CSV
       </a>
     </li>
   
@@ -404,6 +411,22 @@
 
 <h1 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h1>
 <p>This guide will walk you through the basic features of MySQL Workbench, as well as some key quality-of-life techniques such as importing CSV and exporting schemas. MySQL Workbench uses Specified Query Language (SQL) for database creation and manipulation. By the end of this guide, you should have a baseline knowledge of how to use and navigate the application with ease.</p>
+<p>The specific tasks outlined in this guide are as follows:</p>
+<ul>
+<li>General SQL tasks such as:<ul>
+<li>Creating and deleting schemas and tables</li>
+<li>Viewing the data inside the tables</li>
+<li>Creating queries on the built-in text editor</li>
+<li>Saving the queries as a SQL file to be opened later</li>
+<li>Opening a saved SQL file in MySQL Workbench</li>
+<li>Refreshing the tables to view any changes made to the schema</li>
+</ul>
+</li>
+<li>Importing a Comma Separated Values (CSV) file</li>
+<li>Exporting a schema as a SQL file that on execution, creates a new schema with all of the exported tables and data</li>
+</ul>
+<h2 id="mysql-workbench">MySQL Workbench<a class="headerlink" href="#mysql-workbench" title="Permanent link">&para;</a></h2>
+<p>MySQL Workbench is a graphical user interface (GUI) application used to work with MySQL databases. It allows the users to Create, Read, Update, and Delete data from a database. Schemas and tables can be created using the GUI, and then queries can be run on them to get a specific result.</p>
 <h2 id="intended-users">Intended Users<a class="headerlink" href="#intended-users" title="Permanent link">&para;</a></h2>
 <p>This guide is for the users listed below:</p>
 <ul>
@@ -411,14 +434,18 @@
 <li>Users familiar with Excel or other spreadsheet applications.</li>
 <li>Users looking for a guide to quickly import and export data.</li>
 </ul>
-<p>These user should have this prior knowledge:</p>
+<p>The user should have this prior knowledge:</p>
 <ul>
 <li>They should be able to navigate their own file system.</li>
-<li>They should already have MySQL Workbench installed with a connection and password set up.</li>
 <li>They should be familiar with spreadsheets.</li>
 </ul>
 <h2 id="software-requirements">Software Requirements<a class="headerlink" href="#software-requirements" title="Permanent link">&para;</a></h2>
-<p>This guide assumes that you have already installed MySQL and MySQL Workbench installed.</p>
+<p>This guide was made for users with Windows 11 Operating System. This guide also assumes that you have already:</p>
+<ul>
+<li>installed MySQL Workbench,</li>
+<li>established a connection,</li>
+<li>and if desired, set a password.</li>
+</ul>
 <h2 id="typographical-conventions">Typographical Conventions<a class="headerlink" href="#typographical-conventions" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
@@ -433,12 +460,12 @@
 <td><span class=action><strong>Click, Copy, Paste</strong></span></td>
 </tr>
 <tr>
-<td>Menu &amp; Button Sequence<br><br>Labels will be written differently from normal text, and the next step will be preceded with “&gt;”.</td>
+<td>Menu &amp; Button Sequence<br><br>Button labels will be written differently from normal text. In a sequence of selections, the next selection will be preceded with “&gt;”.</td>
 <td><code>File</code> &gt; <code>Save Script</code></td>
 </tr>
 <tr>
 <td>Text Field Entries<br><br>Types of entries into text fields will be italicized.</td>
-<td><em>Table Name, Attribute Name</em></td>
+<td><em>Table Name, Attribute Name</em>, <em>Datatype</em></td>
 </tr>
 <tr>
 <td>Section Names<br><br>Section names will be written in italicized colour.</td>

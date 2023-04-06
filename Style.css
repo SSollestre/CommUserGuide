@@ -14,3 +14,32 @@
 .icons {
     color: #E6AE39;
 }
+
+img {
+    width: 50%;
+    height: 50%;
+  }
+
+.smaller {
+    width: 30%;
+    height: auto;
+  }
+
+.small {
+    width: 40%;
+    height: auto;
+  }
+
+.extra-small {
+    width: 10%;
+    height: auto;
+  }
+
+  .smallest {
+    width: 20%;
+    height: auto;
+  }
+
+table td:first-child {
+    width: 36%;
+}

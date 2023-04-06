@@ -307,14 +307,21 @@
         
           <li class="md-nav__item">
   <a href="#create-a-schema" class="md-nav__link">
-    Create a schema
+    Create a Schema
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#make-a-schema-default" class="md-nav__link">
+    Make a Schema Default
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#delete-a-schema" class="md-nav__link">
-    Delete a schema
+    Delete a Schema
   </a>
   
 </li>
@@ -334,14 +341,14 @@
         
           <li class="md-nav__item">
   <a href="#create-a-table" class="md-nav__link">
-    Create a table
+    Create a Table
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#view-a-table" class="md-nav__link">
-    View a table
+    View a Table
   </a>
   
 </li>
@@ -367,22 +374,22 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#create-a-query" class="md-nav__link">
-    Create a query
+  <a href="#open-a-new-sql-tab" class="md-nav__link">
+    Open a New SQL Tab
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#open-an-existing-query" class="md-nav__link">
-    Open an existing query
+  <a href="#save-a-new-sql-file" class="md-nav__link">
+    Save a New SQL File
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#save-a-query" class="md-nav__link">
-    Save a query
+  <a href="#open-a-sql-file" class="md-nav__link">
+    Open a SQL File
   </a>
   
 </li>
@@ -390,6 +397,13 @@
           <li class="md-nav__item">
   <a href="#refresh-all" class="md-nav__link">
     Refresh all
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#run-a-sql-query" class="md-nav__link">
+    Run a SQL Query
   </a>
   
 </li>
@@ -423,7 +437,7 @@
   
     <li class="md-nav__item">
       <a href="../SEAN_SQL_TASKS/" class="md-nav__link">
-        Importing A CSV
+        Importing a CSV
       </a>
     </li>
   
@@ -495,129 +509,252 @@
 <h1 id="common-mysql-workbench-tasks">Common MySQL Workbench Tasks<a class="headerlink" href="#common-mysql-workbench-tasks" title="Permanent link">&para;</a></h1>
 <!-- For full documentation visit [https://dev.mysql.com](https://dev.mysql.com/doc/workbench/en/). -->
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
-<p>This section will cover common tasks regarding schemas, sql and tables.
-It is assumed you have MySQL Workbench opened to the default screen.</p>
+<p>This section will cover common tasks in MySQL Workbench. it will go over the creation and deletion of schemas, tables, columns, and row. This guide will also describe how to view your data, as well how to refresh your database to view any pending changes.</p>
 <h2 id="schema-tasks">Schema Tasks<a class="headerlink" href="#schema-tasks" title="Permanent link">&para;</a></h2>
-<h3 id="create-a-schema">Create a schema<a class="headerlink" href="#create-a-schema" title="Permanent link">&para;</a></h3>
-<p>There are two options for creating a new schema.</p>
-<p>Option 1:</p>
-<p><span class=action> <strong>Click</strong> </span> the new schema icon indicated by the red box.</p>
-<p><img alt="CreateSchemaIcon" src="../images/SCHEMA_screenshots/createSchemaIcon.png" /></p>
-<p>Option 2:</p>
-<ul>
-<li>click the Schemas tab indicated in red</li>
-<li>move your mouse to the Schemas panel indicated in blue</li>
-</ul>
-<p><img alt="SchemasPanel" src="../images/SCHEMA_screenshots/schemaTabPanel.png" /></p>
-<p>Right click while your mouse is in the Schemas panel</p>
-<p><img alt="CreateSchemaRightClick" src="../images/SCHEMA_screenshots/createSchemaRightClick.png" /></p>
-<p>After clicking the option to create a new schema, a new schema will be created.
-Enter a name for the new schema and click the apply button indicated in red.</p>
-<p><img alt="NameSchema" src="../images/SCHEMA_screenshots/nameSchema.png" /></p>
-<p>After clicking the apply button, the new schema will be created and a success page will appear as well as logged in the log panel.</p>
-<p>Success page:
-<img alt="SuccessPage" src="../images/SCHEMA_screenshots/schemaSuccess.png" /></p>
-<h3 id="delete-a-schema">Delete a schema<a class="headerlink" href="#delete-a-schema" title="Permanent link">&para;</a></h3>
-<p>Move mouse to the Schemas panel and right click on the schema you want to delete.
-A confirmation window will appear asking if you want to drop the schema.
-Click the "Drop Now" button to delete the schema.
-<img alt="SuccessPage" src="../images/TABLE_screenshots/confirmDeleteSchema.png" /></p>
-<h2 id="table-tasks">Table Tasks<a class="headerlink" href="#table-tasks" title="Permanent link">&para;</a></h2>
-<h3 id="create-a-table">Create a table<a class="headerlink" href="#create-a-table" title="Permanent link">&para;</a></h3>
-<ol>
-<li>Move your mouse to the Schemas panel and make sure the table you want is selected.</li>
-<li>You can check this by looking if the schema is in bold font indicated in the blue box.</li>
-<li>Then while your mouse is on "Tables" right click and select the option to create a new table, indicated in the red box.
-<img alt="CreateTable" src="../images/TABLE_screenshots/createTableBold.png" /></li>
-</ol>
-<p>After selecting the option to create a new table you will be taken to a new view.</p>
-<ol>
-<li>A new tab will appear indicated in the purple box.</li>
-<li>Below the tab you will see a new panel with a table creation form.</li>
-<li>Enter a name for the table in the box indicated in blue.</li>
-<li>Enter a name for the first column in the box indicated in green.</li>
-<li>Click the "Apply" button indicated in red.</li>
-</ol>
+<p>The tasks under this section outline the steps needed to manipulate schemas in MySQL Workbench.</p>
+<h3 id="create-a-schema">Create a Schema<a class="headerlink" href="#create-a-schema" title="Permanent link">&para;</a></h3>
 <blockquote>
-<div class="highlight"><pre><span></span><code>Note: a name for the first column is required to create a table!
-</code></pre></div>
+<ol>
+<li><strong class="action">Select</strong> the <em class="icons">Create a new schema</em> icon.<br />
+<img alt="CreateSchemaIcon" src="../images/General/CreateNewSchemaButton.png" /></br></br></li>
+<li><strong class="action">Enter</strong> a <em>Schema Name</em> and <strong class="action">Click</strong> <code>Apply</code>.<br />
+<img alt="NameSchema" src="../images/General/NewSchemaName.png" /></br></br></li>
+<li><strong class="action">Select</strong> <code>Apply</code>.<br />
+<img alt="ApplySchema" src="../images/General/NewSchemaApply.png" /></br></br></li>
+<li>
+<p><strong class="action">Select</strong> <code>Finish</code>.<br />
+<img alt="FinishSchema" src="../images/General/NewSchemaFinish.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><a href="./#refresh-all"><strong class="action">Refresh</strong></a> might be needed to see the new schema.</p>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Success</p>
+<p>Your new schema will appear under <em class="title">Schemas</em> on the left.<br />
+<img alt="NewSchemaSuccess" src="../images/General/NewSchemaSuccess.png" /></p>
+</div>
+</li>
+</ol>
 </blockquote>
-<p><img alt="CreateTable" src="../images/TABLE_screenshots/newTablePanel.png" /></p>
-<p>Once you have clicked "Apply", a new table will appear under "Tables" in the Schemas panel.
-In our case we have a table named "new_table" indicated in the red box.
-<img alt="CreateTable" src="../images/TABLE_screenshots/newTableAppears.png" /></p>
-<h3 id="view-a-table">View a table<a class="headerlink" href="#view-a-table" title="Permanent link">&para;</a></h3>
-<p>Go to the top left corner of screen and click on the "new sql query" icon indicated in the red box.
-<img alt="CreateTable" src="../images/TABLE_screenshots/newQuery.png" />
-A new tab indicated in blue will appear.
-Below the tab is a new panel with a query editor.
-Enter the following query indicated with an orange box into the query editor:
-<div class="highlight"><pre><span></span><code><span class="k">SELECT</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="k">FROM</span><span class="w"> </span><span class="n">new_table</span><span class="p">;</span>
-</code></pre></div>
-Then click on the lightning bolt icon indicated in the red box to run the query.</p>
-<p><img alt="CreateTable" src="../images/TABLE_screenshots/lightningBoltIcon.png" /></p>
-<p>Then you can see the contents of the table in the results panel indicated in the red box.
-<img alt="CreateTable" src="../images/TABLE_screenshots/viewResultGrid.png" /></p>
+<h3 id="make-a-schema-default">Make a Schema Default<a class="headerlink" href="#make-a-schema-default" title="Permanent link">&para;</a></h3>
+<blockquote>
+<ol>
+<li>
+<p><strong class="action">Double Click</strong> your schema name.<br />
+<img alt="MakeDefault" src="../images/General/MakeDefault.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Make sure you are double clicking the schema name and not the area to the right of the name.</p>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Success</p>
+<p>Your default schema will be bolded in <em class="title">Schemas</em> on the left.  <br />
+<img alt="MakeDefaultSuccess" class="smallest" src="../images/General/MakeDefaultSuccess.png" /></p>
+</div>
+</li>
+</ol>
+</blockquote>
+<h3 id="delete-a-schema">Delete a Schema<a class="headerlink" href="#delete-a-schema" title="Permanent link">&para;</a></h3>
+<blockquote>
+<ol>
+<li><strong class="action">Right Click</strong> your schema and  <strong class="action">Select</strong> <code>Drop Schema</code>.<br />
+<img alt="DeleteSchema" src="../images/General/DropSchema.png" /></br></br></li>
+<li>
+<p><strong class="action">Select</strong> <code>Drop Now</code>.<br />
+<img alt="DeleteSchemaNow" class="smaller" src="../images/General/DropSchemaDropNow.png" /></p>
+<div class="admonition success">
+<p class="admonition-title">Success</p>
+<p>Your schema will be removed from <em class="title">Schemas</em> on the left.</p>
+</div>
+</li>
+</ol>
+</blockquote>
+<h2 id="table-tasks">Table Tasks<a class="headerlink" href="#table-tasks" title="Permanent link">&para;</a></h2>
+<h3 id="create-a-table">Create a Table<a class="headerlink" href="#create-a-table" title="Permanent link">&para;</a></h3>
+<blockquote>
+<ol>
+<li><strong class="action">Click</strong> the <em class="icons">arrow</em> beside your schema.<br />
+<img alt="CreateTable" src="../images/General/SchemaArrow.png" /></br></br></li>
+<li><strong class="action">Right-Click</strong> <code>Tables</code> and  <strong class="action">Select</strong> <code>Create Table</code>.<br />
+<img alt="CreateTable" src="../images/General/RightClickTables.png" /></br></br></li>
+<li><strong class="action">Enter</strong> your <em>Table Name</em>.<br />
+<img alt="CreateTable" src="../images/General/EnterTableName.png" /></br></br></li>
+<li><strong class="action">Double-Click</strong> the row under <em class="title">Column Name</em>.<br />
+<img alt="CreateTable" src="../images/General/NewTableColumn.png" /></br></br></li>
+<li><strong class="action">Enter</strong> your <em>Column name</em>.<br />
+<img alt="CreateTable" src="../images/General/ColumnName.png" /></br></br></li>
+<li>
+<p><strong class="action">Select</strong> your <em>Datatype</em>.<br />
+<img alt="CreateTable" src="../images/General/TableDataType.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If <em>PK</em> or <em>Primary Key</em> is selected, you must have <em>NN</em> or <em>Not Null</em> selected as well.</p>
+</div>
+</li>
+<li>
+<p><strong class="action">Add</strong> additional columns by repeating steps 5, 6, and 7.</p>
+</li>
+<li><strong class="action">Select</strong> <code>Apply</code>.<br />
+<img alt="CreateTable" src="../images/General/NewTableApply.png" /></br></br></li>
+<li><strong class="action">Select</strong> <code>Apply</code>.<br />
+<img alt="CreateTable" src="../images/General/NewTableApplyApply.png" /></br></br></li>
+<li>
+<p><strong class="action">Select</strong> `Finish.<br />
+<img alt="CreateTable" src="../images/General/NewTableFinish.png" /></br></br></p>
+<div class="admonition success">
+<p class="admonition-title">Success</p>
+<p>It will show that the table was successfully created in  the <em class="title">Output</em> section at the bottom of the screen and the new table will appear under <em class="title">Schemas</em> on the left, under your selected schema.<br />
+<img alt="CreateTable" src="../images/General/NewTableSuccess.png" /></p>
+</div>
+</li>
+</ol>
+</blockquote>
+<h3 id="view-a-table">View a Table<a class="headerlink" href="#view-a-table" title="Permanent link">&para;</a></h3>
+<blockquote>
+<ol>
+<li><strong class="action">Double-Click</strong> your schema.<br />
+<img alt="ViewTable" src="../images/General/DoubleClickSchema.png" /></br></br></li>
+<li><strong class="action">Double-Click</strong> <code>Tables</code>.<br />
+<img alt="ViewTable" src="../images/General/DoubleClickTables.png" /></br></br></li>
+<li>
+<p><strong class="action">Right-Click</strong> the table you want to view and  <strong class="action">Select</strong> <code>Select Rows - Limit 1000</code>.<br />
+<img alt="ViewTable" src="../images/General/SelectRows.png" /></p>
+<div class="admonition success">
+<p class="admonition-title">Success</p>
+<p>It will generate a select all statement and show the selected table data under the <em class="title">Result Grid</em>.<br />
+<img alt="ViewTable" src="../images/General/ViewTableSuccess.png" /></p>
+</div>
+</li>
+</ol>
+</blockquote>
 <h3 id="delete-a-table">Delete a table<a class="headerlink" href="#delete-a-table" title="Permanent link">&para;</a></h3>
-<p>Right click on the table you want to delete shown in the orange box and select the option to delete the table indicated in the red box.
-<img alt="ConfirmDeleteTable" src="../images/TABLE_screenshots/dropTable.png" /></p>
-<p>The confirmation window will appear asking if you want to drop the table.
-Click the "Drop Now" button to delete the table.
-<img alt="ConfirmDeleteTable" src="../images/TABLE_screenshots/confirmDeleteTableDropNow.png" /></p>
+<blockquote>
+<ol>
+<li><strong class="action">Double-Click</strong> your schema.</li>
+<li><strong class="action">Double-Click</strong> <code>Tables</code>.</li>
+<li><strong class="action">Right-Click</strong> the table you want to delete and  <strong class="action">Select</strong> <code>Drop Table</code>.<br />
+<img alt="DeleteTable" src="../images/General/DropTable.png" /></br></br></li>
+<li>
+<p><strong class="action">Select</strong> <code>Drop Now</code>.<br />
+<img alt="DeleteTable" class="smaller" src="../images/General/DropTableDrop.png" /></p>
+<div class="admonition success">
+<p class="admonition-title">Success</p>
+<p>Your table will be removed from <em class="title">Schemas</em> on the left from your selected schema.</p>
+</div>
+</li>
+</ol>
+</blockquote>
 <h2 id="sql-tasks">SQL Tasks<a class="headerlink" href="#sql-tasks" title="Permanent link">&para;</a></h2>
-<h3 id="create-a-query">Create a query<a class="headerlink" href="#create-a-query" title="Permanent link">&para;</a></h3>
-<p>Create a new query by clicking the new query icon indicated in the red box.
-<img alt="CreateTable" src="../images/SQL_screenshots/createNewTabQuery.png" /></p>
-<p>A new tab will appear indicated in the blue box.
-Below the tab is a new panel with a query editor with a query indicated in the orange box.
-To run the query click the lightning bolt icon indicated in the red box.
-<img alt="CreateTable" src="../images/TABLE_screenshots/runViewQuery.png" /></p>
-<h3 id="open-an-existing-query">Open an existing query<a class="headerlink" href="#open-an-existing-query" title="Permanent link">&para;</a></h3>
-<p>Open an existing query by clicking either of the open query icons indicated in the red boxes.
-<img alt="CreateTable" src="../images/SQL_screenshots/openSQL.png" /></p>
-<h3 id="save-a-query">Save a query<a class="headerlink" href="#save-a-query" title="Permanent link">&para;</a></h3>
-<p>Save a query by clicking of File &gt; Save Script or by clicking the save icon indicated in the red box.
-<img alt="CreateTable" src="../images/SQL_screenshots/saveSQL.png" /></p>
+<h3 id="open-a-new-sql-tab">Open a New SQL Tab<a class="headerlink" href="#open-a-new-sql-tab" title="Permanent link">&para;</a></h3>
+<blockquote>
+<ol>
+<li>
+<p><strong class="action">Select</strong> the <em class="icons">Create a new SQL tab</em> icon.<br />
+<img alt="NewSQLTab" src="../images/General/SQLtab.png" /></p>
+<div class="admonition success">
+<p class="admonition-title">Success</p>
+<p>Your new SQL tab will be displayed on the middle of the screen.<br />
+<img alt="NewSQLTab" src="../images/General/SQLtabSuccess.png" /></p>
+</div>
+</li>
+</ol>
+</blockquote>
+<h3 id="save-a-new-sql-file">Save a New SQL File<a class="headerlink" href="#save-a-new-sql-file" title="Permanent link">&para;</a></h3>
+<blockquote>
+<ol>
+<li><strong class="action">Select</strong> <code>File</code> &gt; <code>Save Script As</code>.<br />
+<img alt="SaveSQL" src="../images/General/SaveScriptAs.png" /></br></br></li>
+<li>
+<p><strong class="action">Save</strong> your SQL file to your desired location.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You can also use the <em class="icons">Save</em> icon in the editor.<br />
+<img alt="SaveSQL" src="../images/General/SaveScriptAs.png" /></p>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Success</p>
+<p>You can find your file in the location you saved it in.</p>
+</div>
+</li>
+</ol>
+</blockquote>
+<h3 id="open-a-sql-file">Open a SQL File<a class="headerlink" href="#open-a-sql-file" title="Permanent link">&para;</a></h3>
+<blockquote>
+<ol>
+<li><strong class="action">Select</strong> <code>File</code> &gt; <code>Open SQL Script</code>.<br />
+<img alt="OpenSQL" src="../images/General/OpenSQLScript.png" /></br></br></li>
+<li>
+<p><strong class="action">Select</strong> your SQL file.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You can also use the <em class="icons">Open</em> icon in the editor or <em class="icons">Open a SQL script file</em> icon at the top left of the screen.<br />
+<img alt="OpenSQL" src="../images/General/SQLOpenScriptAlt.png" /></p>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Success</p>
+<p>Your SQL file is opened in the editor.<br />
+<img alt="OpenSQL" src="../images/General/OpenSQLScriptSuccess.png" /></p>
+</div>
+</li>
+</ol>
+</blockquote>
 <h3 id="refresh-all">Refresh all<a class="headerlink" href="#refresh-all" title="Permanent link">&para;</a></h3>
-<p>To invoke all changes made with queries, right click on the the table you want to update and select "Refresh All".
-<img alt="CreateTable" src="../images/SQL_screenshots/refreshAll.png" /></p>
+<blockquote>
+<ol>
+<li>
+<p><strong class="action">Right-Click</strong> anywhere under <em class="title">Schemas</em> and  <strong class="action">Select</strong> <code>Refresh All</code>.<br />
+<img alt="RefreshAll" src="../images/General/Refresh.png" /></p>
+<div class="admonition success">
+<p class="admonition-title">Success</p>
+<p>Your schemas are now all up to date.</p>
+</div>
+</li>
+</ol>
+</blockquote>
+<h3 id="run-a-sql-query">Run a SQL Query<a class="headerlink" href="#run-a-sql-query" title="Permanent link">&para;</a></h3>
+<blockquote>
+<ol>
+<li>
+<p><strong class="action">Select</strong> <em class="icons">Execute</em> icon in the editor.<br />
+<img alt="RunSQL" src="../images/General/Run.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>We are assuming you have a query in the editor already.</p>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Success</p>
+<p>Your query has successfully been executed. You can see the outcome of the query as a system description under <em class="title">Output</em> . <br />
+<img alt="RunSQL" src="../images/General/RunSuccess.png" /></p>
+</div>
+</li>
+</ol>
+</blockquote>
 <h2 id="conclusion">Conclusion<a class="headerlink" href="#conclusion" title="Permanent link">&para;</a></h2>
-<p>By the end of this section, you should be able to:</p>
+<p>At the end of this section you will know how to:</p>
+<blockquote>
 <ul>
-<li>Create a new schema</li>
-<li>
-<p>Delete a schema</p>
-</li>
-<li>
-<p>Create table</p>
-</li>
-<li>View table</li>
-<li>
-<p>Delete table</p>
-</li>
-<li>
-<p>Create query</p>
-</li>
-<li>Running query</li>
-<li>Saving query</li>
-<li>Open existing query</li>
-<li>Close existing query</li>
-<li>Refresh existing query</li>
+<li>For Schemas:<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong class="action">Create</strong> a schema</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong class="action">Make</strong> a schema default</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong class="action">Delete</strong> a schema</li>
 </ul>
-<!-- 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files. -->
+</li>
+<li>For Tables:<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong class="action">Create</strong> a table</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong class="action">View</strong> a table</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong class="action">Delete</strong> a table</li>
+</ul>
+</li>
+<li>For SQL tabs:<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong class="action">Open</strong> a new SQL tab</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong class="action">Save</strong> a new SQL file</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong class="action">Open</strong> a SQL file</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+<p>Congratulations. The next section will go over importing a CSV:</p>
+<p><strong><a href="../SEAN_SQL_TASKS/">Importing a CSV</a></strong></p>
 
 
 
@@ -660,13 +797,13 @@ To run the query click the lightning bolt icon indicated in the red box.
         
         
           
-          <a href="../SEAN_SQL_TASKS/" class="md-footer__link md-footer__link--next" aria-label="Next: Importing A CSV" rel="next">
+          <a href="../SEAN_SQL_TASKS/" class="md-footer__link md-footer__link--next" aria-label="Next: Importing a CSV" rel="next">
             <div class="md-footer__title">
               <div class="md-ellipsis">
                 <span class="md-footer__direction">
                   Next
                 </span>
-                Importing A CSV
+                Importing a CSV
               </div>
             </div>
             <div class="md-footer__button md-icon">
