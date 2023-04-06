@@ -83,9 +83,9 @@ The tasks under this section outline the steps needed to manipulate schemas in M
 10. <span class=action> **Select** </span> `Finish.  
 ![CreateTable](./images/General/NewTableFinish.png)  <br>
 >
-!!! Success
-    It will show that the table was successfully created in  the <span class =title> *Output* </span> section at the bottom of the screen and the new table will appear under <span class=title>*Schemas*</span> on the left, under your selected schema.  
-    ![CreateTable](./images/General/NewTableSuccess.png)
+    !!! Success
+        It will show that the table was successfully created in  the <span class =title> *Output* </span> section at the bottom of the screen and the new table will appear under <span class=title>*Schemas*</span> on the left, under your selected schema.  
+        ![CreateTable](./images/General/NewTableSuccess.png)
 
 ### View a Table
 
