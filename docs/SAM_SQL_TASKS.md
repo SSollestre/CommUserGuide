@@ -169,6 +169,6 @@ At the end of this section you will know how to:
       - [X] <span class=action>**Save**</span> a new SQL file,
       - [X] and <span class=action>**Open**</span> a SQL file.
 
-Congratulations. The next section will go over exporting a schema as a SQL file.
+Congratulations. The next section will go over importing a CSV.
 
 **[Importing a CSV](SEAN_SQL_TASKS.md)**

@@ -29,7 +29,7 @@ In the general features section, you have successfully created a schema. Using t
 ![ExportStart](./images/CSV/CSVRClickSchema.jpg)
 12. <span class=action>**Select**</span> `Table Data Import Wizard`.  
 ![ExportStart](./images/CSV/CSVImportWIzard.jpg)
-13. <span class=action>**Paste**</span> your file path. <span class=action>**Remove**</span> the quotation marks if present then <span class=action>**Select**</span> `Next`.
+13. <span class=action>**Paste**</span> your file path and <span class=action>**Remove**</span> the quotation marks if present then <span class=action>**Select**</span> `Next`.
 ![ExportStart](./images/CSV/CSVPasteFilePath.jpg)
 14. <span class=action>**Select**</span> `Create new table`.  
 ![ExportStart](./images/CSV/CSVCreateNewTable.jpg)
@@ -39,15 +39,14 @@ In the general features section, you have successfully created a schema. Using t
 ![ExportStart](./images/CSV/CSVInputTableName.jpg)
 17. <span class=action>**Select**</span> columns to include.  
 ![ExportStart](./images/CSV/CSVSelectColumns.jpg)
-18. <span class=action>**Select**</span> *Columns* and *Field Type*. <span class=action>**Select**</span> `Next`.  
+18. <span class=action>**Select**</span> *Columns* and *Field Type*, then <span class=action>**Select**</span> `Next`.  
 ![ExportStart](./images/CSV/CSVSelectColumnFields.jpg)
-19. <span class=action>**Select**</span> `Next` and wait for the process to complete.  
+19. <span class=action>**Select**</span> `Next` and <span class=action>**Wait**</span> for the process to complete.  
 ![ExportStart](./images/CSV/CSVFinishNext.jpg)
 20. <span class=action>**Select**</span> `Next`.  
 ![ExportStart](./images/CSV/CSVFinishResults.jpg)
 21. <span class=action>**Select**</span> `Finish`.  
 ![ExportStart](./images/CSV/CSVFinishFinal.jpg)
-
 >
     !!! Note
         <span class=action> **Refresh** </span> might be needed to see the new table.
