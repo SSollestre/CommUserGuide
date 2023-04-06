@@ -115,7 +115,7 @@ The tasks under this section outline the steps needed to manipulate schemas in M
 2. <span class=action>**Save**</span> your SQL file to your desired location.
 >
 !!! Note
-    You can also use the
+    You can also use the <span class=icons>*Save*</span> in the editor
 >
 !!! Success
     You can find your file in the location you saved it in.
@@ -123,6 +123,12 @@ The tasks under this section outline the steps needed to manipulate schemas in M
 ### Open an existing query
 
 1. <span class=action> **Select** </span> <span class=icons>*Open a SQL script file*</span>.
+2. <span class=action> **Select** your SQL file.
+!!! Note
+    You can also use the <span class=icons>*Open*</span> in the editor
+>
+!!! Success
+    Your SQL file is opened in the editor.
 
 ### Refresh all
 
