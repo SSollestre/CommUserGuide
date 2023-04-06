@@ -273,7 +273,7 @@
   
     <li class="md-nav__item">
       <a href="../SEAN_SQL_TASKS/" class="md-nav__link">
-        Importing A CSV
+        Importing a CSV
       </a>
     </li>
   
@@ -355,14 +355,14 @@
         
           <li class="md-nav__item">
   <a href="#if-schema-creation-is-not-included-in-data-import" class="md-nav__link">
-     If schema creation is not included in data import 
+    If schema creation is not included in data import
   </a>
   
 </li>
         
           <li class="md-nav__item">
   <a href="#if-schema-creation-is-included-in-data-import" class="md-nav__link">
-     If schema creation is included in data import 
+    If schema creation is included in data import
   </a>
   
 </li>
@@ -445,118 +445,119 @@
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
 <p>In this part of the guide, you will learn how to export a database schema which includes the structure of the tables, views, procedures, functions and data. As well as the different ways you can import it. This can be useful for creating a backup or sharing the database schema with others.</p>
 <h2 id="export">Export<a class="headerlink" href="#export" title="Permanent link">&para;</a></h2>
-<p>MySQL Workbench <span class="title"> <em>Data Export</em> </span> is a feature that allows you to export data into a file.</p>
+<p>MySQL Workbench <em class="title">Data Export</em> is a feature that allows you to export data into a file.</p>
 <blockquote>
 <ol>
-<li><span class=action> <strong>Select</strong> </span> <code>Server</code> &gt; <code>Data Export</code>.
-<img alt="ExportStart" src="../images/schema/ExportStart.png" /> <br><br></li>
-<li><span class=action> <strong>Select</strong> </span> the schema you want to export, in the <span class="title"> <em>Data Export</em> </span> screen, under <span class="title"> <em>Object Selection</em> </span>, <span class=title> <em>Tables to Export</em> </span>.
-<img alt="PickSchema" src="../images/schema/ExportPickSchema.png" /> <br><br></li>
+<li><strong class="action">Select</strong> <code>Server</code> &gt; <code>Data Export</code>.<br />
+<img alt="ExportStart" src="../images/schema/ExportStart.png" /></br></br></li>
+<li><strong class="action">Select</strong> the schema you want to export, in the <em class="title">Data Export</em> screen, under <em class="title">Object Selection</em>, <em class="title">Tables to Export</em>.<br />
+<img alt="PickSchema" src="../images/schema/ExportPickSchema.png" /></br></br></li>
 <li>
-<p><span class=action> <strong>Select</strong> </span> the tables in the schema you want to export on the right side of the screen.
+<p><strong class="action">Select</strong> the tables in the schema you want to export on the right side of the screen.<br />
 <img alt="PickTables" src="../images/schema/ExportPickTables.png" /></p>
 <div class="admonition note">
 <p class="admonition-title">Note: if you want to export all the tables in the schema.</p>
-<p><span class=action> <strong>Select</strong> </span> <code>Select Tables</code> under <span class="title"> <em>table list</em> </span>.
+<p><strong class="action">Select</strong> <code>Select Tables</code> under <em class="title">table list</em>.<br />
 <img alt="SelectTables" src="../images/schema/ExportSelectAllTables.png" /></p>
 </div>
-<p><br>
-4. <span class=action> <strong>Select</strong> </span> <code>Export to Self-Contained File</code> and <code>Include CREATE SCHEMA statement</code> under <span class="title"> <em>Export Options</em> </span>, if you want to include schema creation in the export.
-<img alt="ExportOptions" src="../images/schema/ExportOptions.png" /> <br><br>
-5. <span class=action> <strong>Select</strong> </span> the file name and location you want to export to.
-<img alt="FileOptions" src="../images/schema/ExportDestination.png" /> <br><br>
-6. <span class=action> <strong>Select</strong> </span> <code>Start Export</code>, to start the export.
-<img alt="ExportStart" src="../images/schema/ExportStartExport.png" /> <br><br></p>
+</li>
+<li>
+<p><strong class="action">Select</strong> <code>Export to Self-Contained File</code> and <code>Include Create Schema</code> statement under <em class="title">Export Options</em>, if you want to include schema creation in the export.<br />
+<img alt="ExportOptions" src="../images/schema/ExportOptions.png" /></br></br></p>
+</li>
+<li><strong class="action">Select</strong> the file name and location you want to export to.<br />
+<img alt="FileOptions" src="../images/schema/ExportDestination.png" /></br></br></li>
+<li>
+<p><strong class="action">Select</strong> <code>Start Export</code>, to start the export.<br />
+<img alt="ExportStart" src="../images/schema/ExportStartExport.png" /></p>
 <div class="admonition success">
-<p class="admonition-title">Success</p>
-<p>Once the export is complete, you will see a message that says "Export Completed". This means that you have successfully exported the data into the database.
+<p class="admonition-title">Success<p>Once the export is complete, you will see a message that says "Export Completed". This means that you have successfully exported the data into the database.<br />
 <img alt="ExportSuccess" src="../images/schema/ExportSuccess.png" /></p>
+</p>
 </div>
 </li>
 </ol>
 </blockquote>
 <h2 id="import">Import<a class="headerlink" href="#import" title="Permanent link">&para;</a></h2>
 <h3 id="using-data-import">Using Data Import<a class="headerlink" href="#using-data-import" title="Permanent link">&para;</a></h3>
-<p>MySQL Workbench <span class="title"> <em>Data Import</em> </span> is a feature that allows you to import data from a variety of sources into a MySQL database.</p>
+<p>MySQL Workbench <em class="title">Data Import</em> is a feature that allows you to import data from a variety of sources into a MySQL database.</p>
 <blockquote>
 <ol>
-<li><span class=action> <strong>Select</strong> </span> <code>Server</code> &gt; <code>Data Import</code>.
-<img alt="ImportStart" src="../images/schema/ImportStart.png" /> <br><br></li>
-<li><span class=action> <strong>Select</strong> </span> <code>Import from Self-Contained File</code> and <span class=action> <strong>Select</strong> </span> the file you want to import, in <span class="title"> <em>Data Import</em> </span>, under <span class="title"> <em>Import Options</em> </span>.
-<img alt="ImportOptions" src="../images/schema/ImportOptions.png" /></li>
+<li><strong class="action">Select</strong> <code>Server</code> &gt; <code>Data Import</code>.<br />
+<img alt="ImportStart" src="../images/schema/ImportStart.png" /></br></br></li>
+<li><strong class="action">Select</strong> <code>Import from Self-Contained File</code> and <strong class="action">Select</strong> the file you want to import, in <em class="title">Data Import</em>, under <em class="title">Import Options</em>.<br />
+<img alt="ImportOptions" src="../images/schema/ImportOptions.png" /></br></br></li>
 <li>
-<p><span class=action> <strong>Select</strong> </span> the schema you want to import the data into, under <span class="title"> <em>Default Schema to be Imported To</em> </span> section.
-<img alt="DefaultSchema" src="../images/schema/ImportDestination.png" /> <br><br></p>
+<p><strong class="action">Select</strong> the schema you want to import the data into, under <em class="title">Default Schema to be Imported To</em> section.<br />
+<img alt="DefaultSchema" src="../images/schema/ImportDestination.png" /></p>
 <div class="admonition note">
 <p class="admonition-title">Note: If the schema you want to import the data into does not exist, or you want to import into a new schema.</p>
 <ul>
-<li><span class=action> <strong>Select</strong> </span> <code>New</code>.
-<img alt="CreateNewSchema" src="../images/schema/ImportNewSchema.png" /> <br><br></li>
-<li><span class=action> <strong>Enter</strong> </span> the <em>name</em> of the new schema. <br>
-<img alt="NewSchemaName" src="../images/schema/ImportNewName.png" /> <br><br></li>
-<li><span class=action> <strong>Select</strong> </span> the new schema from the drop down menu.
-<img alt="Select" src="../images/schema/ImportPickNew.png" /> <br><br></li>
+<li><strong class="action">Select</strong> <code>New</code>.<br />
+<img alt="CreateNewSchema" src="../images/schema/ImportNewSchema.png" /></br></br></li>
+<li><strong class="action">Enter</strong> the <em>name</em> of the new schema.<br />
+<img alt="NewSchemaName" class="smaller" src="../images/schema/ImportNewName.png" /></br></br></li>
+<li><strong class="action">Select</strong> the new schema from the drop down menu.<br />
+<img alt="Select" src="../images/schema/ImportPickNew.png" /></br></br></li>
 </ul>
 </div>
-<p><br><br>
-4. <span class=action> <strong>Select</strong> </span> <code>Start Import</code>, to start the import.
-<img alt="StartImport" src="../images/schema/ImportStartImport.png" /> <br><br></p>
-<div class="admonition success">
-<p class="admonition-title">Success</p>
-<p>Once the import is complete, you will see a message that says "Import Completed". This means that you have successfully imported the data into the database.
-<img alt="ImportSuccess" src="../images/schema/ImportSuccess.png" /></p>
-</div>
+</li>
+<li>
+<p><strong class="action">Select</strong> <code>Start Import</code>, to start the import.<br />
+<img alt="StartImport" src="../images/schema/ImportStartImport.png" /></p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p><span class=action> <strong>Refresh</strong> </span> might be needed to see the new schema.</p>
+<p><a href="../SAM_SQL_TASKS/#refresh-all"><strong class="action">Refresh</strong></a> might be needed to see the new schema.</p>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Success</p>
+<p>Once the import is complete, you will see a message that says "Import Completed". This means that you have successfully imported the data into the database.<br />
+<img alt="ImportSuccess" src="../images/schema/ImportSuccess.png" /></p>
 </div>
 </li>
 </ol>
 </blockquote>
 <h3 id="using-sql-script">Using SQL Script<a class="headerlink" href="#using-sql-script" title="Permanent link">&para;</a></h3>
 <p>A SQL script file is a text file that contains a sequence of SQL commands or statements that can be executed together as a batch or script.</p>
-<h4 id="if-schema-creation-is-not-included-in-data-import"><u> If schema creation is not included in data import </u><a class="headerlink" href="#if-schema-creation-is-not-included-in-data-import" title="Permanent link">&para;</a></h4>
+<h4 id="if-schema-creation-is-not-included-in-data-import"><ins>If schema creation is not included in data import</ins><a class="headerlink" href="#if-schema-creation-is-not-included-in-data-import" title="Permanent link">&para;</a></h4>
 <blockquote>
 <ol>
-<li><span class=action> <strong>Create</strong> </span> a schema</li>
-<li><span class=action> <strong>Make</strong> </span> it your default schema</li>
-<li><span class=action> <strong>Select</strong> </span> the <span class="icons"> <em>Open Query Tab</em> </span> icon in the top left of the screen to open a query tab. <br>
-<img alt="OpenQueryTab" src="../images/schema/OpenTab.png" /> <br><br></li>
-<li><span class=action> <strong>Select</strong> </span> the <span class="icons"> <em>Open File</em> </span> icon in the top left of the middle screen to open the SQL script file and <span class=action> <strong>Select</strong> </span> the file containing the Schema.
-<img alt="OpenFile" src="../images/schema/OpenFile.png" /> <br><br></li>
+<li><strong class="action">Create</strong> a schema</li>
+<li><strong class="action">Make</strong> it your default schema</li>
+<li><strong class="action">Select</strong> the <em class="icons">Open Query Tab</em> icon in the top left of the screen to open a query tab.</li>
+<li><strong class="action">Select</strong> the <em class="icons">Open File</em> icon in the editor to <a href="../SAM_SQL_TASKS/#open-a-sql-file">open the SQL script file</a> and <strong class="action">Select</strong> the file containing the Schema.</li>
 <li>
-<p><span class=action> <strong>Select</strong> </span> the <span class="icons"> <em>Run</em> </span> icon in the top left of the screen to run the script.
-<img alt="Run" src="../images/schema/Run.png" /> <br><br></p>
-<div class="admonition success">
-<p class="admonition-title">Success</p>
-<p>Once the import is complete, you will see messages at the bottom of the screen verifying that the schema was created. This means that you have successfully imported the data into the database.
-<img alt="ImportSuccess" src="../images/schema/SchemaCreationSuccess.png" /></p>
-</div>
+<p><strong class="action">Select</strong> the <em class="icons">Run</em> icon in the top left of the screen to <a href="../SAM_SQL_TASKS/#run-a-sql-query">run the script</a>.  </p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p><span class=action> <strong>Refresh</strong> </span> might be needed to see the new schema.</p>
+<p><a href="../SAM_SQL_TASKS/#refresh-all"><strong class="action">Refresh</strong></a> might be needed to see the new schema.<br />
+Please refer to <a href="../SAM_SQL_TASKS/">MySQL Workbench Instructions</a> section for more information if any of the steps are unclear.</p>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Success</p>
+<p>Once the import is complete, you can see the outcome of the query as a system description under <em class="title">Output</em>, verifying that the schema was created. This means that you have successfully imported the data into the database.</p>
 </div>
 </li>
 </ol>
 </blockquote>
-<h4 id="if-schema-creation-is-included-in-data-import"><u> If schema creation is included in data import </u><a class="headerlink" href="#if-schema-creation-is-included-in-data-import" title="Permanent link">&para;</a></h4>
+<h4 id="if-schema-creation-is-included-in-data-import"><ins>If schema creation is included in data import</ins><a class="headerlink" href="#if-schema-creation-is-included-in-data-import" title="Permanent link">&para;</a></h4>
 <p>If the schema creation is included in the data import, you can simply run the script skipping the first two steps of the previous section.</p>
 <blockquote>
 <ol>
-<li><span class=action> <strong>Open</strong> </span> file containing the schema.</li>
+<li><strong class="action">Open</strong> file containing the schema.</li>
 <li>
-<p><span class=action> <strong>Run</strong> </span> the script.</p>
+<p><a href="../SAM_SQL_TASKS/#run-a-sql-query"><strong class="action">Run</strong></a> the script.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><a href="../SAM_SQL_TASKS/#refresh-all"><strong class="action">Refresh</strong></a> might be needed to see the new schema.</p>
+</div>
 <div class="admonition success">
 <p class="admonition-title">Success</p>
-<p>Once the import is complete, you will see messages at the bottom of the screen verifying that the schema was created similar to the previous section. This means that you have successfully imported the data into the database.</p>
+<p>Once the import is complete, you can see the outcome of the query as a system description under <em class="title">Output</em>, verifying that the schema was created similar to the previous section. This means that you have successfully imported the data into the database.</p>
 </div>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
 <p>It will automatically make the new schema your default schema.</p>
-</div>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p><span class=action> <strong>Refresh</strong> </span> might be needed to see the new schema.</p>
 </div>
 </li>
 </ol>
@@ -565,9 +566,9 @@
 <p>At the end of this section, you will have successfully exported and imported a schema. You now know how to:</p>
 <blockquote>
 <ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <span class=action> <strong>Export</strong> </span> a schema</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <span class=action> <strong>Import</strong> </span> into a new schema</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <span class=action> <strong>Import</strong> </span> into an existing schema</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong class="action">Export</strong> a schema</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong class="action">Import</strong> into a new schema</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong class="action">Import</strong> into an existing schema</li>
 </ul>
 </blockquote>
 <p>Great job. Check out the next page if you've had any issues getting the project to work:</p>
@@ -598,7 +599,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../SEAN_SQL_TASKS/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Importing A CSV" rel="prev">
+          <a href="../SEAN_SQL_TASKS/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Importing a CSV" rel="prev">
             <div class="md-footer__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
             </div>
@@ -607,7 +608,7 @@
                 <span class="md-footer__direction">
                   Previous
                 </span>
-                Importing A CSV
+                Importing a CSV
               </div>
             </div>
           </a>

@@ -4,8 +4,9 @@
 |-|-|
 |Cannot see changes in the table after running a query |  Make sure you have clicked the lightning bolt icon to run the query.  If you have not clicked the lightning bolt icon, the query will not be run.|
 |Cannot create table | - Check to see that there is a column attribute selected (e.g. "NOT NULL" or "PRIMARY KEY") in the column editor panel. If you do not select any attributes, you cannot enter a name for the column. </br> - Make sure you have checked a column attribute among the choices presented in the column editor panel and made a name for the column. If you have not done both of these in that order, the table cannot be created.|
-|Cannot see created table| right click in the Schema panel and select "Refresh All"|
-|Cannot see table changes after SQL execution | right click in the Schema panel and select "Refresh All"|
+|Cannot see created table| right click in the Schema panel and select "Refresh All".|
+|Cannot see table changes after SQL execution | right click in the Schema panel and select "Refresh All".|
+|Successful CSV import but no data | It may have been encoded wrong, make a new excel spreadsheet and re-enter the data. Then, convert the new excel spreadsheet.|
 |Incorrect syntax| When running queries, ensure that the syntax is correct, and there are no spelling errors. Check that the tables and columns you are referencing exist and that the case of the table and column names match.|
 |Import order| If the imported data contains foreign key constraints that reference other tables, you must ensure that the tables are imported in the correct order. The referenced table must be imported before the table with the foreign key constraint.|
 |Incorrect data types| When inserting data into a table, ensure that the data types of the values you are inserting match the data types of the columns.|

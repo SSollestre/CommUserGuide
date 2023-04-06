@@ -19,7 +19,7 @@
     
     
       
-        <title>Importing A CSV - MySQL Workbench User Guide</title>
+        <title>Importing a CSV - MySQL Workbench User Guide</title>
       
     
     
@@ -108,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Importing A CSV
+              Importing a CSV
             
           </span>
         </div>
@@ -280,12 +280,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Importing A CSV
+          Importing a CSV
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Importing A CSV
+        Importing a CSV
       </a>
       
         
@@ -393,7 +393,7 @@
   
 
 
-  <h1>Importing A CSV</h1>
+  <h1>Importing a CSV</h1>
 
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
 <p>This part of the guide will describe importing a comma-separated values (CSV) file. Excel Spreadsheets and similar applications can be exported as a CSV. Spreadsheets can be used to quickly create significant amounts of columns and rows.</p>
@@ -401,62 +401,77 @@
 <p>In the general features section, you have successfully created a schema. Using that schema, we can begin importing data into it.</p>
 <blockquote>
 <ol>
-<li><span class=action><strong>Open</strong></span> a spreadsheet application.<br />
-<img alt="ExportStart" src="../images/CSV/CSVSpreadsheet.jpg" />
-    This example uses Microsoft Excel. Another option is Google Sheets.</li>
-<li><span class=action><strong>Input</strong></span> your <em>Column Names</em>.<br />
-<img alt="ExportStart" src="../images/CSV/CSVColumnNames.jpg" /></li>
-<li><span class=action><strong>Input</strong></span> your <em>data</em> to your columns.<br />
-<img alt="ExportStart" src="../images/CSV/CSVColumnData.jpg" /></li>
-<li><span class=action><strong>Navigate</strong></span> to <code>File</code>.<br />
-<img alt="ExportStart" src="../images/CSV/CSVNavFile.jpg" /></li>
-<li><span class=action><strong>Navigate</strong></span> to <code>Export</code>.<br />
-<img alt="ExportStart" src="../images/CSV/CSVNavToExport.jpg" /></li>
-<li><span class=action><strong>Select</strong></span> <code>Change File Type</code> &gt; <code>CSV</code> &gt; <code>Save As</code>.<br />
-<img alt="ExportStart" src="../images/CSV/CSVSaveFileType.jpg" /></li>
-<li><span class=action><strong>Save</strong></span> your file to an easy-to-find location (e.g. Desktop).</li>
-<li><span class=action><strong>Right-Click</strong> on your file.<br />
-<img alt="ExportStart" src="../images/CSV/CSVIcon.jpg" /></li>
-<li><span class=action><strong>Select</strong></span> <code>Copy as path</code>.<br />
-<img alt="ExportStart" src="../images/CSV/CSVCopyAsPath.jpg" /></li>
-<li><span class=action><strong>Open</strong></span> MySQLWorkbench.</li>
-<li><span class=action><strong>Right-Click</strong></span> your schema.<br />
-<img alt="ExportStart" src="../images/CSV/CSVRClickSchema.jpg" /></li>
-<li><span class=action><strong>Select</strong></span> <code>Table Data Import Wizard</code>.<br />
-<img alt="ExportStart" src="../images/CSV/CSVImportWIzard.jpg" /></li>
-<li><span class=action><strong>Paste</strong></span> your file path. <span class=action><strong>Remove</strong></span> the quotation marks if present then <span class=action><strong>Select</strong></span> <code>Next</code>.
-<img alt="ExportStart" src="../images/CSV/CSVPasteFilePath.jpg" /></li>
-<li><span class=action><strong>Select</strong></span> <code>Create new table</code>.<br />
-<img alt="ExportStart" src="../images/CSV/CSVCreateNewTable.jpg" /></li>
-<li><span class=action><strong>Select</strong></span> your schema from the dropdown menu.<br />
-<img alt="ExportStart" src="../images/CSV/CSVSelectSchema.jpg" /></li>
-<li><span class=action><strong>Input</strong></span> your new <em>Table Name</em>.<br />
-<img alt="ExportStart" src="../images/CSV/CSVInputTableName.jpg" /></li>
-<li><span class=action><strong>Select</strong></span> columns to include.<br />
-<img alt="ExportStart" src="../images/CSV/CSVSelectColumns.jpg" /></li>
-<li><span class=action><strong>Select</strong></span> column fields data types. <span class=action><strong>Select</strong></span> <code>Next</code>.
-<img alt="ExportStart" src="../images/CSV/CSVSelectColumnFields.jpg" /></li>
-<li><span class=action><strong>Select</strong></span> <code>Next</code> and wait for the process to complete.
-<img alt="ExportStart" src="../images/CSV/CSVFinishNext.jpg" /></li>
-<li><span class=action><strong>Select</strong></span> <code>Next</code>.<br />
-<img alt="ExportStart" src="../images/CSV/CSVFinishResults.jpg" /></li>
-<li><span class=action><strong>Select</strong></span> <code>Finish</code>.<br />
-<img alt="ExportStart" src="../images/CSV/CSVFinishFinal.jpg" /></li>
-</ol>
+<li>
+<p><strong class="action">Open</strong> a spreadsheet application.<br />
+<img alt="CSV" src="../images/CSV/CSVSpreadsheet.jpg" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This example uses Microsoft Excel. Another option is Google Sheets.</p>
+</div>
+</li>
+<li>
+<p><strong class="action">Enter</strong> your <em>Column Names</em>.<br />
+<img alt="Columns" class="smaller" src="../images/CSV/CSVColumnNames.jpg" /></br></br></p>
+</li>
+<li><strong class="action">Enter</strong> your <em>data</em> to your columns.<br />
+<img alt="Data" class="smaller" src="../images/CSV/CSVColumnData.jpg" /></br></br></li>
+<li><strong class="action">Navigate</strong> to <code>File</code>.<br />
+<img alt="File" class="smaller" src="../images/CSV/CSVNavFile.jpg" /></br></br></li>
+<li><strong class="action">Navigate</strong> to <code>Export</code>.<br />
+<img alt="ExportNav" src="../images/CSV/CSVNavToExport.jpg" /></br></br></li>
+<li><strong class="action">Select</strong> <code>Change File Type</code> &gt; <code>CSV</code> &gt; <code>Save As</code>.<br />
+<img alt="SaveAsNav" src="../images/CSV/CSVSaveFileType.jpg" /></br></br></li>
+<li><strong class="action">Save</strong> your file to an easy-to-find location (e.g. Desktop).</li>
+<li><strong class="action">Right-Click</strong> on your file.<br />
+<img alt="RClick" class="extra-small" src="../images/CSV/CSVIcon.jpg" /></br></br></li>
+<li><strong class="action">Select</strong> <code>Copy as path</code>.<br />
+<img alt="CopyPath" class="smaller" src="../images/CSV/CSVCopyAsPath.jpg" /></br></br></li>
+<li><strong class="action">Open</strong> MySQLWorkbench.</li>
+<li><strong class="action">Right-Click</strong> your schema.<br />
+<img alt="SchemaRClick" class="small" src="../images/CSV/CSVRClickSchema.jpg" /></br></br></li>
+<li><strong class="action">Select</strong> <code>Table Data Import Wizard</code>.<br />
+<img alt="ImportWizard" class="smaller" src="../images/CSV/CSVImportWIzard.jpg" /></br></br></li>
+<li><strong class="action">Paste</strong> your file path and <strong class="action">Remove</strong> the quotation marks if present then <strong class="action">Select</strong> <code>Next</code>.<br />
+<img alt="PastePath" src="../images/CSV/CSVPasteFilePath.jpg" /></br></br></li>
+<li><strong class="action">Select</strong> <code>Create new table</code>.<br />
+<img alt="CreateTable" src="../images/CSV/CSVCreateNewTable.jpg" /></br></br></li>
+<li><strong class="action">Select</strong> your <em>Schema</em> from the dropdown menu.<br />
+<img alt="SchemaSelect" src="../images/CSV/CSVSelectSchema.jpg" /></br></br></li>
+<li><strong class="action">Enter</strong> your new <em>Table Name</em>.<br />
+<img alt="EnterTableName" src="../images/CSV/CSVInputTableName.jpg" /></br></br></li>
+<li><strong class="action">Select</strong> columns to include.<br />
+<img alt="SelectColumns" src="../images/CSV/CSVSelectColumns.jpg" /></br></br></li>
+<li><strong class="action">Select</strong> <em>Columns</em> and <em>Field Type</em>, then <strong class="action">Select</strong> <code>Next</code>.<br />
+<img alt="ColField" src="../images/CSV/CSVSelectColumnFields.jpg" /></br></br></li>
+<li><strong class="action">Select</strong> <code>Next</code> and <strong class="action">Wait</strong> for the process to complete.<br />
+<img alt="Wait" src="../images/CSV/CSVFinishNext.jpg" /></br></br></li>
+<li><strong class="action">Select</strong> <code>Next</code>.<br />
+<img alt="SNext" src="../images/CSV/CSVFinishResults.jpg" /></br></br></li>
+<li>
+<p><strong class="action">Select</strong> <code>Finish</code>.<br />
+<img alt="SFinish" src="../images/CSV/CSVFinishFinal.jpg" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><a href="../SAM_SQL_TASKS/#refresh-all"><strong class="action">Refresh</strong></a> might be needed to see the new table.</p>
+</div>
 <div class="admonition success">
 <p class="admonition-title">Success</p>
-<p>When you <span class=action>Refresh</span> your schema, your new table will appear. Use a select statement to view the data and see the results of your import.<br />
-<img alt="ExportStart" src="../images/CSV/CSVOutcome.jpg" /></p>
+<p>Once the import is complete, you can <a href="../SAM_SQL_TASKS/#view-a-table"><strong class="action">View</strong></a> the table to see the results of your import.<br />
+<img alt="ExportStart" class="small" src="../images/CSV/CSVOutcome.jpg" /></p>
 </div>
+</li>
+</ol>
 </blockquote>
 <h2 id="conclusion">Conclusion<a class="headerlink" href="#conclusion" title="Permanent link">&para;</a></h2>
 <p>At the end of this section, you will know how to:</p>
+<blockquote>
 <ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <span class=action><strong>Populate</strong></span> a spreadsheet with columns and rows,</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <span class=action><strong>Export</strong></span> a spreadsheet into a CSV,</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> and <span class=action><strong>Import</strong></span> a CSV into a schema</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong class="action">Populate</strong> a spreadsheet with columns and rows</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong class="action">Export</strong> a spreadsheet into a CSV</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> <strong class="action">Import</strong> a CSV into a schema</li>
 </ul>
-<p>Congratulations. The next section will go over exporting a schema as a SQL file.</p>
+</blockquote>
+<p>Congratulations. The next section will go over exporting a schema as a SQL file:</p>
 <p><strong><a href="Emily_SQL_TASKS.md">Export/Import Schema</a></strong></p>
 
 
