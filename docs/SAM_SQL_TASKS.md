@@ -12,7 +12,7 @@ The tasks under this section outline the steps needed to manipulate schemas in M
 >
 1. **Select**{.action} the *Create a new schema*{.icons} icon.  
 ![CreateSchemaIcon](./images/General/CreateNewSchemaButton.png)</br></br>
-2. **Enter**{.action} a *Schema Name* and **Click**{.action} `Apply`.  
+2. **Enter**{.action} a *Schema Name* and **Select**{.action} `Apply`.  
 ![NameSchema](./images/General/NewSchemaName.png)</br></br>
 3. **Select**{.action} `Apply`.  
 ![ApplySchema](./images/General/NewSchemaApply.png)</br></br>
@@ -28,7 +28,7 @@ The tasks under this section outline the steps needed to manipulate schemas in M
 
 ### Make a Schema Default
 >
-1. **Double Click**{.action} your schema name.  
+1. **Double-Click**{.action} your schema name.  
 ![MakeDefault](./images/General/MakeDefault.png)
 >
     !!! Note
@@ -40,7 +40,7 @@ The tasks under this section outline the steps needed to manipulate schemas in M
 
 ### Delete a Schema
 >
-1. **Right Click**{.action} your schema and  **Select**{.action} `Drop Schema`.  
+1. **Right-Click**{.action} your schema and  **Select**{.action} `Drop Schema`.  
 ![DeleteSchema](./images/General/DropSchema.png)</br></br>
 2. **Select**{.action} `Drop Now`.  
 ![DeleteSchemaNow](./images/General/DropSchemaDropNow.png){.smaller}
@@ -52,7 +52,7 @@ The tasks under this section outline the steps needed to manipulate schemas in M
 
 ### Create a Table
 >
-1. **Click**{.action} the *arrow*{.icons} beside your schema.  
+1. **Select**{.action} the *arrow*{.icons} beside your schema.  
 ![CreateTable](./images/General/SchemaArrow.png)</br></br>
 2. **Right-Click**{.action} `Tables` and  **Select**{.action} `Create Table`.  
 ![CreateTable](./images/General/RightClickTables.png)</br></br>
@@ -153,7 +153,7 @@ The tasks under this section outline the steps needed to manipulate schemas in M
 
 ### Run a SQL Query
 >
-1. **Select**{.action} *Execute*{.icons} icon in the editor.  
+1. **Select**{.action} the *Execute*{.icons} icon in the editor.  
 ![RunSQL](./images/General/Run.png)
 >
     !!! Note
